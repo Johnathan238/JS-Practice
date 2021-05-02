@@ -1,4 +1,14 @@
-body {
+/* body {
     background-color: #d68cff;
     text-align: center;
+} */
+
+body {
+    background: linear-gradient(-15deg, #8bc6ec, #525bf8, #97d9e1, #d9afd9);
+    text-align: center;
+}
+
+img{
+    height: max-content;
+    padding: 10%;
 }
