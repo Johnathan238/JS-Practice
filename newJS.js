@@ -11,12 +11,18 @@ console.log("WAKE UP, ITS THE FIRST OF THE MONTH, I BRUSH MY TEETH & COUNT UP")
 
 // 'mario judah' = is a value
 
-const age = 20;
+// const age = 20;
 
-function foo() {
-    const age = 29;
-    console.log(age);
-}
+// function foo() {
+//     const age = 29;
+//     console.log(age);
+// }
 
-foo()
-console.log(age);
+// foo()
+// console.log(age);
+
+const firstName = "Mario Judah" // Declaring a variable
+console.log(firstName);
+
+const mJ = "I MISS THE RAGE"
+console.log(mJ);
