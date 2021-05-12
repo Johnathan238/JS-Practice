@@ -4,8 +4,8 @@ const mJ = 'I MISS THE RAGE'
 if (mJ === 'I miss the rage') {
     alert ('YESSSSS')
 } else {
-    alert('WHERE TF IS MARIO JUDAH')
-};
+    console.log('WHERE TF IS MARIO JUDAH')
+}
 
 // 'mario judah' = is a value
 
@@ -30,5 +30,6 @@ if (mJ === 'I miss the rage') {
 // rockStar = "I MISS THE RAGE!"
 // console.log(rockStar);
 
-const age = 2045 - 2000
-console.log(age);
+const year = 2040
+const age = year - 2000
+console.log(age * 6);
