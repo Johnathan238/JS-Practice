@@ -1,11 +1,11 @@
 // console.log("WAKE UP, ITS THE FIRST OF THE MONTH, I BRUSH MY TEETH & COUNT UP")
 
-const mJ = 'I MISS THE RAGE'
-if (mJ === 'I miss the rage') {
-    alert ('YESSSSS')
-} else {
-    console.log('WHERE TF IS MARIO JUDAH')
-}
+// const mJ = 'I MISS THE RAGE'
+// if (mJ === 'I miss the rage') {
+//     alert ('YESSSSS')
+// } else {
+//     console.log('WHERE TF IS MARIO JUDAH')
+// }
 
 // 'mario judah' = is a value
 
@@ -30,6 +30,10 @@ if (mJ === 'I miss the rage') {
 // rockStar = "I MISS THE RAGE!"
 // console.log(rockStar);
 
-const year = 2040
-const age = year - 2000
-console.log(age * 6);
+// const year = 2040
+// const age = year - 2000
+// console.log(age * 6);
+
+const firstName = "Mario"
+const lastName = "Judah"
+console.log(firstName + lastName);
