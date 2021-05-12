@@ -36,4 +36,4 @@
 
 const firstName = "Mario"
 const lastName = "Judah"
-console.log(firstName + lastName);
+console.log(firstName + ' ' + lastName);
