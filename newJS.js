@@ -24,5 +24,8 @@ console.log(typeof firstName);
 
 const mJ = "I MISS THE RAGE"
 console.log(mJ);
-alert("WHERE TF IS MARIO JUDAH")
-alert("I MISS THE RAGE")
+// alert("WHERE TF IS MARIO JUDAH")
+// alert("I MISS THE RAGE")
+
+rockStar = "I MISS THE RAGE!"
+console.log(rockStar);
