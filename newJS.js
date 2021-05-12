@@ -20,7 +20,7 @@ console.log("WAKE UP, ITS THE FIRST OF THE MONTH, I BRUSH MY TEETH & COUNT UP")
 // console.log(age);
 
 const firstName = "Mario Judah" // Declaring a variable
-console.log(firstName);
+console.log(typeof firstName);
 
 const mJ = "I MISS THE RAGE"
 console.log(mJ);
