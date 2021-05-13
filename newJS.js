@@ -34,9 +34,9 @@
 // const age = year - 2000
 // console.log(age * 6);
 
-const firstName = "Mario"
-const lastName = "Judah"
-console.log(firstName + ' ' + lastName);
+// const firstName = "Mario"
+// const lastName = "Judah"
+// console.log(firstName + ' ' + lastName);
 
-const mJ = "I miss the rage"
-const missRage = mj ? console.log("I miss the rage") : console.log("WHERE TF IS MARIO JUDAH");
+// const mJ = "IDK"
+// const missRage = mJ === console.log("I miss the rage") ? console.log("WHERE TF IS MARIO JUDAH") : console.log("MARIO JUDAH")
