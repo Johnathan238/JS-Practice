@@ -37,3 +37,6 @@
 const firstName = "Mario"
 const lastName = "Judah"
 console.log(firstName + ' ' + lastName);
+
+const mJ = "I miss the rage"
+const missRage = mj ? console.log("I miss the rage") : console.log("WHERE TF IS MARIO JUDAH");
