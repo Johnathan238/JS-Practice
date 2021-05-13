@@ -40,3 +40,8 @@
 
 // const mJ = "IDK"
 // const missRage = mJ === console.log("I miss the rage") ? console.log("WHERE TF IS MARIO JUDAH") : console.log("MARIO JUDAH")
+
+const age = 18
+
+const canDrive = age >= 18 ? "YES" : "WHERE TF IS MARIO JUDAH"
+console.log(canDrive);
