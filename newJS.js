@@ -41,7 +41,14 @@
 // const mJ = "IDK"
 // const missRage = mJ === console.log("I miss the rage") ? console.log("WHERE TF IS MARIO JUDAH") : console.log("MARIO JUDAH")
 
-const age = 18
 
-const canDrive = age >= 18 ? "YES" : "WHERE TF IS MARIO JUDAH"
-console.log(canDrive);
+
+// **Comparison operators** //
+
+// const age = 18
+// const canDrive = age >= 18 ? "YES" : "WHERE TF IS MARIO JUDAH"
+// console.log(canDrive);
+
+const ableAgeToDrive = 18;
+const dMV = ableAgeToDrive >= 18 ? "YES YOU CAN GET YOUR LICENSE" : console.log("ONLY PERMIT");
+console.log(dMV);
