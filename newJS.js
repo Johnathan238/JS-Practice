@@ -65,8 +65,9 @@
 // console.log(averageInTheWorld)
 
 const marioJudahH = 1.75
-const seanRockH = 1.77
+const seanRockH = 1.78
 
 const marioJudahBMI = (marioJudahH ** 2)
 const seanRockBMI = (seanRockH ** 2)
-console.log(marioJudahBMI, seanRockBMI)
+console.log(marioJudahBMI + ' ' + "kg", seanRockBMI + ' ' + "kg")
+
