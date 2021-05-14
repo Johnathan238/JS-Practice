@@ -43,8 +43,8 @@
 
 
 
-// **Comparison operators** //
-// **ternart operation** //
+// *Comparison operators* //
+// *ternart operation* //
 
 // const age = 18
 // const canDrive = age >= 18 ? "YES" : "WHERE TF IS MARIO JUDAH"
@@ -54,6 +54,12 @@
 // const dMV = ableAgeToDrive >= 18 ? "YES YOU CAN GET YOUR LICENSE" : console.log("ONLY PERMIT");
 // console.log(dMV);
 
-const mJ = "BUgging"
-const marioJudah = mJ === "WHERE TF IS MARIO JUDAH" ? "I MISS THE RAGE" : "YEEEEEAAAAHHHHHHH"
-console.log(marioJudah);
+// const mJ = "BUgging"
+// const marioJudah = mJ === "WHERE TF IS MARIO JUDAH" ? "I MISS THE RAGE" : "YEEEEEAAAAHHHHHHH"
+// console.log(marioJudah);
+
+const all370z = 800000
+const minimumAge = 18
+
+const averageInTheWorld = (all370z + minimumAge) / 50
+console.log(averageInTheWorld);
