@@ -71,3 +71,6 @@ const marioJudahBMI = (marioJudahH ** 2)
 const seanRockBMI = (seanRockH ** 2)
 console.log(marioJudahBMI + ' ' + "kg", seanRockBMI + ' ' + "kg")
 
+const marioHigherBMI = marioJudahBMI > seanRockBMI ? console.log("MarioJudah is a FATTY") : console.log("MarioJudah is Less fat than Sean")
+
+
