@@ -43,8 +43,8 @@
 
 
 
-// *Comparison operators* //
-// *ternart operation* //
+// **Comparison operators** //
+// **ternart operation** //
 
 // const age = 18
 // const canDrive = age >= 18 ? "YES" : "WHERE TF IS MARIO JUDAH"
@@ -58,8 +58,15 @@
 // const marioJudah = mJ === "WHERE TF IS MARIO JUDAH" ? "I MISS THE RAGE" : "YEEEEEAAAAHHHHHHH"
 // console.log(marioJudah);
 
-const all370z = 800000
-const minimumAge = 18
+// const all370z = 800000
+// const minimumAge = 18
 
-const averageInTheWorld = (all370z + minimumAge) / 50
-console.log(averageInTheWorld);
+// const averageInTheWorld = (all370z + minimumAge) / 50
+// console.log(averageInTheWorld)
+
+const marioJudahH = 1.75
+const seanRockH = 1.77
+
+const marioJudahBMI = (marioJudahH ** 2)
+const seanRockBMI = (seanRockH ** 2)
+console.log(marioJudahBMI, seanRockBMI)
