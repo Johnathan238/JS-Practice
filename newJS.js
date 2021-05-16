@@ -64,8 +64,8 @@
 // const averageInTheWorld = (all370z + minimumAge) / 50
 // console.log(averageInTheWorld)
 
-const marioJudahH = 1.75
-const seanRockH = 1.78
+const marioJudahH = 1.7018
+const seanRockH = 1.7525
 
 const marioJudahBMI = (marioJudahH ** 2)
 const seanRockBMI = (seanRockH ** 2)
