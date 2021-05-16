@@ -64,11 +64,13 @@
 // const averageInTheWorld = (all370z + minimumAge) / 50
 // console.log(averageInTheWorld)
 
-const marioJudahH = 1.7018
-const seanRockH = 1.7525
+const marioJudahH = 1.70
+const seanRockH = 1.75
+const marioJudahM = 90
+const seanRockM = 86
 
-const marioJudahBMI = (marioJudahH ** 2)
-const seanRockBMI = (seanRockH ** 2)
+const marioJudahBMI = (marioJudahM / marioJudahH ** 2)
+const seanRockBMI = (seanRockM / seanRockH ** 2)
 console.log(marioJudahBMI + ' ' + "kg", seanRockBMI + ' ' + "kg")
 
 const marioHigherBMI = marioJudahBMI > seanRockBMI ? console.log("MarioJudah is a FATTY") : console.log("MarioJudah is Less fat than Sean")
