@@ -77,22 +77,31 @@
 
 // **Strings & Template Literals** //
 
-const firstName = "Mario Judah"
-const job = "Rockstar"
-const birthYear = 1999
-const year = 2022
+// const firstName = "Mario Judah"
+// const job = "Rockstar"
+// const birthYear = 1999
+// const year = 2022
 
-// const mJ = firstName + " will be a " + (year - birthYear) + " year old " + job + "!"
-// console.log(mJ);
+// // const mJ = firstName + " will be a " + (year - birthYear) + " year old " + job + "!"
+// // console.log(mJ);
 
-const mJNew = `${firstName} will be a ${(year - birthYear)} year old ${job} in ${year} !`
-console.log(mJNew);
+// const mJNew = `${firstName} will be a ${(year - birthYear)} year old ${job} in ${year} !`
+// console.log(mJNew);
 
-console.log(`MISS THE RAGE!`);
-console.log(`MISS
-THE
-RAGE
-MARIO JUDAH`);
+// console.log(`MISS THE RAGE!`);
+// console.log(`MISS
+// THE
+// RAGE
+// MARIO JUDAH`);
+
+// **if / else statement** //
+const age = 18
+
+if (age >= 18) {
+  console.log(`You can get yo license 🏎`);
+} else {
+  console.log(`You need to be 18 🔞`);
+}
 
 
 
