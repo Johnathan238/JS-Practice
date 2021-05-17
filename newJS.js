@@ -96,12 +96,15 @@
 
 // **if / else statement** //
 const age = 18
+const yearsLeft = 18 - age
+const oldEnough = age >= 18 ? console.log(`You can get yo license 🏎`) :  console.log(`You have to wait another ${yearsLeft} year`)
 
-if (age >= 18) {
-  console.log(`You can get yo license 🏎`);
-} else {
-  console.log(`You need to be 18 🔞`);
-}
+// if (age >= 18) {
+//   console.log(`You can get yo license 🏎`);
+// } else {
+//   const yearsLeft = 18 - age
+//   console.log(`You have to wait another ${yearsLeft} year`);
+// }
 
 
 
