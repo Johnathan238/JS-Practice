@@ -85,4 +85,9 @@ const year = 2022
 const mJ = firstName + " will be a " + (year - birthYear) + " year old " + job + "!"
 console.log(mJ);
 
+const mJNew = `${firstName} will be a ${(year - birthYear)} year old ${job} in ${year} !`
+console.log(mJNew);
+
+
+
 
