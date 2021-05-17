@@ -82,11 +82,17 @@ const job = "Rockstar"
 const birthYear = 1999
 const year = 2022
 
-const mJ = firstName + " will be a " + (year - birthYear) + " year old " + job + "!"
-console.log(mJ);
+// const mJ = firstName + " will be a " + (year - birthYear) + " year old " + job + "!"
+// console.log(mJ);
 
 const mJNew = `${firstName} will be a ${(year - birthYear)} year old ${job} in ${year} !`
 console.log(mJNew);
+
+console.log(`MISS THE RAGE!`);
+console.log(`MISS
+THE
+RAGE
+MARIO JUDAH`);
 
 
 
