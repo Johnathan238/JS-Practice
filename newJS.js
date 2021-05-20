@@ -95,9 +95,9 @@
 // MARIO JUDAH`);
 
 // **if / else statement** //
-const age = 18
-const yearsLeft = 18 - age
-const oldEnough = age >= 18 ? console.log(`You can get yo license 🏎`) :  console.log(`You have to wait another ${yearsLeft} year`)
+// const age = 18
+// const yearsLeft = 18 - age
+// const oldEnough = age >= 18 ? console.log(`You can get yo license 🏎`) :  console.log(`You have to wait another ${yearsLeft} year`)
 
 // if (age >= 18) {
 //   console.log(`You can get yo license 🏎`);
@@ -106,6 +106,17 @@ const oldEnough = age >= 18 ? console.log(`You can get yo license 🏎`) :  cons
 //   console.log(`You have to wait another ${yearsLeft} year`);
 // }
 
+
+const marioJudahH = 1.70
+const seanRockH = 1.75
+const marioJudahM = 198
+const seanRockM = 170
+
+const marioJudahBMI = (marioJudahM / marioJudahH ** 2)
+const seanRockBMI = (seanRockM / seanRockH ** 2)
+console.log(marioJudahBMI + ' ' + "kg", seanRockBMI + ' ' + "kg")
+
+const whosBMIIsHigh = marioJudahBMI > seanRockBMI ? console.log(`Mario Judah BMI ${marioJudahBMI} is higher than Sean ${seanRockBMI} BMI !`) : console.log(`Sean BMI ${seanRockBMI} is higher than Mario Judah ${marioJudahBMI} BMI !`)
 
 
 
