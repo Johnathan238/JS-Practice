@@ -116,7 +116,7 @@ const marioJudahBMI = (marioJudahM / marioJudahH ** 2)
 const seanRockBMI = (seanRockM / seanRockH ** 2)
 console.log(marioJudahBMI + ' ' + "kg", seanRockBMI + ' ' + "kg")
 
-const whosBMIIsHigh = marioJudahBMI > seanRockBMI ? console.log(`Mario Judah BMI ${marioJudahBMI} is higher than Sean ${seanRockBMI} BMI !`) : console.log(`Sean BMI ${seanRockBMI} is higher than Mario Judah ${marioJudahBMI} BMI !`)
+const whosBMIIsHigh = marioJudahBMI > seanRockBMI ? console.log(`Mario Judah BMI (${marioJudahBMI}) is higher than Sean (${seanRockBMI}) BMI !`) : console.log(`Sean BMI (${seanRockBMI}) is higher than Mario Judah (${marioJudahBMI}) BMI !`)
 
 
 
