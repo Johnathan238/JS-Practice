@@ -120,8 +120,14 @@
 
 // ** Type Conversion & Coercion ** //
 
+// Type Conversion
+
 const inputYear = '1990'
 console.log(Number(inputYear));
-console.log(inputYear + 18);
+console.log(Number(inputYear) + 18);
 
+// Type Coercion
+
+console.log('I am ' + 2900 + ' years old ')
+console.log('23' - '10' - 1)
 
