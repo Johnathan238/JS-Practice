@@ -130,4 +130,10 @@ console.log(Number(inputYear) + 18);
 
 console.log('I am ' + 2900 + ' years old ')
 console.log('23' - '10' - 1)
+console.log('200' * '4')
+console.log('29' > '16')
+
+let n = '29' + 4
+n = n - 50
+console.log(n)
 
