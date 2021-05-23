@@ -122,18 +122,27 @@
 
 // Type Conversion
 
-const inputYear = '1990'
-console.log(Number(inputYear));
-console.log(Number(inputYear) + 18);
+// const inputYear = '1990'
+// console.log(Number(inputYear));
+// console.log(Number(inputYear) + 18);
 
-// Type Coercion
+// // Type Coercion
 
-console.log('I am ' + 2900 + ' years old ')
-console.log('23' - '10' - 1)
-console.log('200' * '4')
-console.log('29' > '16')
+// console.log('I am ' + 2900 + ' years old ')
+// console.log('23' - '10' - 1)
+// console.log('200' * '4')
+// console.log('29' > '16')
 
-let n = '29' + 4
-n = n - 50
-console.log(n)
+// let n = '29' + 4
+// n = n - 50
+// console.log(n)
+
+// ** Truthy & Falsy Values ** //
+
+// Falsy Values: 0, '', undefined, null, NaN
+console.log(Boolean(0))
+console.log(Boolean(null))
+console.log(Boolean('Mario Judah'))
+console.log(Boolean({}))
+console.log(Boolean(''))
 
