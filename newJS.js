@@ -154,4 +154,7 @@ const money = 0;
 // }
 const newMoney = money ? console.log("Don't spend it 💲") : console.log("You need to get cheese 💲")
 
+const height = 200;
+const newHeight = height ? console.log("YOU TALL BOII") : console.log("YOU SHORT BOII")
+
 
