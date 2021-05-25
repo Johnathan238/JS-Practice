@@ -140,21 +140,29 @@
 // ** Truthy & Falsy Values ** //
 
 // Falsy Values: 0, '', undefined, null, NaN
-console.log(Boolean(0))
-console.log(Boolean(null))
-console.log(Boolean('Mario Judah'))
-console.log(Boolean({}))
-console.log(Boolean(''))
+// console.log(Boolean(0))
+// console.log(Boolean(null))
+// console.log(Boolean('Mario Judah'))
+// console.log(Boolean({}))
+// console.log(Boolean(''))
 
-const money = 0;
-// if (money) {
-//   console.log("Don't spend it 💲")
-// } else {
-//   console.log("You need to get cheese 💲")
-// }
-const newMoney = money ? console.log("Don't spend it 💲") : console.log("You need to get cheese 💲")
+// const money = 0;
+// // if (money) {
+// //   console.log("Don't spend it 💲")
+// // } else {
+// //   console.log("You need to get cheese 💲")
+// // }
+// const newMoney = money ? console.log("Don't spend it 💲") : console.log("You need to get cheese 💲")
 
-const height = 200;
-const newHeight = height ? console.log("YOU TALL BOII") : console.log("YOU SHORT BOII")
+// const height = 200;
+// const newHeight = height ? console.log("YOU TALL BOII") : console.log("YOU SHORT BOII")
+
+// **Equality Operations: == vs ===** //
+
+const age = "18"
+if (age === 18) console.log('YOU A BIG BOII NOW')
+
+if (age == 18) console.log('YOU A SMALL BOII NOW')
+
 
 
