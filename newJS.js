@@ -159,10 +159,16 @@
 
 // **Equality Operations: == vs ===** //
 
-const age = "18"
-if (age === 18) console.log('YOU A BIG BOII NOW')
+// const age = "18"
+// if (age === 18) console.log('YOU A BIG BOII NOW')
 
-if (age == 18) console.log('YOU A SMALL BOII NOW')
+// if (age == 18) console.log('YOU A SMALL BOII NOW')
+
+
+const favorite = prompt("You like MARIO JUDAH?🎸")
+console.log(favorite)
+
+const newFavorite = favorite === 'yes' ? alert('MARIO JUDAH FUCK WITH YOU') : alert('I DONT FUCK WITH YOU')
 
 
 
