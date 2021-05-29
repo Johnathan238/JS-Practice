@@ -165,10 +165,18 @@
 // if (age == 18) console.log('YOU A SMALL BOII NOW')
 
 
-const favorite = prompt("You like MARIO JUDAH?🎸")
-console.log(favorite)
+// const favorite = prompt("You like MARIO JUDAH?🎸")
+// console.log(favorite)
 
-const newFavorite = favorite === 'yes' ? alert('MARIO JUDAH FUCK WITH YOU') : alert('I DONT FUCK WITH YOU')
+// const newFavorite = favorite === 'yes' ? alert('MARIO JUDAH FUCK WITH YOU') : alert('I DONT FUCK WITH YOU')
+
+// **Logical Operators** //
+const hasDriverLicense = true;
+const hasGoodVision = false;
+
+console.log(hasDriverLicense && hasGoodVision);
+console.log(hasDriverLicense || hasGoodVision);
+console.log(!hasDriverLicense);
 
 
 
