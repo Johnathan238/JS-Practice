@@ -172,15 +172,15 @@
 
 // **Logical Operators** //
 const hasDriverLicense = true;
-const hasGoodVision = false;
-const isTired = true;
+const hasGoodVision = true;
+const isTired = false;
 
 console.log(hasDriverLicense && hasGoodVision);
 console.log(hasDriverLicense || hasGoodVision);
 // console.log(!hasDriverLicense);
 console.log(hasDriverLicense && hasGoodVision && !isTired)
 
-const shouldDrive = (hasDriverLicense && hasGoodVision && !isTired) ? console.log("You can drive") : console.log("You can't drive")
+const shouldDrive = hasDriverLicense && hasGoodVision && !isTired ? console.log("You can drive") : console.log("You can't drive")
 
 
 
