@@ -171,16 +171,23 @@
 // const newFavorite = favorite === 'yes' ? alert('MARIO JUDAH FUCK WITH YOU') : alert('I DONT FUCK WITH YOU')
 
 // **Logical Operators** //
-const hasDriverLicense = true;
-const hasGoodVision = true;
-const isTired = false;
+// const hasDriverLicense = true;
+// const hasGoodVision = true;
+// const isTired = false;
 
-console.log(hasDriverLicense && hasGoodVision);
-console.log(hasDriverLicense || hasGoodVision);
-// console.log(!hasDriverLicense);
-console.log(hasDriverLicense && hasGoodVision && !isTired)
+// console.log(hasDriverLicense && hasGoodVision);
+// console.log(hasDriverLicense || hasGoodVision);
+// // console.log(!hasDriverLicense);
+// console.log(hasDriverLicense && hasGoodVision && !isTired)
 
-const shouldDrive = hasDriverLicense && hasGoodVision && !isTired ? console.log("You can drive") : console.log("You can't drive")
+// const shouldDrive = hasDriverLicense && hasGoodVision && !isTired ? console.log("You can drive") : console.log("You can't drive")
+
+const dolphinesScore = 96 + 108 + 89
+const koalasScore = 88 + 91 + 110 
+
+const averageDS = (dolphinesScore / 3)
+const averageKS = (koalasScore / 3) 
+console.log(averageDS)
 
 
 
