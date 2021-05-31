@@ -182,14 +182,17 @@
 
 // const shouldDrive = hasDriverLicense && hasGoodVision && !isTired ? console.log("You can drive") : console.log("You can't drive")
 
-const dolphinesScore = 96 + 108 + 89
-const koalasScore = 88 + 91 + 110 
 
-const averageDS = (dolphinesScore / 3)
-const averageKS = (koalasScore / 3) 
-console.log(averageDS, averageKS)
+// **Coding CHallenge **//
+// const dolphinesScore = (96 + 108 + 89) / 3
+// const koalasScore = (88 + 91 + 110) / 3
 
-const whichTeamWins = averageDS > averageKS ? console.log(`The Dolphines Win with the score of ${averageDS}!`) : console.log(`The Koalas beat the Dolphines with the score of ${averageKS}`) 
+// const whichTeamWins = averageDS > averageKS ? console.log(`The Dolphines Win with the score of ${averageDS}!`) : console.log(`The Koalas beat the Dolphines with the score of ${averageKS}`)
+
+const dolphinesScore = (97 + 112 + 101) 
+const koalasScore = (109 + 95 + 123) 
+
+
 
 
 
