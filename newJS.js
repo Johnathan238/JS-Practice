@@ -189,17 +189,30 @@
 
 // const whichTeamWins = averageDS > averageKS ? console.log(`The Dolphines Win with the score of ${averageDS} 🏆!`) : console.log(`The Koalas beat the Dolphines with the score of ${averageKS} 🏆`)
 
-const dolphinesScore = (97 + 112 + 101) / 3
-const koalasScore = (109 + 95 + 123) / 3
+// Bonus 1
+// const dolphinesScore = (97 + 112 + 101) / 3
+// const koalasScore = (109 + 95 + 123) / 3
 
-    if (dolphinesScore > koalasScore || 100) {
+//     if (dolphinesScore > koalasScore || dolphinesScore >= 100) {
+//         console.log(`The Dolphines Win with the score of ${dolphinesScore} 🏆!`);
+//     } else if (koalasScore > dolphinesScore || koalasScore >= 100){
+//         console.log(`The Koalas beat the Dolphines with the score of ${koalasScore} 🏆`)
+//     } else {
+//         console.log("It's a tie fam! No one gets the Trophy 🏆")
+//     }
+
+// Bonus 2
+
+const dolphinesScore = (97 + 112 + 101) / 3
+const koalasScore = (109 + 95 + 106) / 3
+
+    if (dolphinesScore > koalasScore >= 100) {
         console.log(`The Dolphines Win with the score of ${dolphinesScore} 🏆!`);
-    } else if (koalasScore > dolphinesScore || 100){
+    } else if (koalasScore > dolphinesScore >= 100){
         console.log(`The Koalas beat the Dolphines with the score of ${koalasScore} 🏆`)
     } else {
-        console.log("It's a tie fam!")
+        console.log("It's a tie fam! No one gets the Trophy 🏆")
     }
-
 
 
 
