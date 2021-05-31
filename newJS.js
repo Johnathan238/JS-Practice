@@ -192,18 +192,14 @@
 const dolphinesScore = (97 + 112 + 101) / 3
 const koalasScore = (109 + 95 + 123) / 3
 
-function whichTeamWins (){
-    if (dolphinesScore > koalasScore >= 100) {
-        console.log(`The Dolphines Win with the score of ${averageDS} 🏆!`);
-    } else if (koalasScore > dolphinesScore >= 100){
-        console.log(`The Koalas beat the Dolphines with the score of ${averageKS} 🏆`)
+    if (dolphinesScore > koalasScore || 100) {
+        console.log(`The Dolphines Win with the score of ${dolphinesScore} 🏆!`);
+    } else if (koalasScore > dolphinesScore || 100){
+        console.log(`The Koalas beat the Dolphines with the score of ${koalasScore} 🏆`)
     } else {
         console.log("It's a tie fam!")
     }
-    return whichTeamWins()
-}
 
-console.log(whichTeamWins);
 
 
 
