@@ -187,7 +187,9 @@ const koalasScore = 88 + 91 + 110
 
 const averageDS = (dolphinesScore / 3)
 const averageKS = (koalasScore / 3) 
-console.log(averageDS)
+console.log(averageDS, averageKS)
+
+const whichTeamWins = averageDS > averageKS ? console.log(`The Dolphines Win with the score of ${averageDS}!`) : console.log(`The Koalas beat the Dolphines with the score of ${averageKS}`) 
 
 
 
