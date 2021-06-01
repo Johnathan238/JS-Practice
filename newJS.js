@@ -215,25 +215,32 @@
 //     }
 
 // **Switch Statment** //
-const day = 'monday'
+// const day = 'monday'
 
-switch (day) {
-  case 'monday':
-  case 'tuesday':
-  case 'thursday':
-  case 'friday':
-    alert("LET HIT THE WEIGHTS MY BOII 🏋️‍♂️ & CODE 💻")
-    break;
+// switch (day) {
+//   case 'monday':
+//   case 'tuesday':
+//   case 'thursday':
+//   case 'friday':
+//     alert("LET HIT THE WEIGHTS MY BOII 🏋️‍♂️ & CODE 💻")
+//     break;
   
-  case 'wednesday':
-  case 'saturday':
-  case 'sunday':
-    alert("REST MY G 🌓 ☾")
+//   case 'wednesday':
+//   case 'saturday':
+//   case 'sunday':
+//     alert("REST MY G 🌓 ☾")
   
-  default:
-    alert("CHILL WITH THE BOII👹")
-    break;
-}
+//   default:
+//     alert("CHILL WITH THE BOII👹")
+//     break;
+// }
+
+const newDay = prompt("What day is it today?📅")
+console.log('====================================');
+console.log(newDay);
+console.log('====================================');
+
+const whatDay = newDay == 'monday' || 'tuesday' || 'thursday' || 'friday' ? alert("LET HIT THE WEIGHTS MY BOII 🏋️‍♂️ & CODE 💻") ? newDay == 'wednesday' || 'saturday' || 'sunday' ? alert("REST MY G 🌓 ☾") : alert("CHILL WITH THE BOII👹")
 
 
 
