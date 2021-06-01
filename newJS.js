@@ -203,16 +203,29 @@
 
 // Bonus 2
 
-const dolphinesScore = (97 + 112 + 101) / 3
-const koalasScore = (109 + 95 + 106) / 3
+// const dolphinesScore = (97 + 112 + 101) / 3
+// const koalasScore = (109 + 95 + 106) / 3
 
-    if (dolphinesScore > koalasScore >= 100) {
-        console.log(`The Dolphines Win with the score of ${dolphinesScore} 🏆!`);
-    } else if (koalasScore > dolphinesScore >= 100){
-        console.log(`The Koalas beat the Dolphines with the score of ${koalasScore} 🏆`)
-    } else {
-        console.log("It's a tie fam! No one gets the Trophy 🏆")
-    }
+//     if (dolphinesScore > koalasScore >= 100) {
+//         console.log(`The Dolphines Win with the score of ${dolphinesScore} 🏆!`);
+//     } else if (koalasScore > dolphinesScore >= 100){
+//         console.log(`The Koalas beat the Dolphines with the score of ${koalasScore} 🏆`)
+//     } else {
+//         console.log("It's a tie fam! No one gets the Trophy 🏆")
+//     }
+
+// **Switch Statment** //
+const day = 'Monday'
+
+switch (key) {
+  case value:
+    
+    break;
+
+  default:
+    break;
+}
+
 
 
 
