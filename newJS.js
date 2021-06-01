@@ -240,7 +240,15 @@ console.log('====================================');
 console.log(newDay);
 console.log('====================================');
 
-const whatDay = newDay == 'monday' || 'tuesday' || 'thursday' || 'friday' ? alert("LET HIT THE WEIGHTS MY BOII 🏋️‍♂️ & CODE 💻") ? newDay == 'wednesday' || 'saturday' || 'sunday' : alert("REST MY G 🌓 ☾") : alert("CHILL WITH THE BOII👹")
+if (newDay == 'monday' || 'tuesday' || 'thursday' || 'friday') {
+  alert("LET HIT THE WEIGHTS MY BOII 🏋️‍♂️ & CODE 💻")
+} else if (newDay == 'wednesday' || 'saturday' || 'sunday') {
+  alert("REST MY G 🌓 ☾")
+} else {
+  alert("CHILL WITH THE BOII👹")
+}
+
+// const whatDay = newDay == 'monday' || 'tuesday' || 'thursday' || 'friday' ? alert("LET HIT THE WEIGHTS MY BOII 🏋️‍♂️ & CODE 💻") ? newDay == 'wednesday' || 'saturday' || 'sunday' : alert("REST MY G 🌓 ☾") : alert("CHILL WITH THE BOII👹")
 
 
 
