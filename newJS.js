@@ -217,12 +217,19 @@
 // **Switch Statment** //
 const day = 'Monday'
 
-switch (key) {
-  case value:
-    
+switch (day) {
+  case 'monday':
+  case 'tuesday':
+  case 'thursday':
+  case 'friday':
+    alert("LET HIT THE WEIGHTS MY BOII 🏋️‍♂️")
     break;
-
+  
+  case 'saturday':
+  case 'sunday':
+    alert("REST MY G 🌓 ☾")
   default:
+    alert("CHILL WITH THE BOII👹")
     break;
 }
 
