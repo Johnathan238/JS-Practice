@@ -215,19 +215,21 @@
 //     }
 
 // **Switch Statment** //
-const day = 'Monday'
+const day = 'monday'
 
 switch (day) {
   case 'monday':
   case 'tuesday':
   case 'thursday':
   case 'friday':
-    alert("LET HIT THE WEIGHTS MY BOII 🏋️‍♂️")
+    alert("LET HIT THE WEIGHTS MY BOII 🏋️‍♂️ & CODE 💻")
     break;
   
+  case 'wednesday':
   case 'saturday':
   case 'sunday':
     alert("REST MY G 🌓 ☾")
+  
   default:
     alert("CHILL WITH THE BOII👹")
     break;
