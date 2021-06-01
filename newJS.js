@@ -240,9 +240,9 @@ console.log('====================================');
 console.log(newDay);
 console.log('====================================');
 
-if (newDay == 'monday' || 'tuesday' || 'thursday' || 'friday') {
-  alert("LET HIT THE WEIGHTS MY BOII 🏋️‍♂️ & CODE 💻")
-} else if (newDay == 'wednesday' || 'saturday' || 'sunday') {
+if (newDay === 'monday' || newDay === 'tuesday' || newDay === 'thursday' || newDay === 'friday') {
+  alert("LETS HIT THEM WEIGHTS MY BOII 🏋️‍♂️ & CODE 💻")
+} else if (newDay === 'wednesday' || newDay === 'saturday' || newDay === 'sunday') {
   alert("REST MY G 🌓 ☾")
 } else {
   alert("CHILL WITH THE BOII👹")
