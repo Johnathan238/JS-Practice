@@ -257,6 +257,7 @@ true && false && !false
 
 if (23 > 10) {
   const str = '23 is bigger than 10'
+  console.log(str);
 } else {
   console.log('====================================');
   console.log("10 is greater 23");
