@@ -235,22 +235,25 @@
 //     break;
 // }
 
-const newDay = prompt("What day is it today?📅")
-console.log('====================================');
-console.log(newDay);
-console.log('====================================');
+// const newDay = prompt("What day is it today?📅")
+// console.log('====================================');
+// console.log(newDay);
+// console.log('====================================');
 
-if (newDay === 'monday' || newDay === 'tuesday' || newDay === 'thursday' || newDay === 'friday') {
-  alert("LETS HIT THEM WEIGHTS MY BOII 🏋️‍♂️ & CODE 💻")
-} else if (newDay === 'wednesday' || newDay === 'saturday' || newDay === 'sunday') {
-  alert("REST MY G 🌓 ☾")
-} else {
-  alert("CHILL WITH THE BOII👹")
-}
+// if (newDay === 'monday' || newDay === 'tuesday' || newDay === 'thursday' || newDay === 'friday') {
+//   alert("LETS HIT THEM WEIGHTS MY BOII 🏋️‍♂️ & CODE 💻")
+// } else if (newDay === 'wednesday' || newDay === 'saturday' || newDay === 'sunday') {
+//   alert("REST MY G 🌓 ☾")
+// } else {
+//   alert("CHILL WITH THE BOII👹")
+// }
 
 // const whatDay = newDay == 'monday' || 'tuesday' || 'thursday' || 'friday' ? alert("LET HIT THE WEIGHTS MY BOII 🏋️‍♂️ & CODE 💻") ? newDay == 'wednesday' || 'saturday' || 'sunday' : alert("REST MY G 🌓 ☾") : alert("CHILL WITH THE BOII👹")
 
-
+//** Expression & Statment **/
+3 + 4
+2045
+true && false && !false
 
 
 
