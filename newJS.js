@@ -250,19 +250,22 @@
 
 // const whatDay = newDay == 'monday' || 'tuesday' || 'thursday' || 'friday' ? alert("LET HIT THE WEIGHTS MY BOII 🏋️‍♂️ & CODE 💻") ? newDay == 'wednesday' || 'saturday' || 'sunday' : alert("REST MY G 🌓 ☾") : alert("CHILL WITH THE BOII👹")
 
-//** Expression & Statment **/
-3 + 4
-2045
-true && false && !false
+// //** Expression & Statment **/
+// 3 + 4
+// 2045
+// true && false && !false
 
-if (23 > 10) {
-  const str = '23 is bigger than 10'
-  console.log(str);
-} else {
-  console.log('====================================');
-  console.log("10 is greater 23");
-  console.log('====================================');
-}
+// if (23 > 10) {
+//   const str = '23 is bigger than 10'
+//   console.log(str);
+// } else {
+//   console.log('====================================');
+//   console.log("10 is greater 23");
+//   console.log('====================================');
+// }
+
+const mJ = prompt("YOU FUCK WITH MISS THE RAGE?🎸👹")
+const nmJ = mJ === 'yes' ? alert(``)
 
 
 
