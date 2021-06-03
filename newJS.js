@@ -265,7 +265,11 @@
 // }
 
 const mJ = prompt("YOU FUCK WITH MISS THE RAGE?🎸👹")
-const nmJ = mJ === 'yes' ? alert(``)
+console.log('====================================');
+console.log(mJ);
+console.log('====================================');
+const nmJ = mJ === 'yes' || mJ === 'YES' || mJ === 'Yes' ? alert(`I FUCKED WITH YOU CUZ YOU SAID ${mJ}🎸`) : alert(`I DONT FUCK WITH YOU ☾`)
+
 
 
 
