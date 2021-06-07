@@ -264,12 +264,15 @@
 //   console.log('====================================');
 // }
 
-const mJ = prompt("YOU FUCK WITH MISS THE RAGE?🎸👹")
-console.log('====================================');
-console.log(mJ);
-console.log('====================================');
-const nmJ = mJ === 'yes' || mJ === 'YES' || mJ === 'Yes' ? alert(`I FUCKED WITH YOU CUZ YOU SAID ${mJ}🎸`) : alert(`I DONT FUCK WITH YOU ☾`)
+// const mJ = prompt("YOU FUCK WITH MISS THE RAGE?🎸👹")
+// console.log('====================================');
+// console.log(mJ);
+// console.log('====================================');
+// const nmJ = mJ === 'yes' || mJ === 'YES' || mJ === 'Yes' ? alert(`I FUCKED WITH YOU CUZ YOU SAID ${mJ}🎸`) : alert(`I DONT FUCK WITH YOU ☾`)
 
+const tip = (20/100)
+const tip2 = (15/100)
+console.log(tip, tip2)
 
 
 
