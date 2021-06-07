@@ -274,6 +274,8 @@ const tip = (20/100)
 const tip2 = (15/100)
 console.log(tip, tip2)
 
+const bill = [275, 40, 430]
+console.log(bill)
 
 
 
