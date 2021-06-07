@@ -274,8 +274,12 @@ const tip = (20/100)
 const tip2 = (15/100)
 console.log(tip, tip2)
 
-const bill = [275, 40, 430]
+const bill = (275)
+const bill1 = (40)
+const bill3 = (430)
 console.log(bill)
+
+const newBill = bill1 >= 50 && 300 || bill3 >= 50 && 300 ? console.log(`The bill ${bill}, the tip was ${tip2}, and total value ${bill + tip2}`) : console.log(`The bill ${bill1, bill2}, the tip was ${tip}, and total value ${bill1 + tip, bill3 + tip}`);
 
 
 
