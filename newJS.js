@@ -279,7 +279,8 @@ const bill1 = (40)
 const bill3 = (430)
 console.log(bill)
 
-const newBill = bill1 >= 50 && 300 || bill3 >= 50 && 300 ? console.log(`The bill ${bill}, the tip was ${tip2}, and total value ${bill + tip2}`) : console.log(`The bill ${bill1, bill2}, the tip was ${tip}, and total value ${bill1 + tip, bill3 + tip}`);
+const newBill = bill >= 50 && bill <= 300 ? bill * tip2 : bill * tip;
+console.log(`The bill ${bill}, the tip was ${tip2}, and total value ${bill + tip2}`)
 
 
 
