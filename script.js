@@ -31,7 +31,9 @@ marioJudah()
 // alert(aoJuice)
 
 
-function yesSir(yes, no) {
-  const mJ = prompt("You Fuck With MARIOOOOO JUDAHHHHH 👹🎸☾?")
-  const 
-}
+// function yesSir() {
+//   const mJ = prompt("You Fuck With MARIOOOOO JUDAHHHHH 👹🎸☾?")
+//   const marioJudah = mJ === 'yes' || mJ === 'YES' || mJ === 'Yes' ? alert(`I FUCKED WITH YOU CUZ YOU SAID ${mJ}🎸`) : alert(`I DONT FUCK WITH YOU ☾`)
+
+//   return marioJudah
+// }
