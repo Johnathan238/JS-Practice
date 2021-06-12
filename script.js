@@ -1,7 +1,18 @@
-// 'use strict';
+'use strict';
 
-let hasDriverLicense = false
-const passTest = true
+/** Strict Mode **/
 
-if (passTest) hasDriversLicense = true
-if (hasDriverLicense) console.log("I'm driving today!");
+// let hasDriversLicense = false
+// const passTest = true
+
+// if (passTest) hasDriversLicense = true
+// if (hasDriversLicense) console.log("I'm driving today!");
+
+/** Functions **/
+
+function marioJudah() {
+    console.log("MARIOOOOO JUDAHHHHH");
+}
+
+// calling / running / invoking function
+marioJudah()
