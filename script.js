@@ -17,10 +17,21 @@ function marioJudah() {
 // calling / running / invoking function
 marioJudah()
 
-function fruitProcessor (apples, oranges) {
-    console.log(apples, oranges);
-    const juice = `Juice with ${apples} apples and ${oranges} oranges. `
+// function fruitProcessor (apples, oranges) {
+//     console.log(apples, oranges);
+//     const juice = `Juice with ${apples} apples and ${oranges} oranges. `
 
-    return juice
+//     return juice
+// }
+
+// const aJuice = fruitProcessor(6,4)
+// alert(aJuice)
+
+// const aoJuice = fruitProcessor(5, 5)
+// alert(aoJuice)
+
+
+function yesSir(yes, no) {
+  const mJ = prompt("You Fuck With MARIOOOOO JUDAHHHHH 👹🎸☾?")
+  const 
 }
-alert(fruitProcessor(5, 3))
