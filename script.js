@@ -37,3 +37,8 @@ marioJudah()
 
 //   return marioJudah
 // }
+
+function idk(chickenWings, generalTossChicken){
+    const orderPlease = `I would like ${chickenWings} orders of Chicken Wings & ${generalTossChicken} orders of General Toss Chicken! Thank You! ` 
+
+}
