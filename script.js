@@ -50,11 +50,11 @@ marioJudah()
 
 /* Function Expression */
 
-const age1 = fucntion (birthYear) {
-  return (2037 - birthYear)
+const calAge1 = function (birthYear) {
+  return 2037 - birthYear;
 }
 
 
-const age2 = ag1(2000)
-console.log(age2);
+const calAge2 = calAge1(2000)
+console.log(calAge2);
 
