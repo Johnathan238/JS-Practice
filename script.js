@@ -39,14 +39,22 @@ marioJudah()
 // }
 
 /* Function Declaration */
-function idk(chickenWings, generalTossChicken){
-    const orderPlease = `I would like ${chickenWings} orders of Chicken Wings & ${generalTossChicken} orders of General Toss Chicken. Thank You! ` 
+// function idk(chickenWings, generalTossChicken){
+//     const orderPlease = `I would like ${chickenWings} orders of Chicken Wings & ${generalTossChicken} orders of General Toss Chicken. Thank You! ` 
 
-    return orderPlease
-}
+//     return orderPlease
+// }
 
-const orderOne = idk(2, 2)
-alert(orderOne)
+// const orderOne = idk(2, 2)
+// alert(orderOne)
 
 /* Function Expression */
+
+const age1 = fucntion (birthYear) {
+  return (2037 - birthYear)
+}
+
+
+const age2 = ag1(2000)
+console.log(age2);
 
