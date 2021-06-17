@@ -38,6 +38,7 @@ marioJudah()
 //   return marioJudah
 // }
 
+/* Function Declaration */
 function idk(chickenWings, generalTossChicken){
     const orderPlease = `I would like ${chickenWings} orders of Chicken Wings & ${generalTossChicken} orders of General Toss Chicken. Thank You! ` 
 
@@ -46,3 +47,6 @@ function idk(chickenWings, generalTossChicken){
 
 const orderOne = idk(2, 2)
 alert(orderOne)
+
+/* Function Expression */
+
