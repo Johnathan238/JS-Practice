@@ -38,11 +38,22 @@ marioJudah()
 //   return marioJudah
 // }
 
-function idk(chickenWings, generalTossChicken){
-    const orderPlease = `I would like ${chickenWings} orders of Chicken Wings & ${generalTossChicken} orders of General Toss Chicken. Thank You! ` 
 
-    return orderPlease
+/** Function Declarations VS Expressions **/
+
+// function idk(chickenWings, generalTossChicken){
+//     const orderPlease = `I would like ${chickenWings} orders of Chicken Wings & ${generalTossChicken} orders of General Toss Chicken. Thank You! ` 
+
+//     return orderPlease
+// }
+
+// const orderOne = idk(2, 2)
+// alert(orderOne)
+
+const calcAg1 = function (birthYear) {
+    return 2037 - birthYear
 }
 
-const orderOne = idk(2, 2)
-alert(orderOne)
+const age2 = calcAg1(2000)
+console.log(age2);
+
