@@ -64,4 +64,12 @@ const calcAge3 = birthYear => 2029 - birthYear;
 const age3 = calcAge3(2000)
 console.log(age3);
 
+const yearUR = birthYear => {
+    const age = 2037 - birthYear
+    const retirement = 65 - age
+    return retirement
+}
+
+console.log(yearUR(2000));
+
 
