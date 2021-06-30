@@ -72,4 +72,11 @@ const yearUR = (birthYear, firstName) => {
 
 console.log(yearUR(2000));
 
-const letsSee = 
+const hMFF = favoriteFood => ++1;
+
+const nFF = (favoriteFood) => {
+  const hMFF = 5 + favoriteFood;
+  return hMFF
+}
+
+console.log(nFF);
