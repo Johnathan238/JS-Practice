@@ -72,11 +72,11 @@ const yearUR = (birthYear, firstName) => {
 
 console.log(yearUR(2000));
 
-const hMFF = favoriteFood => ++1;
+const hMFF = favoriteFood => favoriteFood + 1;
 
 const nFF = (favoriteFood) => {
-  const hMFF = 5 + favoriteFood;
+  const hMFF =  ++favoriteFood;
   return hMFF
 }
 
-console.log(nFF);
+console.log(nFF(5));
