@@ -90,4 +90,11 @@ function idk(chickenWings, generalTossChicken){
 idk(1,1)
 
 
+const hMFF = favoriteFood => favoriteFood + 1;
 
+const nFF = (favoriteFood) => {
+  const hMFF =  ++favoriteFood;
+  return hMFF
+}
+
+console.log(nFF(5));
