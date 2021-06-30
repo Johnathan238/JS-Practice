@@ -60,16 +60,34 @@ marioJudah()
 
 /* Arrow Function*/
 
-const calcAge3 = birthYear => 2029 - birthYear;
-const age3 = calcAge3(2000)
-console.log(age3);
+// const calcAge3 = birthYear => 2029 - birthYear;
+// const age3 = calcAge3(2000)
+// console.log(age3);
 
-const yearUR = (birthYear, firstName) => {
-    const age = 2037 - birthYear
-    const retirement = 65 - age
-    return retirement
+// const yearUR = (birthYear, firstName) => {
+//     const age = 2037 - birthYear
+//     const retirement = 65 - age
+//     // return retirement
+//     return `${firstName} retires in ${retirement} years`
+// }
+
+// console.log(yearUR(2000, 'Sean'));
+
+/* Functions Calling Other Functions */
+
+function cutPieces(food){
+    return food * 6;
 }
 
-console.log(yearUR(2000));
+function idk(chickenWings, generalTossChicken){
+    const chickenWingsP = cutPieces(chickenWings)
+
+    const orderPlease = `I would like ${chickenWings} orders of Chicken Wings & ${generalTossChicken} orders of General Toss Chicken. Thank You! ` 
+
+    return orderPlease
+}
+
+idk(1,1)
+
 
 
