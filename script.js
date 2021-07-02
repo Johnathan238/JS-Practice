@@ -80,21 +80,24 @@ function cutPieces(food){
 }
 
 function idk(chickenWings, generalTossChicken){
-    const chickenWingsP = cutPieces(chickenWings)
+  const chickenWingsP = cutPieces(chickenWings)
+  const generalTossChickenP = cutPieces(generalTossChicken)
 
-    const orderPlease = `I would like ${chickenWings} orders of Chicken Wings & ${generalTossChicken} orders of General Toss Chicken. Thank You! ` 
+    const orderPlease = `I would like ${chickenWingsP} orders of Chicken Wings & ${generalTossChickenP} orders of General Toss Chicken. Thank You! ` 
 
     return orderPlease
 }
 
-idk(1,1)
+idk(1, 1)
 
 
-const hMFF = favoriteFood => favoriteFood + 1;
 
-const nFF = (favoriteFood) => {
-  const hMFF =  ++favoriteFood;
-  return hMFF
-}
 
-console.log(nFF(5));
+// const hMFF = favoriteFood => favoriteFood + 1;
+
+// const nFF = (favoriteFood) => {
+//   const hMFF =  ++favoriteFood;
+//   return hMFF
+// }
+
+// console.log(nFF(5));
