@@ -88,7 +88,7 @@ function idk(chickenWings, generalTossChicken){
     return orderPlease
 }
 
-idk(1, 1)
+console.log(idk(2, 5))
 
 
 
