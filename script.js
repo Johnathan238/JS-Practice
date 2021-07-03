@@ -74,21 +74,23 @@ marioJudah()
 // console.log(yearUR(2000, 'Sean'));
 
 /* Functions Calling Other Functions */
-
 // function cutPieces(food){
 //     return food * 6;
 // }
 
-// function idk(chickenWings, generalTossChicken){
-//     const chickenWingsP = cutPieces(chickenWings)
 
-//     const orderPlease = `I would like ${chickenWings} orders of Chicken Wings & ${generalTossChicken} orders of General Toss Chicken. Thank You! ` 
+// function idk(chickenWings, generalTossChicken){
+//   const chickenWingsP = cutPieces(chickenWings)
+//   const generalTossChickenP = cutPieces(generalTossChicken)
+
+//     const orderPlease = `I would like ${chickenWingsP} orders of Chicken Wings & ${generalTossChickenP} orders of General Toss Chicken. Thank You! ` 
 
 //     return orderPlease
 // }
 
-// idk(1,1)
+// // idk(1,1)
 
+// console.log(idk(2, 5))
 
 // const hMFF = favoriteFood => favoriteFood + 1;
 
@@ -107,4 +109,4 @@ const yearUR = (birthYear, firstName) => {
     return `${firstName} retires in ${retirement} years`
 }
 
-console.log(yearUR(2000, 'Sean'));
+console.log(yearUR(2000, 'Sean'))
