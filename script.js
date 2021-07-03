@@ -92,7 +92,7 @@ marioJudah()
 
 // console.log(idk(2, 5))
 
-// const hMFF = favoriteFood => favoriteFood + 1;
+// const hMFF = favoriteFood => favoriteFood + 1; // Arrow Function
 
 // const nFF = (favoriteFood) => {
 //   const hMFF =  ++favoriteFood;
@@ -102,11 +102,11 @@ marioJudah()
 // console.log(nFF(5));
 
 /* Reviewing Functions */
-function age1(birthYear){
+function age1(birthYear){ // Function Declaration
     return 2037 - birthYear
 }
 
-const yearUR = function (birthYear, firstName) {
+const yearUR = function (birthYear, firstName) { // Function Expression
     const age = age1(birthYear)
     const retirement = 65 - age
 
@@ -120,3 +120,4 @@ const yearUR = function (birthYear, firstName) {
 }
 
 console.log(yearUR(2002, 'Sean'))
+console.log(yearUR(1970, 'Mario'))
