@@ -75,26 +75,36 @@ marioJudah()
 
 /* Functions Calling Other Functions */
 
-function cutPieces(food){
-    return food * 6;
+// function cutPieces(food){
+//     return food * 6;
+// }
+
+// function idk(chickenWings, generalTossChicken){
+//     const chickenWingsP = cutPieces(chickenWings)
+
+//     const orderPlease = `I would like ${chickenWings} orders of Chicken Wings & ${generalTossChicken} orders of General Toss Chicken. Thank You! ` 
+
+//     return orderPlease
+// }
+
+// idk(1,1)
+
+
+// const hMFF = favoriteFood => favoriteFood + 1;
+
+// const nFF = (favoriteFood) => {
+//   const hMFF =  ++favoriteFood;
+//   return hMFF
+// }
+
+// console.log(nFF(5));
+
+/* Reviewing Functions */
+const yearUR = (birthYear, firstName) => {
+    const age = 2037 - birthYear
+    const retirement = 65 - age
+    // return retirement
+    return `${firstName} retires in ${retirement} years`
 }
 
-function idk(chickenWings, generalTossChicken){
-    const chickenWingsP = cutPieces(chickenWings)
-
-    const orderPlease = `I would like ${chickenWings} orders of Chicken Wings & ${generalTossChicken} orders of General Toss Chicken. Thank You! ` 
-
-    return orderPlease
-}
-
-idk(1,1)
-
-
-const hMFF = favoriteFood => favoriteFood + 1;
-
-const nFF = (favoriteFood) => {
-  const hMFF =  ++favoriteFood;
-  return hMFF
-}
-
-console.log(nFF(5));
+console.log(yearUR(2000, 'Sean'));
