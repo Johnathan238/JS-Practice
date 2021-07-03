@@ -102,8 +102,12 @@ marioJudah()
 // console.log(nFF(5));
 
 /* Reviewing Functions */
-const yearUR = (birthYear, firstName) => {
-    const age = 2037 - birthYear
+function age1(birthYear){
+    return 2037 - birthYear
+}
+
+const yearUR = function (birthYear, firstName) {
+    const age = age1(birthYear)
     const retirement = 65 - age
     // return retirement
     return `${firstName} retires in ${retirement} years`
