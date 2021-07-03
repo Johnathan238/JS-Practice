@@ -109,8 +109,14 @@ function age1(birthYear){
 const yearUR = function (birthYear, firstName) {
     const age = age1(birthYear)
     const retirement = 65 - age
+
+    if (retirement > 0){
+        return retirement
+    } else {
+        return `${firstName} is retired`
+    }
     // return retirement
-    return `${firstName} retires in ${retirement} years`
+    // return `${firstName} retires in ${retirement} years`
 }
 
 console.log(yearUR(2002, 'Sean'))
