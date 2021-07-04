@@ -101,23 +101,26 @@ marioJudah()
 
 // console.log(nFF(5));
 
-/* Reviewing Functions */
-function age1(birthYear){ // Function Declaration
-    return 2037 - birthYear
-}
+// /* Reviewing Functions */
+// function age1(birthYear){ // Function Declaration
+//     return 2037 - birthYear
+// }
 
-const yearUR = function (birthYear, firstName) { // Function Expression
-    const age = age1(birthYear)
-    const retirement = 65 - age
+// const yearUR = function (birthYear, firstName) { // Function Expression
+//     const age = age1(birthYear)
+//     const retirement = 65 - age
 
-    if (retirement > 0){
-        return retirement
-    } else {
-        return `${firstName} is retired`
-    }
-    // return retirement
-    // return `${firstName} retires in ${retirement} years`
-}
+//     if (retirement > 0){
+//         return retirement
+//     } else {
+//         return `${firstName} is retired`
+//     }
+//     // return retirement
+//     // return `${firstName} retires in ${retirement} years`
+// }
 
-console.log(yearUR(2002, 'Sean'))
-console.log(yearUR(1970, 'Mario'))
+// console.log(yearUR(2002, 'Sean'))
+// console.log(yearUR(1970, 'Mario'))
+
+/* Coding Challenge Function */
+
