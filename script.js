@@ -124,7 +124,13 @@ marioJudah()
 
 /* Coding Challenge Function */
 
-const calcAverage = (teamScores) => {
-    const dolphinesScores = (44 + 23 + 71) / 3
-    const koalasScores = (65 + 54 + 49) / 3
+const calcAverage = (avgScores) => {
+    const avgDScores = (44 + 23 + 71) / 3
+    const avgKScores = (65 + 54 + 49) / 3
+
+    return (avgDScores, avgKScores)
+}
+
+const checkWinner = function (avgScores) {
+    
 }
