@@ -123,14 +123,24 @@ marioJudah()
 // console.log(yearUR(1970, 'Mario'))
 
 /* Coding Challenge Function */
+// const avgDScores = (44 + 23 + 71) 
+// const avgKScores = (65 + 54 + 49) 
 
 const calcAverage = (avgScores) => {
-    const avgDScores = (44 + 23 + 71) / 3
-    const avgKScores = (65 + 54 + 49) / 3
-
-    return (avgDScores, avgKScores)
+    // return avgScores = (avgDScores, avgKScores) /3 
+    const avgScores1 = avgDScores = (44 + 23 + 71) / 3
+    const avgScores2 = avgKScores = (65 + 54 + 49) / 3 
 }
 
 const checkWinner = function (avgScores) {
-    
+    const fDScores = calcAverage(avgScores1)
+    const fKScores = calcAverage(avgScores2)
+
+    if (fDScores > fKScores) {
+        return `Dolphines win (${fDScores} vs ${fKScores})`
+    } else if (fKScores > fDScores){
+        return `koalas win (${fKScores} vs ${fDScores})`
+    } else {
+        return `NOBODY WON !`
+    }
 }
