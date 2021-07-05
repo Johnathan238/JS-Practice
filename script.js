@@ -150,4 +150,24 @@ marioJudah()
 
 // console.log(checkWinner());
 
+/* Instructor solution */
+
 const calcAvg = (a, b, c) => (a + b + c ) / 3
+
+const avgScores1 = calcAvg(44, 23, 71)
+const avgScores2 =  calcAvg(65, 54, 49)
+console.log(avgScores1, avgScores2);
+
+const checkWinner = function(fDScores, fKScores){
+    if (fDScores => 2 * fKScores) {
+        return `Dolphines win (${fDScores} vs ${fKScores})`
+    } else if (fKScores >= 2 * fDScores){
+        return `koalas win (${fKScores} vs ${fDScores})`
+    } else {
+        return `NOBODY WON !`
+    }
+}
+
+console.log(checkWinner(avgScores1, avgScores2))
+
+
