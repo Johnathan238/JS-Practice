@@ -139,9 +139,9 @@ const checkWinner = function (avgScores1, avgScores2) {
     const fDScores = calcAverage(avgScores1)
     const fKScores = calcAverage(avgScores2)
 
-    if (fDScores >= fKScores) {
+    if (fDScores >= 2 * fKScores) {
         return `Dolphines win (${fDScores} vs ${fKScores})`
-    } else if (fKScores >= fDScores){
+    } else if (fKScores >= 2 * fDScores){
         return `koalas win (${fKScores} vs ${fDScores})`
     } else {
         return `NOBODY WON !`
