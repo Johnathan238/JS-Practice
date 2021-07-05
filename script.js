@@ -122,30 +122,30 @@ marioJudah()
 // console.log(yearUR(2002, 'Sean'))
 // console.log(yearUR(1970, 'Mario'))
 
-/* Coding Challenge Function */
+/* Coding Challenge Function My version */
 // const avgDScores = (44 + 23 + 71) 
 // const avgKScores = (65 + 54 + 49) 
 
-const calcAverage = () => {
-    // return avgScores = (avgDScores, avgKScores) /3 
-    // const avgScores1 = (44 + 23 + 71) / 3
-    // const avgScores2 =  (65 + 54 + 49) / 3 
+// const calcAverage = () => {
+//     // return avgScores = (avgDScores, avgKScores) /3 
+//     // const avgScores1 = (44 + 23 + 71) / 3
+//     // const avgScores2 =  (65 + 54 + 49) / 3 
 
-    const avgScores1 = (85 + 54 + 41) / 3
-    const avgScores2 =  (23 + 34 + 27) / 3 
-}
+//     const avgScores1 = (85 + 54 + 41) / 3
+//     const avgScores2 =  (23 + 34 + 27) / 3 
+// }
 
-const checkWinner = function (avgScores1, avgScores2) {
-    const fDScores = calcAverage(avgScores1)
-    const fKScores = calcAverage(avgScores2)
+// const checkWinner = function (avgScores1, avgScores2) {
+//     const fDScores = calcAverage(avgScores1)
+//     const fKScores = calcAverage(avgScores2)
 
-    if (fDScores >= 2 * fKScores) {
-        return `Dolphines win (${fDScores} vs ${fKScores})`
-    } else if (fKScores >= 2 * fDScores){
-        return `koalas win (${fKScores} vs ${fDScores})`
-    } else {
-        return `NOBODY WON !`
-    }
-}
+//     if (fDScores >= 2 * fKScores) {
+//         return `Dolphines win (${fDScores} vs ${fKScores})`
+//     } else if (fKScores >= 2 * fDScores){
+//         return `koalas win (${fKScores} vs ${fDScores})`
+//     } else {
+//         return `NOBODY WON !`
+//     }
+// }
 
-console.log(checkWinner());
+// console.log(checkWinner());
