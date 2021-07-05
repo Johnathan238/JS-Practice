@@ -168,6 +168,6 @@ const checkWinner = function(fDScores, fKScores){
     }
 }
 
-console.log(checkWinner(avgScores1, avgScores2))
+console.log(checkWinner(avgScores1, avgScores2)) 
 
 
