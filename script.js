@@ -124,31 +124,29 @@ marioJudah()
 
 /* Coding Challenge Function My version */
 
-const calcAvg = (a, b, c) => (a + b + c) /3
+const calcAvg = (a, b, c) => (a + b + c ) / 3
 
-const avgScores1 = calcAvg(40 + 70 + 41)
-const avgScores2 = calcAvg(23 + 34 + 27)
-console.log(avgScores1, avgScores2); 
+const avgScores1 = calcAvg(40, 70, 100)
+const avgScores2 =  calcAvg(80, 40, 50)
+console.log(avgScores1, avgScores2);
 
-const checkWinner = function (fDScores, fKScores) {
-
-    if (fDScores >= 2 * fKScores) {
-        return `Dolphines win (${fDScores} vs ${fKScores})`
-    } else if (fKScores >= 2 * fDScores){
-        return `koalas win (${fKScores} vs ${fDScores})`
+const checkWinner = function(fDscores, fKscores) {
+    if (fDscores => 2 * fKscores) {
+        return `Dolphines win (${fDscores} vs ${fKscores})`
+    } else if (fKscores => 2 * fDscores){
+        return `koalas win (${fKscores} vs ${fDcores})`
     } else {
         return `NOBODY WON !`
     }
-  
 }
 
-console.log(checkWinner(avgScores1,  avgScores2));
+console.log(checkWinner(avgScores1, avgScores2));
 
 /* Instructor solution */
 
 // const calcAvg = (a, b, c) => (a + b + c ) / 3
 
-// const avgScores1 = calcAvg(44, 23, 71)
+// const avgScores1 = calcAvg(44, 60, 71)
 // const avgScores2 =  calcAvg(65, 54, 49)
 // console.log(avgScores1, avgScores2);
 
