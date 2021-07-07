@@ -124,23 +124,23 @@ marioJudah()
 
 /* Coding Challenge Function My version */
 
-const calcAvg = (a, b, c) => (a + b + c ) / 3
+// const calcAvg = (a, b, c) => (a + b + c ) / 3
 
-const avgScores1 = calcAvg(40, 70, 100)
-const avgScores2 =  calcAvg(80, 40, 50)
-console.log(avgScores1, avgScores2);
+// const avgScores1 = calcAvg(40, 70, 100)
+// const avgScores2 =  calcAvg(80, 40, 50)
+// console.log(avgScores1, avgScores2);
 
-const checkWinner = function(fDscores, fKscores) {
-    if (fDscores => 2 * fKscores) {
-        return `Dolphines win (${fDscores} vs ${fKscores})`
-    } else if (fKscores => 2 * fDscores){
-        return `koalas win (${fKscores} vs ${fDcores})`
-    } else {
-        return `NOBODY WON !`
-    }
-}
+// const checkWinner = function(fDscores, fKscores) {
+//     if (fDscores => 2 * fKscores) {
+//         return `Dolphines win (${fDscores} vs ${fKscores})`
+//     } else if (fKscores => 2 * fDscores){
+//         return `koalas win (${fKscores} vs ${fDcores})`
+//     } else {
+//         return `NOBODY WON !`
+//     }
+// }
 
-console.log(checkWinner(avgScores1, avgScores2));
+// console.log(checkWinner(avgScores1, avgScores2));
 
 /* Instructor solution */
 
@@ -161,5 +161,9 @@ console.log(checkWinner(avgScores1, avgScores2));
 // }
 
 // console.log(checkWinner(avgScores1, avgScores2)) 
+
+/* Array intro */
+
+const whoTFISTHESEPPL = ['Mario Judah', 'Sean fatneek', 'Nick fatneek']
 
 
