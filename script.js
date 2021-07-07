@@ -174,3 +174,17 @@ console.log('====================================');
 console.log(years);
 console.log('====================================');
 
+console.log('====================================');
+console.log(whoTFISTHESEPPL[1]);
+console.log('====================================');
+
+console.log('====================================');
+console.log(whoTFISTHESEPPL.length);
+console.log('====================================');
+
+console.log('====================================');
+console.log(whoTFISTHESEPPL[whoTFISTHESEPPL.length - 1]);
+console.log('====================================');
+
+
+
