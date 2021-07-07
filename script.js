@@ -165,5 +165,12 @@ marioJudah()
 /* Array intro */
 
 const whoTFISTHESEPPL = ['Mario Judah', 'Sean fatneek', 'Nick fatneek']
+console.log('====================================');
+console.log(whoTFISTHESEPPL);
+console.log('====================================');
 
+const years = new Array(2000, 2054, 3000, 3001)
+console.log('====================================');
+console.log(years);
+console.log('====================================');
 
