@@ -191,6 +191,8 @@ console.log('====================================');
 console.log(whoTFISTHESEPPL);
 console.log('====================================');
 
+const firstName = 'Sean fatneek'
 
 
+const tSTMEDAD = ['TRUST', 'ME', 'DADDY']
 
