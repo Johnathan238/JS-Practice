@@ -210,3 +210,6 @@ const age2 = calAge1(years[1])
 const age3 = calAge1(years[2])
 console.log(age1, age2, age3);
 
+const ages = [age1, age2, age3]
+console.log(ages);
+
