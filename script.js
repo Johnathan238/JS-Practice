@@ -193,11 +193,8 @@ console.log('====================================');
 
 whoTFISTHESEPPL[3] = 'IDK'
 
+const tSTMEDAD = ['TRUST', 'ME', 'DADDY', whoTFISTHESEPPL]
+console.log(tSTMEDAD);
+console.log(tSTMEDAD.length);
 
-
-
-
-
-
-const tSTMEDAD = ['TRUST', 'ME', 'DADDY']
 
