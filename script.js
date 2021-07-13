@@ -164,37 +164,49 @@ marioJudah()
 
 /* Array intro */
 
-const whoTFISTHESEPPL = ['Mario Judah', 'Sean fatneek', 'Nick fatneek']
-console.log('====================================');
-console.log(whoTFISTHESEPPL);
-console.log('====================================');
+// const whoTFISTHESEPPL = ['Mario Judah', 'Sean fatneek', 'Nick fatneek']
+// console.log('====================================');
+// console.log(whoTFISTHESEPPL);
+// console.log('====================================');
 
-const years = new Array(2000, 2054, 3000, 3001)
-console.log('====================================');
-console.log(years);
-console.log('====================================');
+// const years = new Array(2000, 2054, 3000, 3001)
+// console.log('====================================');
+// console.log(years);
+// console.log('====================================');
 
-console.log('====================================');
-console.log(whoTFISTHESEPPL[1]);
-console.log('====================================');
+// console.log('====================================');
+// console.log(whoTFISTHESEPPL[1]);
+// console.log('====================================');
 
-console.log('====================================');
-console.log(whoTFISTHESEPPL.length);
-console.log('====================================');
+// console.log('====================================');
+// console.log(whoTFISTHESEPPL.length);
+// console.log('====================================');
 
-console.log('====================================');
-console.log(whoTFISTHESEPPL[whoTFISTHESEPPL.length - 1]);
-console.log('====================================');
+// console.log('====================================');
+// console.log(whoTFISTHESEPPL[whoTFISTHESEPPL.length - 1]);
+// console.log('====================================');
 
-whoTFISTHESEPPL[2] = 'Mandem'
-console.log('====================================');
-console.log(whoTFISTHESEPPL);
-console.log('====================================');
+// whoTFISTHESEPPL[2] = 'Mandem'
+// console.log('====================================');
+// console.log(whoTFISTHESEPPL);
+// console.log('====================================');
 
-whoTFISTHESEPPL[3] = 'IDK'
+// whoTFISTHESEPPL[3] = 'IDK'
 
-const tSTMEDAD = ['TRUST', 'ME', 'DADDY', whoTFISTHESEPPL]
-console.log(tSTMEDAD);
-console.log(tSTMEDAD.length);
+// const tSTMEDAD = ['TRUST', 'ME', 'DADDY', whoTFISTHESEPPL]
+// console.log(tSTMEDAD);
+// console.log(tSTMEDAD.length);
 
+
+// Array Ex
+const calAge1 = function (birthYear) {
+    return 2037 - birthYear;
+}
+
+const years = [1998, 2002, 2020]
+
+const age1 = calAge1(years[0])
+const age2 = calAge1(years[1])
+const age3 = calAge1(years[2])
+console.log(age1, age2, age3);
 
