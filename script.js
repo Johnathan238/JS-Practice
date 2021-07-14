@@ -215,9 +215,22 @@ marioJudah()
 
 
 /* Basic Array Operations (Methods) */
+
+// ADD elements
 const yEP = ['TRUST', 'ME']
 yEP.push('DADDY') // add new value at the end
+console.log('====================================');
 console.log(yEP);
+console.log('====================================');
 
 yEP.unshift('FINNA', 'SCOPE', 'YOU') // add new value at the front of the array
+console.log('====================================');
 console.log(yEP);
+console.log('====================================');
+
+// REMOVE elements
+
+yEP.pop() // removes the last element
+console.log('====================================');
+console.log(yEP);
+console.log('====================================');
