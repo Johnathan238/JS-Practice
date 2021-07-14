@@ -216,4 +216,8 @@ marioJudah()
 
 /* Basic Array Operations (Methods) */
 const yEP = ['TRUST', 'ME']
-yEP.push('DADDY')
+yEP.push('DADDY') // add new value at the end
+console.log(yEP);
+
+yEP.unshift('FINNA', 'SCOPE', 'YOU') // add new value at the front of the array
+console.log(yEP);
