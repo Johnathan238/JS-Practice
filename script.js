@@ -234,3 +234,8 @@ yEP.pop() // removes the last element
 console.log('====================================');
 console.log(yEP);
 console.log('====================================');
+
+yEP.shift() // removes firsat element
+  console.log('====================================');
+  console.log(yEP);
+  console.log('====================================');
