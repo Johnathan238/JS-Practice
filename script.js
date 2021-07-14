@@ -198,18 +198,20 @@ marioJudah()
 // console.log(tSTMEDAD.length);
 
 
-// Array Ex
-const calAge1 = function (birthYear) {
-    return 2037 - birthYear;
-}
+// // Array Ex
+// const calAge1 = function (birthYear) {
+//     return 2037 - birthYear;
+// }
 
-const years = [1998, 2002, 2020]
+// const years = [1998, 2002, 2020]
 
-const age1 = calAge1(years[0])
-const age2 = calAge1(years[1])
-const age3 = calAge1(years[2])
-console.log(age1, age2, age3);
+// const age1 = calAge1(years[0])
+// const age2 = calAge1(years[1])
+// const age3 = calAge1(years[2])
+// console.log(age1, age2, age3);
 
-const ages = [age1, age2, age3]
-console.log(ages);
+// const ages = [age1, age2, age3]
+// console.log(ages);
 
+
+/* Basic Array Operations (Methods) */
