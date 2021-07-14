@@ -215,3 +215,5 @@ marioJudah()
 
 
 /* Basic Array Operations (Methods) */
+const yEP = ['TRUST', 'ME']
+yEP.push('DADDY')
