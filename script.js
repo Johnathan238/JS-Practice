@@ -243,3 +243,9 @@ yEP.shift() // removes firsat element
   console.log(yEP.indexOf('TRUST'));
 
   console.log(yEP.includes('TRUST'));
+
+  if (yEP.includes('TRUST')){
+    console.log('TRUST DADDY');
+  } else {
+    console.log('I DONT TRUST YOU');
+  }
