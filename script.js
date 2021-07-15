@@ -239,3 +239,7 @@ yEP.shift() // removes firsat element
   console.log('====================================');
   console.log(yEP);
   console.log('====================================');
+
+  console.log(yEP.indexOf('TRUST'));
+
+  console.log(yEP.includes('TRUST'));
