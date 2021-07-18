@@ -279,20 +279,32 @@ console.log(bills);
 
 console.log(bills[0] * tip2);
 
+const newBill = bills[0] >= 50 && bills[0] <= 300 ? bills[0] * tip2 : bills[0] * tip;
+console.log(` Total value ${bills[0] + tip2}`)
 
-const calcTip = function() {
-  if (bills[0] >= 50 && bills[0] <= 300) {
-    console.log(bills[0] * tip2);
-  } if (bills[1] >= 50 && bills[1] <= 300){
-    console.log(bills[1] * tip2);
-  } if (bills[2] >= 50 && bills[2] <= 300){
-    console.log(bills[2] * tips);
-  } else {
-    console.log(`WE ALL BROKE !`);
-  }
-}
+const newBill1 = bills[1] >= 50 && bills[1] <= 300 ? bills[1] * tip2 :  bills[1] * tip;
+console.log(` Total value ${bills[1] + tip}`)
 
-console.log(calcTip());
+const newBill2 = bills[2] >= 50 && bills[2] <= 300 ? bills[2] * tip2 :  bills[2] * tip;
+console.log(` Total value ${bills[2] + tip}`)
+
+const calcTip = [newBill, newBill1, newBill2]
+console.log(calcTip);
+
+
+// const calcTip = function() {
+//   if (bills[0] >= 50 && bills[0] <= 300) {
+//     console.log(bills[0] * tip2);
+//   } if (bills[1] >= 50 && bills[1] <= 300){
+//     console.log(bills[1] * tip2);
+//   } if (bills[2] >= 50 && bills[2] <= 300){
+//     console.log(bills[2] * tips);
+//   } else {
+//     console.log(`WE ALL BROKE !`);
+//   }
+// }
+
+
 
 
 
