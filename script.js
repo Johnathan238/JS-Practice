@@ -275,14 +275,24 @@ console.log(tip, tip2)
 
 
 const bills = [125, 555, 44]
+console.log(bills);
+
+console.log(bills[0] * tip2);
 
 
-const calcTip = function () {
-  if (bills[0] >= 50 && bills[0] <= 300 ? bills[0] * tip2 : bills[0] * tip) {
-    // bills[0] * tip2
-    console.log(`The bill ${bills[0]}, the tip was ${tip2}, and total value ${bills[0] + tip2}`);
-  } 
+const calcTip = function() {
+  if (bills[0] >= 50 && bills[0] <= 300) {
+    console.log(bills[0] * tip2);
+  } if (bills[1] >= 50 && bills[1] <= 300){
+    console.log(bills[1] * tip2);
+  } if (bills[2] >= 50 && bills[2] <= 300){
+    console.log(bills[2] * tips);
+  } else {
+    console.log(`WE ALL BROKE !`);
+  }
 }
+
+console.log(calcTip());
 
 
 
