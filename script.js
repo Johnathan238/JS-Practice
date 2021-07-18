@@ -251,3 +251,20 @@ marioJudah()
 //   }
 
 /* Coding Challenge #2 Array*/
+// const tip = (20/100)
+// const tip2 = (15/100)
+// console.log(tip, tip2)
+
+// const bill = (275)
+// const bill1 = (40)
+// const bill3 = (430)
+// console.log(bill)
+
+// const newBill = bill >= 50 && bill <= 300 ? bill * tip2 : bill * tip;
+// console.log(`The bill ${bill}, the tip was ${tip2}, and total value ${bill + tip2}`)
+
+// const newBill1 = bill1 >= 50 && bill1 <= 300 ? bill1 * tip2 :  bill1 * tip;
+// console.log(`The bill ${bill1}, the tip was ${tip}, and total value ${bill + tip}`)
+
+// const newBill2 = bill3 >= 50 && bill3 <= 300 ? bill3 * tip2 :  bill3 * tip;
+// console.log(`The bill ${bill3}, the tip was ${tip}, and total value ${bill3 + tip}`)
