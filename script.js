@@ -268,3 +268,7 @@ marioJudah()
 
 // const newBill2 = bill3 >= 50 && bill3 <= 300 ? bill3 * tip2 :  bill3 * tip;
 // console.log(`The bill ${bill3}, the tip was ${tip}, and total value ${bill3 + tip}`)
+
+const calcTip  = function() {
+    
+}
