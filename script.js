@@ -217,35 +217,37 @@ marioJudah()
 /* Basic Array Operations (Methods) */
 
 // ADD elements
-const yEP = ['TRUST', 'ME']
-yEP.push('DADDY') // add new value at the end
-console.log('====================================');
-console.log(yEP);
-console.log('====================================');
+// const yEP = ['TRUST', 'ME']
+// yEP.push('DADDY') // add new value at the end
+// console.log('====================================');
+// console.log(yEP);
+// console.log('====================================');
 
-yEP.unshift('FINNA', 'SCOPE', 'YOU') // add new value at the front of the array
-console.log('====================================');
-console.log(yEP);
-console.log('====================================');
+// yEP.unshift('FINNA', 'SCOPE', 'YOU') // add new value at the front of the array
+// console.log('====================================');
+// console.log(yEP);
+// console.log('====================================');
 
-// REMOVE elements
+// // REMOVE elements
 
-yEP.pop() // removes the last element
-console.log('====================================');
-console.log(yEP);
-console.log('====================================');
+// yEP.pop() // removes the last element
+// console.log('====================================');
+// console.log(yEP);
+// console.log('====================================');
 
-yEP.shift() // removes firsat element
-  console.log('====================================');
-  console.log(yEP);
-  console.log('====================================');
+// yEP.shift() // removes firsat element
+//   console.log('====================================');
+//   console.log(yEP);
+//   console.log('====================================');
 
-  console.log(yEP.indexOf('TRUST'));
+//   console.log(yEP.indexOf('TRUST'));
 
-  console.log(yEP.includes('TRUST'));
+//   console.log(yEP.includes('TRUST'));
 
-  if (yEP.includes('TRUST')){
-    console.log('TRUST DADDY');
-  } else {
-    console.log('I DONT TRUST YOU');
-  }
+//   if (yEP.includes('TRUST')){
+//     console.log('TRUST DADDY');
+//   } else {
+//     console.log('I DONT TRUST YOU');
+//   }
+
+/* Coding Challenge #2 Array*/
