@@ -291,21 +291,16 @@ marioJudah()
 // const calcTip = [newBill, newBill1, newBill2]
 // console.log(calcTip);
 
+
 // ** Instructor Solution ** //
 
 
-// const calcTip = function() {
-//   if (bills[0] >= 50 && bills[0] <= 300) {
-//     console.log(bills[0] * tip2);
-//   } if (bills[1] >= 50 && bills[1] <= 300){
-//     console.log(bills[1] * tip2);
-//   } if (bills[2] >= 50 && bills[2] <= 300){
-//     console.log(bills[2] * tips);
-//   } else {
-//     console.log(`WE ALL BROKE !`);
-//   }
-// }
+const calcTip = function (bill) {
+  return bill >= 50 && bill <= 300 ? bill * tip2 :  bill * tip;
+}
 
+const bills = [125, 555, 44]
+console.log(bills);
 
 
 
