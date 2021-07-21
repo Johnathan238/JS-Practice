@@ -251,9 +251,9 @@ marioJudah()
 //   }
 
 /* Coding Challenge #2 Array*/
-// const tip = (20/100)
-// const tip2 = (15/100)
-// console.log(tip, tip2)
+const tip = (20/100)
+const tip2 = (15/100)
+console.log(tip, tip2)
 
 // const bill = (275)
 // const bill1 = (40)
@@ -301,6 +301,9 @@ const calcTip = function (bill) {
 
 const bills = [125, 555, 44]
 console.log(bills);
+
+const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])]
+console.log(tips);
 
 
 
