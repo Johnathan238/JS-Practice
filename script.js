@@ -269,27 +269,29 @@ marioJudah()
 // const newBill2 = bill3 >= 50 && bill3 <= 300 ? bill3 * tip2 :  bill3 * tip;
 // console.log(`The bill ${bill3}, the tip was ${tip}, and total value ${bill3 + tip}`)
 
-const tip = (20/100)
-const tip2 = (15/100)
-console.log(tip, tip2)
+// const tip = (20/100)
+// const tip2 = (15/100)
+// console.log(tip, tip2)
 
 
-const bills = [125, 555, 44]
-console.log(bills);
+// const bills = [125, 555, 44]
+// console.log(bills);
 
-console.log(bills[0] * tip2);
+// console.log(bills[0] * tip2);
 
-const newBill = bills[0] >= 50 && bills[0] <= 300 ? bills[0] * tip2 : bills[0] * tip;
-console.log(` Total value ${bills[0] + tip2}`)
+// const newBill = bills[0] >= 50 && bills[0] <= 300 ? bills[0] * tip2 : bills[0] * tip;
+// console.log(` Total value ${bills[0] + tip2}`)
 
-const newBill1 = bills[1] >= 50 && bills[1] <= 300 ? bills[1] * tip2 :  bills[1] * tip;
-console.log(` Total value ${bills[1] + tip}`)
+// const newBill1 = bills[1] >= 50 && bills[1] <= 300 ? bills[1] * tip2 :  bills[1] * tip;
+// console.log(` Total value ${bills[1] + tip}`)
 
-const newBill2 = bills[2] >= 50 && bills[2] <= 300 ? bills[2] * tip2 :  bills[2] * tip;
-console.log(` Total value ${bills[2] + tip}`)
+// const newBill2 = bills[2] >= 50 && bills[2] <= 300 ? bills[2] * tip2 :  bills[2] * tip;
+// console.log(` Total value ${bills[2] + tip}`)
 
-const calcTip = [newBill, newBill1, newBill2]
-console.log(calcTip);
+// const calcTip = [newBill, newBill1, newBill2]
+// console.log(calcTip);
+
+// ** Instructor Solution ** //
 
 
 // const calcTip = function() {
