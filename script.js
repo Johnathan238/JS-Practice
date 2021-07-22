@@ -308,4 +308,12 @@ console.log(tip, tip2)
 
 //* Intro to objects *//
 
+const mJudah = {
+  firstName: 'Mario',
+  lastName: 'Judah',
+  job: 'Rockstar',
+  age: 22,
+  friends: ['Fatneek Sean', 'Trippe Redd']
+}
+
 
