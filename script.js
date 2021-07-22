@@ -122,7 +122,7 @@ marioJudah()
 // console.log(yearUR(2002, 'Sean'))
 // console.log(yearUR(1970, 'Mario'))
 
-/* Coding Challenge Function My version */
+//* Coding Challenge Function My version *//
 
 // const calcAvg = (a, b, c) => (a + b + c ) / 3
 
@@ -142,7 +142,7 @@ marioJudah()
 
 // console.log(checkWinner(avgScores1, avgScores2));
 
-/* Instructor solution */
+//* Instructor solution *//
 
 // const calcAvg = (a, b, c) => (a + b + c ) / 3
 
@@ -162,7 +162,7 @@ marioJudah()
 
 // console.log(checkWinner(avgScores1, avgScores2)) 
 
-/* Array intro */
+//* Array intro *//
 
 // const whoTFISTHESEPPL = ['Mario Judah', 'Sean fatneek', 'Nick fatneek']
 // console.log('====================================');
@@ -198,7 +198,7 @@ marioJudah()
 // console.log(tSTMEDAD.length);
 
 
-// // Array Ex
+// Array Ex
 // const calAge1 = function (birthYear) {
 //     return 2037 - birthYear;
 // }
@@ -214,7 +214,7 @@ marioJudah()
 // console.log(ages);
 
 
-/* Basic Array Operations (Methods) */
+//* Basic Array Operations (Methods) *//
 
 // ADD elements
 // const yEP = ['TRUST', 'ME']
@@ -228,7 +228,7 @@ marioJudah()
 // console.log(yEP);
 // console.log('====================================');
 
-// // REMOVE elements
+// REMOVE elements
 
 // yEP.pop() // removes the last element
 // console.log('====================================');
@@ -250,7 +250,7 @@ marioJudah()
 //     console.log('I DONT TRUST YOU');
 //   }
 
-/* Coding Challenge #2 Array*/
+//** Coding Challenge #2 Array **//
 const tip = (20/100)
 const tip2 = (15/100)
 console.log(tip, tip2)
@@ -295,17 +295,17 @@ console.log(tip, tip2)
 // ** Instructor Solution ** //
 
 
-const calcTip = function (bill) {
-  return bill >= 50 && bill <= 300 ? bill * tip2 :  bill * tip;
-}
+// const calcTip = function (bill) {
+//   return bill >= 50 && bill <= 300 ? bill * tip2 :  bill * tip;
+// }
 
-const bills = [125, 555, 44]
-console.log(bills);
+// const bills = [125, 555, 44]
+// console.log(bills);
 
-const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])]
-console.log(tips);
+// const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])]
+// console.log(tips);
 
 
-
+//* Intro to objects *//
 
 
