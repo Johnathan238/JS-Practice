@@ -326,7 +326,16 @@ const mJudah = {
   friends: ['Fatneek Sean', 'Trippe Redd']
 }
 
+
+
+console.log('====================================');
 console.log(mJudah);
+console.log('====================================');
+console.log('====================================');
 console.log(mJudah.firstName);
+console.log('====================================');
+console.log('====================================');
+console.log(mJudah['lastName']);
+console.log('====================================');
 
 
