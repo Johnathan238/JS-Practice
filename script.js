@@ -306,7 +306,17 @@ console.log(tip, tip2)
 // console.log(tips);
 
 
-//* Intro to objects *//
+// * Intro to objects * //
+
+// const mJudah = {
+//   firstName: 'Mario',
+//   lastName: 'Judah',
+//   job: 'Rockstar',
+//   age: 22,
+//   friends: ['Fatneek Sean', 'Trippe Redd']
+// }
+
+// * Dot & Bracket Notation * //
 
 const mJudah = {
   firstName: 'Mario',
@@ -315,5 +325,8 @@ const mJudah = {
   age: 22,
   friends: ['Fatneek Sean', 'Trippe Redd']
 }
+
+console.log(mJudah);
+console.log(mJudah.firstName);
 
 
