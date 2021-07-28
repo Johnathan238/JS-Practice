@@ -338,4 +338,10 @@ console.log('====================================');
 console.log(mJudah['lastName']);
 console.log('====================================');
 
+const nameKey = 'Name'
+console.log('====================================');
+console.log(mJudah['first' + nameKey]);
+console.log(mJudah['last' + nameKey]);
+console.log('====================================');
+
 
