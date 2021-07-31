@@ -348,7 +348,12 @@ const letKMJ = prompt('SO WHAT YOU WANNA KNOW BABES')
 console.log('====================================');
 console.log(mJudah[letKMJ]);
 console.log('====================================');
-alert(mJudah[letKMJ])
+
+if(mJudah[letKMJ]){
+  alert(mJudah[letKMJ])
+} else {
+  alert(`Wrong input sir! Choose Name, Job, age or friends`)
+}
 
 
 
