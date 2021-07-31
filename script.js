@@ -344,4 +344,11 @@ console.log(mJudah['first' + nameKey]);
 console.log(mJudah['last' + nameKey]);
 console.log('====================================');
 
+const letKMJ = prompt('SO WHAT YOU WANNA KNOW BABES')
+console.log('====================================');
+console.log(mJudah[letKMJ]);
+console.log('====================================');
+alert(mJudah[letKMJ])
+
+
 
