@@ -355,5 +355,8 @@ if(mJudah[letKMJ]){
   alert(`Wrong input sir! Choose Name, Job, age or friends`)
 }
 
+mJudah.location = 'London'
+console.log(mJudah);
+
 
 
