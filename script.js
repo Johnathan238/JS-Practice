@@ -361,6 +361,8 @@ console.log(mJudah);
 mJudah.friends.unshift = 'Mick'
 console.log(mJudah.friends[length]);
 
+console.log(`${mJudah.firstName} has ${mJudah.friends.length}, and his BFF is called ${mJudah.friends[1]}`);
+
 
 
 
