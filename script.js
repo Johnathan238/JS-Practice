@@ -235,7 +235,7 @@ marioJudah()
 // console.log(yEP);
 // console.log('====================================');
 
-// yEP.shift() // removes firsat element
+// yEP.shift() // removes first element
 //   console.log('====================================');
 //   console.log(yEP);
 //   console.log('====================================');
@@ -251,9 +251,9 @@ marioJudah()
 //   }
 
 //** Coding Challenge #2 Array **//
-const tip = (20/100)
-const tip2 = (15/100)
-console.log(tip, tip2)
+// const tip = (20/100)
+// const tip2 = (15/100)
+// console.log(tip, tip2)
 
 // const bill = (275)
 // const bill1 = (40)
@@ -357,6 +357,11 @@ if(mJudah[letKMJ]){
 
 mJudah.location = 'London'
 console.log(mJudah);
+
+mJudah.friends.unshift = 'Mick'
+console.log(mJudah.friends[length]);
+
+
 
 
 
