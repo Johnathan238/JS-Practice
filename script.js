@@ -328,21 +328,21 @@ const mJudah = {
 
 
 
-console.log('====================================');
-console.log(mJudah);
-console.log('====================================');
-console.log('====================================');
-console.log(mJudah.firstName);
-console.log('====================================');
-console.log('====================================');
-console.log(mJudah['lastName']);
-console.log('====================================');
+// console.log('====================================');
+// console.log(mJudah);
+// console.log('====================================');
+// console.log('====================================');
+// console.log(mJudah.firstName);
+// console.log('====================================');
+// console.log('====================================');
+// console.log(mJudah['lastName']);
+// console.log('====================================');
 
-const nameKey = 'Name'
-console.log('====================================');
-console.log(mJudah['first' + nameKey]);
-console.log(mJudah['last' + nameKey]);
-console.log('====================================');
+// const nameKey = 'Name'
+// console.log('====================================');
+// console.log(mJudah['first' + nameKey]);
+// console.log(mJudah['last' + nameKey]);
+// console.log('====================================');
 
 const letKMJ = prompt('SO WHAT YOU WANNA KNOW BABES')
 console.log('====================================');
