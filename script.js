@@ -318,59 +318,74 @@ marioJudah()
 
 // * Dot & Bracket Notation * //
 
+// const mJudah = {
+//   firstName: 'Mario',
+//   lastName: 'Judah',
+//   job: 'Rockstar',
+//   age: 22,
+//   friends: ['Fatneek Sean', 'Trippe Redd']
+// }
+
+
+
+// // console.log('====================================');
+// // console.log(mJudah);
+// // console.log('====================================');
+// // console.log('====================================');
+// // console.log(mJudah.firstName);
+// // console.log('====================================');
+// // console.log('====================================');
+// // console.log(mJudah['lastName']);
+// // console.log('====================================');
+
+// // const nameKey = 'Name'
+// // console.log('====================================');
+// // console.log(mJudah['first' + nameKey]);
+// // console.log(mJudah['last' + nameKey]);
+// // console.log('====================================');
+
+// const letKMJ = prompt('SO WHAT YOU WANNA KNOW BABES')
+// console.log('====================================');
+// console.log(mJudah[letKMJ]);
+// console.log('====================================');
+
+// if(mJudah[letKMJ]){
+//   alert(mJudah[letKMJ])
+// } else {
+//   alert(`Wrong input sir! Choose Name, Job, age or friends`)
+// }
+
+// mJudah.location = 'London'
+// console.log(mJudah);
+
+// mJudah.friends.unshift = 'Mick'
+// console.log(mJudah.friends[length]);
+
+// mJudah.friends.shift = 'Mick'
+// console.log('====================================');
+// console.log(mJudah.friends[length]);
+// console.log('====================================');
+
+// console.log(`${mJudah.firstName} has ${mJudah.friends.length}, and his BFF is called ${mJudah.friends[1]}`);
+
+// * Object Method * //
+
 const mJudah = {
   firstName: 'Mario',
   lastName: 'Judah',
   job: 'Rockstar',
-  age: 22,
-  friends: ['Fatneek Sean', 'Trippe Redd']
+  birthYear: 1999,
+  friends: ['Fatneek Sean', 'Trippe Redd'],
+  hasDriversL: true,
+
+  calcAge: function (birthYear) {
+    return 2100 - birthYear
+  }
 }
 
-
-
-// console.log('====================================');
-// console.log(mJudah);
-// console.log('====================================');
-// console.log('====================================');
-// console.log(mJudah.firstName);
-// console.log('====================================');
-// console.log('====================================');
-// console.log(mJudah['lastName']);
-// console.log('====================================');
-
-// const nameKey = 'Name'
-// console.log('====================================');
-// console.log(mJudah['first' + nameKey]);
-// console.log(mJudah['last' + nameKey]);
-// console.log('====================================');
-
-const letKMJ = prompt('SO WHAT YOU WANNA KNOW BABES')
 console.log('====================================');
-console.log(mJudah[letKMJ]);
+console.log(mJudah.calcAge(2000));
 console.log('====================================');
-
-if(mJudah[letKMJ]){
-  alert(mJudah[letKMJ])
-} else {
-  alert(`Wrong input sir! Choose Name, Job, age or friends`)
-}
-
-mJudah.location = 'London'
-console.log(mJudah);
-
-mJudah.friends.unshift = 'Mick'
-console.log(mJudah.friends[length]);
-
-mJudah.friends.shift = 'Mick'
-console.log('====================================');
-console.log(mJudah.friends[length]);
-console.log('====================================');
-
-console.log(`${mJudah.firstName} has ${mJudah.friends.length}, and his BFF is called ${mJudah.friends[1]}`);
-
-// * Object Method * //
-
-
 
 
 
