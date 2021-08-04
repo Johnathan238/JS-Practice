@@ -378,14 +378,19 @@ const mJudah = {
   friends: ['Fatneek Sean', 'Trippe Redd'],
   hasDriversL: true,
 
-  calcAge: function (birthYear) {
-    return 2100 - birthYear
+  // calcAge: function (birthYear) {
+  //   return 2100 - birthYear
+  // }
+
+  calcAge: function () {
+      console.log(this);
+    return 2100 - this.birthYear
   }
 }
 
 console.log('====================================');
-console.log(mJudah.calcAge(2000));
-console.log(mJudah['calcAge'](2002));
+console.log(mJudah.calcAge());
+// console.log(mJudah['calcAge'](2002));
 console.log('====================================');
 
 
