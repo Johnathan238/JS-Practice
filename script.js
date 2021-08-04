@@ -385,6 +385,7 @@ const mJudah = {
 
 console.log('====================================');
 console.log(mJudah.calcAge(2000));
+console.log(mJudah['calcAge'](2002));
 console.log('====================================');
 
 
