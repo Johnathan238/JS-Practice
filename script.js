@@ -390,6 +390,12 @@ const mJudah = {
   calcAge: function () {
       this.age = 2100 - this.birthYear
     return this.age
+  },
+
+  //Challenge
+  mInfo: function () {
+    this.name = console.log(`${mJudah.firstName} is a ${mJudah.calcAge()} old ${mJudah.job}, and he has a driver's license ${mJudah.hasDriversL}`);
+    return this.name
   }
 }
 
@@ -400,6 +406,8 @@ console.log(mJudah.age);
 console.log('====================================');
 
 //Challenge
+console.log(mJudah.mInfo());
+console.log(mJudah.name);
 
 
 
