@@ -382,16 +382,25 @@ const mJudah = {
   //   return 2100 - birthYear
   // }
 
+  // calcAge: function () {
+  //     console.log(this);
+  //   return 2100 - this.birthYear
+  // }
+
   calcAge: function () {
-      console.log(this);
-    return 2100 - this.birthYear
+      this.age = 2100 - this.birthYear
+    return this.age
   }
 }
 
 console.log('====================================');
-console.log(mJudah.calcAge());
+console.log(mJudah.calcAge())
+console.log(mJudah.age);
 // console.log(mJudah['calcAge'](2002));
 console.log('====================================');
+
+//Challenge
+
 
 
 
