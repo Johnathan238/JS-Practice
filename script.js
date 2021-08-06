@@ -370,44 +370,60 @@ marioJudah()
 
 // * Object Method * //
 
-const mJudah = {
-  firstName: 'Mario',
-  lastName: 'Judah',
-  job: 'Rockstar',
-  birthYear: 1999,
-  friends: ['Fatneek Sean', 'Trippe Redd'],
-  hasDriversL: true,
+// const mJudah = {
+//   firstName: 'Mario',
+//   lastName: 'Judah',
+//   job: 'Rockstar',
+//   birthYear: 1999,
+//   friends: ['Fatneek Sean', 'Trippe Redd'],
+//   hasDriversL: true,
 
-  // calcAge: function (birthYear) {
-  //   return 2100 - birthYear
-  // }
+//   // calcAge: function (birthYear) {
+//   //   return 2100 - birthYear
+//   // }
 
-  // calcAge: function () {
-  //     console.log(this);
-  //   return 2100 - this.birthYear
-  // }
+//   // calcAge: function () {
+//   //     console.log(this);
+//   //   return 2100 - this.birthYear
+//   // }
 
-  calcAge: function () {
-      this.age = 2100 - this.birthYear
-    return this.age
-  },
+//   calcAge: function () {
+//       this.age = 2100 - this.birthYear
+//     return this.age
+//   },
 
-  //Challenge
-  mInfo: function () {
-    this.name = console.log(`${mJudah.firstName} is a ${mJudah.calcAge()} old ${mJudah.job}, and he has a driver's license ${mJudah.hasDriversL}`);
-    return this.name
-  }
+//   //Challenge
+//   mInfo: function () {
+//     this.name = console.log(`${mJudah.firstName} is a ${mJudah.calcAge()} old ${mJudah.job}, and he has a driver's license ${mJudah.hasDriversL}`);
+//     return this.name
+//   }
+// }
+
+// console.log('====================================');
+// console.log(mJudah.calcAge())
+// console.log(mJudah.age);
+// // console.log(mJudah['calcAge'](2002));
+// console.log('====================================');
+
+// //Challenge
+// console.log(mJudah.mInfo());
+// console.log(mJudah.name);
+
+// challenge 3
+
+const johnSmith = {
+  firstName: John,
+  lastName: Smith,
+  pounds: 171,
+  height: `5'4`
 }
 
-console.log('====================================');
-console.log(mJudah.calcAge())
-console.log(mJudah.age);
-// console.log(mJudah['calcAge'](2002));
-console.log('====================================');
-
-//Challenge
-console.log(mJudah.mInfo());
-console.log(mJudah.name);
+const markMiller = {
+  firstName: Mark,
+  lastName: Miller,
+  pounds: 202,
+  height: `6'3`
+}
 
 
 
