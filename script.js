@@ -412,15 +412,24 @@ marioJudah()
 // challenge 3
 
 const johnSmith = {
-  firstName: John,
-  lastName: Smith,
+  firstName: 'John',
+  lastName: 'Smith',
   pounds: 171,
-  height: `5'4`
+  height: 5,
+
+  calcMBMI: function () {
+    this.MBMI = johnSmith.pounds / johnSmith.height ** 2
+    return this.MBMI
+  }
 }
 
+console.log('====================================');
+console.log(johnSmith.calcMBMI());
+console.log('====================================');
+
 const markMiller = {
-  firstName: Mark,
-  lastName: Miller,
+  firstName: 'Mark',
+  lastName: 'Miller',
   pounds: 202,
   height: `6'3`
 }
