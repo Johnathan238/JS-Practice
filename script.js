@@ -417,22 +417,29 @@ const johnSmith = {
   pounds: 171,
   height: 5,
 
-  calcMBMI: function () {
-    this.MBMI = johnSmith.pounds / johnSmith.height ** 2
-    return this.MBMI
+  calcJBMI: function () {
+    this.JBMI = johnSmith.pounds / johnSmith.height ** 2
+    return this.JBMI
   }
 }
 
 console.log('====================================');
-console.log(johnSmith.calcMBMI());
+console.log(johnSmith.calcJBMI());
 console.log('====================================');
 
 const markMiller = {
   firstName: 'Mark',
   lastName: 'Miller',
   pounds: 202,
-  height: `6'3`
+  height: 6,
+
+  calcMBMI: function () {
+    this.MBMI = markMiller.pounds / markMiller.height ** 2
+    return this.MBMI
+  }
 }
+
+console.log(markMiller.calcMBMI());
 
 
 
