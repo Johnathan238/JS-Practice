@@ -441,6 +441,20 @@ const markMiller = {
 
 console.log(markMiller.calcMBMI());
 
+const whoBmiIsG = function () {
+  if (johnSmith.calcJBMI() > markMiller.calcMBMI()) {
+    console.log(`John BMI ${johnSmith.calcJBMI()} is greater then Mark BMI ${markMiller.calcMBMI()}`);
+  } else if (markMiller.calcMBMI() > johnSmith.calcJBMI()) {
+    console.log(`Mark BMI ${markMiller.calcMBMI()} is greater then John BMI ${johnSmith.calcJBMI()}`);
+  } else {
+    console.log(`They both fam`);
+  }
+}
+
+console.log('====================================');
+console.log(whoBmiIsG());
+console.log('====================================');
+
 
 
 
