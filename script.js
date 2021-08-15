@@ -459,7 +459,7 @@ marioJudah()
 
 // for loop keeps running while condition is TRUE
 for(let rep = 1; rep <= 10; rep++){
-  console.log("Lifitng weight with my brudda sean 1 🏋️");
+  console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
 }
 
 
