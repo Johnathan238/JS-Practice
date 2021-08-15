@@ -458,7 +458,7 @@ marioJudah()
 // *Iteration: The For Loop* //
 
 // for loop keeps running while condition is TRUE
-for(let rep = 1; rep <= 10; rep++){
+for(let rep = 10; rep <= 30; rep++){
   console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
 }
 
