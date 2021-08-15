@@ -458,10 +458,21 @@ marioJudah()
 // *Iteration: The For Loop* //
 
 // for loop keeps running while condition is TRUE
-for(let rep = 10; rep <= 30; rep++){
-  console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
+// for(let rep = 10; rep <= 30; rep++){
+//   console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
+// }
+
+// *Looping arrays, breaking, & continuing* //
+
+const mJudah = {
+  firstName: 'Mario',
+  lastName: 'Judah',
+  job: 'Rockstar',
+  age: 22,
+  friends: ['Fatneek Sean', 'Trippe Redd']
 }
 
-
-
+for(let i = 0; ; i++){
+  console.log(mJudah[i]);
+}
 
