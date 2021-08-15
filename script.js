@@ -411,49 +411,49 @@ marioJudah()
 
 // challenge 3
 
-const johnSmith = {
-  firstName: 'John',
-  lastName: 'Smith',
-  pounds: 171,
-  height: 5,
+// const johnSmith = {
+//   firstName: 'John',
+//   lastName: 'Smith',
+//   pounds: 171,
+//   height: 5,
 
-  calcJBMI: function () {
-    this.JBMI = johnSmith.pounds / johnSmith.height ** 2
-    return this.JBMI
-  }
-}
+//   calcJBMI: function () {
+//     this.JBMI = johnSmith.pounds / johnSmith.height ** 2
+//     return this.JBMI
+//   }
+// }
 
-console.log('====================================');
-console.log(johnSmith.calcJBMI());
-console.log('====================================');
+// console.log('====================================');
+// console.log(johnSmith.calcJBMI());
+// console.log('====================================');
 
-const markMiller = {
-  firstName: 'Mark',
-  lastName: 'Miller',
-  pounds: 202,
-  height: 6,
+// const markMiller = {
+//   firstName: 'Mark',
+//   lastName: 'Miller',
+//   pounds: 202,
+//   height: 6,
 
-  calcMBMI: function () {
-    this.MBMI = markMiller.pounds / markMiller.height ** 2
-    return this.MBMI
-  }
-}
+//   calcMBMI: function () {
+//     this.MBMI = markMiller.pounds / markMiller.height ** 2
+//     return this.MBMI
+//   }
+// }
 
-console.log(markMiller.calcMBMI());
+// console.log(markMiller.calcMBMI());
 
-const whoBmiIsG = function () {
-  if (johnSmith.calcJBMI() > markMiller.calcMBMI()) {
-    console.log(`John BMI ${johnSmith.calcJBMI()} is greater then Mark BMI ${markMiller.calcMBMI()}`);
-  } else if (markMiller.calcMBMI() > johnSmith.calcJBMI()) {
-    console.log(`Mark BMI ${markMiller.calcMBMI()} is greater then John BMI ${johnSmith.calcJBMI()}`);
-  } else {
-    console.log(`They both fam`);
-  }
-}
+// const whoBmiIsG = function () {
+//   if (johnSmith.calcJBMI() > markMiller.calcMBMI()) {
+//     console.log(`John BMI ${johnSmith.calcJBMI()} is greater then Mark BMI ${markMiller.calcMBMI()}`);
+//   } else if (markMiller.calcMBMI() > johnSmith.calcJBMI()) {
+//     console.log(`Mark BMI ${markMiller.calcMBMI()} is greater then John BMI ${johnSmith.calcJBMI()}`);
+//   } else {
+//     console.log(`They both fam`);
+//   }
+// }
 
-console.log('====================================');
-console.log(whoBmiIsG());
-console.log('====================================');
+// console.log('====================================');
+// console.log(whoBmiIsG());
+// console.log('====================================');
 
 
 
