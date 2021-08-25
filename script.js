@@ -470,11 +470,12 @@ const mJudah = [
   'Rockstar',
   22,
   ['Fatneek Sean', 'Trippe Redd'],
-  'TRUST ME DADDY'
+  'TRUST ME DADDY',
+  ['Are you SKUCKED']
 ]
 
 for(let i = 0; i < mJudah.length ; i++){
-    console.log(mJudah[i]);
+    console.log(mJudah[i], typeof mJudah[i]);
 }
 
 
