@@ -464,15 +464,18 @@ marioJudah()
 
 // *Looping arrays, breaking, & continuing* //
 
-// const mJudah = [
-//   'Mario',
-//   'Judah',
-//   'Rockstar',
-//   22,
-//   ['Fatneek Sean', 'Trippe Redd']
-// ]
+const mJudah = [
+  'Mario',
+  'Judah',
+  'Rockstar',
+  22,
+  ['Fatneek Sean', 'Trippe Redd'],
+  'TRUST ME DADDY'
+]
 
-// for(let i = 0; i < 6 ; i++){
-//     console.log(mJudah[i]);
-// }
+for(let i = 0; i < 6 ; i++){
+    console.log(mJudah[i]);
+}
+
+
 
