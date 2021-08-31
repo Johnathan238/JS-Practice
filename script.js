@@ -476,7 +476,11 @@ const mJudah = [
 
 for(let i = 0; i < mJudah.length ; i++){
     console.log(mJudah[i], typeof mJudah[i]);
+
+    types[i] = typeof mJudah[i]
 }
+
+
 
 
 
