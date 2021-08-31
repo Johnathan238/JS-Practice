@@ -474,10 +474,14 @@ const mJudah = [
   ['Are you SKUCKED']
 ]
 
+const types = []
+
 for(let i = 0; i < mJudah.length ; i++){
     console.log(mJudah[i], typeof mJudah[i]);
 
-    types[i] = typeof mJudah[i]
+    // Filling types array
+    // types[i] = typeof mJudah[i]
+    types.push(typeof mJudah[i])
 }
 
 console.log(types);
