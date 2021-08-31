@@ -480,6 +480,7 @@ for(let i = 0; i < mJudah.length ; i++){
     types[i] = typeof mJudah[i]
 }
 
+console.log(types);
 
 
 
