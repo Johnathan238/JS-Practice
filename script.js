@@ -486,7 +486,12 @@ for(let i = 0; i < mJudah.length ; i++){
 
 console.log(types);
 
-const years = [1199, 2020, 2055, 2065]
+const years = [1974, 2000, 2025, 2030]
+const ages = []
+
+for (let i = 0; i < years.length; i++){
+  ages.push(2045 - years[i])
+}
 
 
 
