@@ -499,8 +499,13 @@ console.log('====================================');
 
 // Continue & Break
 
-for (let i = 0; i < mJudah.length; i++){  //continue
-  if (typeof mJudah[i] !== 'string') continue;
+// for (let i = 0; i < mJudah.length; i++){  //continue
+//   if (typeof mJudah[i] !== 'string') continue;
+//   console.log(mJudah[i], typeof mJudah[i]);
+// }
+
+for (let i = 0; i < mJudah.length; i++){  //break
+  if (typeof mJudah[i] === 'number') break;
   console.log(mJudah[i], typeof mJudah[i]);
 }
 
