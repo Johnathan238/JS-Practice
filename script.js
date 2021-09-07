@@ -504,11 +504,11 @@ console.log('====================================');
 //   console.log(mJudah[i], typeof mJudah[i]);
 // }
 
-console.log('====================================');
+// console.log('====================================');
 
-for (let i = 0; i < mJudah.length; i++){  //break
-  if (typeof mJudah[i] === 'number') break;
-  console.log(mJudah[i], typeof mJudah[i]);
-}
+// for (let i = 0; i < mJudah.length; i++){  //break
+//   if (typeof mJudah[i] === 'number') break;
+//   console.log(mJudah[i], typeof mJudah[i]);
+// }
 
 
