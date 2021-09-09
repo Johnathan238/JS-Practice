@@ -464,38 +464,38 @@ marioJudah()
 
 // *Looping arrays, breaking, & continuing* //
 
-const mJudah = [
-  'Mario',
-  'Judah',
-  'Rockstar',
-  22,
-  ['Fatneek Sean', 'Trippe Redd'],
-  'TRUST ME DADDY',
-  ['Are you SKUCKED']
-]
+// const mJudah = [
+//   'Mario',
+//   'Judah',
+//   'Rockstar',
+//   22,
+//   ['Fatneek Sean', 'Trippe Redd'],
+//   'TRUST ME DADDY',
+//   ['Are you SKUCKED']
+// ]
 
-const types = []
+// const types = []
 
-for(let i = 0; i < mJudah.length ; i++){
-    console.log(mJudah[i], typeof mJudah[i]);
+// for(let i = 0; i < mJudah.length ; i++){
+//     console.log(mJudah[i], typeof mJudah[i]);
 
-    // Filling types array
-    // types[i] = typeof mJudah[i]
-    types.push(typeof mJudah[i])
-}
+//     // Filling types array
+//     // types[i] = typeof mJudah[i]
+//     types.push(typeof mJudah[i])
+// }
 
-console.log(types);
+// console.log(types);
 
-const years = [1974, 2000, 2020, 2030]
-const ages = []
+// const years = [1974, 2000, 2020, 2030]
+// const ages = []
 
-for (let i = 0; i < years.length; i++){
-  ages.push(2045 - years[i])
-}
+// for (let i = 0; i < years.length; i++){
+//   ages.push(2045 - years[i])
+// }
 
-console.log('====================================');
-console.log(ages);
-console.log('====================================');
+// console.log('====================================');
+// console.log(ages);
+// console.log('====================================');
 
 // Continue & Break
 
@@ -511,5 +511,17 @@ console.log('====================================');
 //   console.log(mJudah[i], typeof mJudah[i]);
 // }
 
-/** Looping Backwards * Loops in Loops**/
+//** Looping Backwards * Loops in Loops**//
+
+const mJudah = [
+  'Mario',
+  'Judah',
+  'Rockstar',
+  22,
+  ['Fatneek Sean', 'Trippe Redd'],
+  'TRUST ME DADDY',
+  ['Are you SKUCKED']
+]
+
+for (let i = mJudah.length - 1;)
 
