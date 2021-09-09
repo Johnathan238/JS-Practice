@@ -523,7 +523,7 @@ const mJudah = [
   ['Are you SKUCKED']
 ]
 
-for (let i = mJudah.length - 1; i => 0; i--){
+for (let i = mJudah.length - 1; i >= 0; i--){
   console.log(mJudah[i]);
 }
 
