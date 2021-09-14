@@ -524,6 +524,6 @@ const mJudah = [
 ]
 
 for (let i = mJudah.length - 1; i >= 0; i--){
-  console.log(mJudah[i]);
+  console.log(i, mJudah[i]);
 }
 
