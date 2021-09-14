@@ -529,10 +529,10 @@ marioJudah()
 
 // ** Loop over Loop **//
 for (let exercise = 1; exercise <= 3; exercise++ ){
-  console.log(`---- Execise ${exercise}`);
+  console.log(`---- Exercise ${exercise}`);
 
   for (let rep = 1; rep < 6; rep++){
-    console.log(`---- Reps are ${rep}`);
+    console.log(`---- Exercise ${exercise} Reps are ${rep}`);
   }
 }
 
