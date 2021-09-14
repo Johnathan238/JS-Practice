@@ -513,17 +513,26 @@ marioJudah()
 
 //** Looping Backwards * Loops in Loops**//
 
-const mJudah = [
-  'Mario',
-  'Judah',
-  'Rockstar',
-  22,
-  ['Fatneek Sean', 'Trippe Redd'],
-  'TRUST ME DADDY',
-  ['Are you SKUCKED']
-]
+// const mJudah = [
+//   'Mario',
+//   'Judah',
+//   'Rockstar',
+//   22,
+//   ['Fatneek Sean', 'Trippe Redd'],
+//   'TRUST ME DADDY',
+//   ['Are you SKUCKED']
+// ]
 
-for (let i = mJudah.length - 1; i >= 0; i--){
-  console.log(i, mJudah[i]);
+// for (let i = mJudah.length - 1; i >= 0; i--){
+//   console.log(i, mJudah[i]);
+// }
+
+// ** Loop over Loop **//
+for (let exercise = 1; exercise <= 3; exercise++ ){
+  console.log(`---- Execise ${exercise}`);
+
+  for (let rep = 1; rep < 6; rep++){
+    console.log(`---- Reps are ${rep}`);
+  }
 }
 
