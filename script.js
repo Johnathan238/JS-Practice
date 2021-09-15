@@ -543,6 +543,9 @@ for (let exercise = 1; exercise <= 3; exercise++ ){
 //   console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
 // }
 
+let rep = 1;
 while (rep <= 6) {
-  
+  console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
+
+  rep++;
 }
