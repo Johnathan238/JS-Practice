@@ -536,3 +536,13 @@ for (let exercise = 1; exercise <= 3; exercise++ ){
   }
 }
 
+// ** While Loop ** //
+
+// for loop keeps running while condition is TRUE // just to compare
+// for(let rep = 10; rep <= 30; rep++){
+//   console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
+// }
+
+while (rep <= 6) {
+  
+}
