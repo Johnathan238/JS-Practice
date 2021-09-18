@@ -616,4 +616,7 @@ while (dice !== 6){
 // console.log(tips);
 
 // ** Challenge #4  Loops** //
+const bills = [22, 295, 176, 40, 37, 105, 10, 1100, 86, 52]
+const tips = []
+const totals = []
 
