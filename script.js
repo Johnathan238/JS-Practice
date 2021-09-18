@@ -528,13 +528,13 @@ marioJudah()
 // }
 
 // ** Loop over Loop **//
-for (let exercise = 1; exercise <= 3; exercise++ ){
-  console.log(`---- Exercise ${exercise}`);
+// for (let exercise = 1; exercise <= 3; exercise++ ){
+//   console.log(`---- Exercise ${exercise}`);
 
-  for (let rep = 1; rep < 6; rep++){
-    console.log(`---- Exercise ${exercise} Reps are ${rep}`);
-  }
-}
+//   for (let rep = 1; rep < 6; rep++){
+//     console.log(`---- Exercise ${exercise} Reps are ${rep}`);
+//   }
+// }
 
 // ** While Loop ** //
 
@@ -543,9 +543,17 @@ for (let exercise = 1; exercise <= 3; exercise++ ){
 //   console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
 // }
 
-let rep = 1;
-while (rep <= 6) {
-  console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
+// let rep = 1;
+// while (rep <= 6) {
+//   console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
 
-  rep++;
-}
+//   rep++;
+// }
+
+let dice = Math.trunc(Math.random() * 6)
+
+
+while (dice !== 6){
+  console.log(`You rolled a ${dice}`);
+  dice = Math.trunc(Math.random() * 6)
+} 
