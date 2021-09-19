@@ -550,14 +550,14 @@ marioJudah()
 //   rep++;
 // }
 
-let dice = Math.trunc(Math.random() * 6) + 1
+// let dice = Math.trunc(Math.random() * 6) + 1
 
 
-while (dice !== 6){
-  console.log(`You rolled a ${dice}`);
-  dice = Math.trunc(Math.random() * 6) + 1
-  if (dice === 6) console.log(`Loop is about to end at ${dice}`);
-} 
+// while (dice !== 6){
+//   console.log(`You rolled a ${dice}`);
+//   dice = Math.trunc(Math.random() * 6) + 1
+//   if (dice === 6) console.log(`Loop is about to end at ${dice}`);
+// } 
 
 
 
@@ -580,14 +580,17 @@ const tips = []
 const totals = []
 
 
-
-// for(let i = 0; i < bills.length; i++){
-//   return bills >= 50 && bills <= 300 ? bills * tip2 :  bills * tip;
-// }
-
 const calcTip = function (bill) {
   return bill >= 50 && bill <= 300 ? bill * tip2 :  bill * tip;
 }
+
+for(let i = 0; i < bills.length; i++){
+  const tip = calcTip(bills[i])
+  tips.push(tip)
+  totals.push(tip + bills[i])
+}
+
+console.log(calcTip);
 // for(let i = 0; i < mJudah.length ; i++){
 //     console.log(mJudah[i], typeof mJudah[i]);
 
