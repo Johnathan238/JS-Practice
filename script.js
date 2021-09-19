@@ -579,9 +579,8 @@ const bills = [22, 295, 176, 40, 37, 105, 10, 1100, 86, 52]
 const tips = []
 const totals = []
 
-
 const calcTip = function (bill) {
-  return bill >= 50 && bill <= 300 ? bill * tip2 :  bill * tip;
+  return bill >= 50 && bill <= 300 ? bill * 0.15 :  bill * 0.2;
 }
 
 for(let i = 0; i < bills.length; i++){
@@ -590,7 +589,15 @@ for(let i = 0; i < bills.length; i++){
   totals.push(tip + bills[i])
 }
 
-console.log(calcTip);
+console.log(bills, tips, totals);
+
+// ** Second part of the challenge **//
+arr = []
+sum = 0
+const calcAverage = function (arr) {
+
+}
+
 // for(let i = 0; i < mJudah.length ; i++){
 //     console.log(mJudah[i], typeof mJudah[i]);
 
