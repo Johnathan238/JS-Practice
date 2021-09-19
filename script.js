@@ -560,47 +560,6 @@ while (dice !== 6){
 } 
 
 
-//** Coding Challenge #2 Array **//
-// const tip = (20/100)
-// const tip2 = (15/100)
-// console.log(tip, tip2)
-
-// const bill = (275)
-// const bill1 = (40)
-// const bill3 = (430)
-// console.log(bill)
-
-// const newBill = bill >= 50 && bill <= 300 ? bill * tip2 : bill * tip;
-// console.log(`The bill ${bill}, the tip was ${tip2}, and total value ${bill + tip2}`)
-
-// const newBill1 = bill1 >= 50 && bill1 <= 300 ? bill1 * tip2 :  bill1 * tip;
-// console.log(`The bill ${bill1}, the tip was ${tip}, and total value ${bill + tip}`)
-
-// const newBill2 = bill3 >= 50 && bill3 <= 300 ? bill3 * tip2 :  bill3 * tip;
-// console.log(`The bill ${bill3}, the tip was ${tip}, and total value ${bill3 + tip}`)
-
-// const tip = (20/100)
-// const tip2 = (15/100)
-// console.log(tip, tip2)
-
-
-// const bills = [125, 555, 44]
-// console.log(bills);
-
-// console.log(bills[0] * tip2);
-
-// const newBill = bills[0] >= 50 && bills[0] <= 300 ? bills[0] * tip2 : bills[0] * tip;
-// console.log(` Total value ${bills[0] + tip2}`)
-
-// const newBill1 = bills[1] >= 50 && bills[1] <= 300 ? bills[1] * tip2 :  bills[1] * tip;
-// console.log(` Total value ${bills[1] + tip}`)
-
-// const newBill2 = bills[2] >= 50 && bills[2] <= 300 ? bills[2] * tip2 :  bills[2] * tip;
-// console.log(` Total value ${bills[2] + tip}`)
-
-// const calcTip = [newBill, newBill1, newBill2]
-// console.log(calcTip);
-
 
 // ** Instructor Solution ** //
 
@@ -619,4 +578,29 @@ while (dice !== 6){
 const bills = [22, 295, 176, 40, 37, 105, 10, 1100, 86, 52]
 const tips = []
 const totals = []
+
+
+
+// for(let i = 0; i < bills.length; i++){
+//   return bills >= 50 && bills <= 300 ? bills * tip2 :  bills * tip;
+// }
+
+const calcTip = function (bill) {
+  return bill >= 50 && bill <= 300 ? bill * tip2 :  bill * tip;
+}
+// for(let i = 0; i < mJudah.length ; i++){
+//     console.log(mJudah[i], typeof mJudah[i]);
+
+//     // Filling types array
+//     // types[i] = typeof mJudah[i]
+//     types.push(typeof mJudah[i])
+// }
+// ** Loop over Loop **//
+// for (let exercise = 1; exercise <= 3; exercise++ ){
+//   console.log(`---- Exercise ${exercise}`);
+
+//   for (let rep = 1; rep < 6; rep++){
+//     console.log(`---- Exercise ${exercise} Reps are ${rep}`);
+//   }
+// }
 
