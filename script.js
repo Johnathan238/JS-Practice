@@ -575,28 +575,36 @@ marioJudah()
 // console.log(tips);
 
 // ** Challenge #4  Loops** //
-const bills = [22, 295, 176, 40, 37, 105, 10, 1100, 86, 52]
-const tips = []
-const totals = []
+// const bills = [22, 295, 176, 40, 37, 105, 10, 1100, 86, 52]
+// const tips = []
+// const totals = []
 
-const calcTip = function (bill) {
-  return bill >= 50 && bill <= 300 ? bill * 0.15 :  bill * 0.2;
-}
+// const calcTip = function (bill) {
+//   return bill >= 50 && bill <= 300 ? bill * 0.15 :  bill * 0.2;
+// }
 
-for(let i = 0; i < bills.length; i++){
-  const tip = calcTip(bills[i])
-  tips.push(tip)
-  totals.push(tip + bills[i])
-}
+// for(let i = 0; i < bills.length; i++){
+//   const tip = calcTip(bills[i])
+//   tips.push(tip)
+//   totals.push(tip + bills[i])
+// }
 
-console.log(bills, tips, totals);
+// console.log(bills, tips, totals);
 
 // ** Second part of the challenge **//
-arr = []
-sum = 0
-const calcAverage = function (arr) {
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+let sum = 0
 
+const calcAverage = function (arr) {
+  
 }
+
+for (let i = 0; i <= arr.length; i++){
+  sum += arr[i]
+}
+// console.log(sum);
+
+console.log(arr);
 
 // for(let i = 0; i < mJudah.length ; i++){
 //     console.log(mJudah[i], typeof mJudah[i]);
