@@ -11,7 +11,7 @@
 /** Functions **/
 
 function marioJudah() {
-    console.log("MARIOOOOO JUDAHHHHH");
+  console.log("MARIOOOOO JUDAHHHHH");
 }
 
 // calling / running / invoking function
@@ -575,22 +575,22 @@ marioJudah()
 // console.log(tips);
 
 // ** Challenge #4  Loops** //
-const bills = [22, 295, 176, 40, 37, 105, 10, 1100, 86, 52]
-const tips = []
-const totals = []
+// const bills = [22, 295, 176, 40, 37, 105, 10, 1100, 86, 52]
+// const tips = []
+// const totals = []
 
-const calcTip = function (bill) {
-  return bill >= 50 && bill <= 300 ? bill * 0.15 :  bill * 0.2;
-}
+// const calcTip = function (bill) {
+//   return bill >= 50 && bill <= 300 ? bill * 0.15 :  bill * 0.2;
+// }
 
-for(let i = 0; i <= bills.length; i++){
-  tips.push(calcTip(bills[i]))
-  totals.push(bills[i] + tips[i])
-}
+// for(let i = 0; i < bills.length; i++){
+//   tips.push(calcTip(bills[i]))
+//   totals.push(bills[i] + tips[i])
+// }
 
-console.log('====================================');
-console.log(bills, tips, totals);
-console.log('====================================');
+// console.log('====================================');
+// console.log(bills, tips, totals);
+// console.log('====================================');
 
 // ** Second part of the challenge **//
 // let arr = [1,2,3,4]
@@ -619,7 +619,7 @@ console.log('====================================');
 //     // types[i] = typeof mJudah[i]
 //     types.push(typeof mJudah[i])
 // }
-// ** Loop over Loop **//
+// ** NOTE Loop over Loop **//
 // for (let exercise = 1; exercise <= 3; exercise++ ){
 //   console.log(`---- Exercise ${exercise}`);
 
@@ -628,3 +628,4 @@ console.log('====================================');
 //   }
 // }
 
+// ** NOTE Node.js ** //
