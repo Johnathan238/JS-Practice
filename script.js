@@ -629,3 +629,11 @@ marioJudah()
 // }
 
 // ** NOTE Node.js ** //
+
+function multiply(a, b){
+  const cal = a * b
+
+  return cal
+}
+
+console.log(multiply(2, 6))
