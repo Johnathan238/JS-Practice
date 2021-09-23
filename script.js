@@ -619,7 +619,7 @@ marioJudah()
 //     // types[i] = typeof mJudah[i]
 //     types.push(typeof mJudah[i])
 // }
-// ** NOTE Loop over Loop **//
+//  NOTE Loop over Loop //
 // for (let exercise = 1; exercise <= 3; exercise++ ){
 //   console.log(`---- Exercise ${exercise}`);
 
@@ -628,12 +628,19 @@ marioJudah()
 //   }
 // }
 
-// ** NOTE Node.js ** //
+//  NOTE Random challenge  //
+// function multiply(a, b){
+//   const cal = a * b
+  
+//   return cal
+// }
 
-function multiply(a, b){
-  const cal = a * b
+// console.log(multiply(2, 6))
 
-  return cal
-}
+//  NOTE Sloving problems like a programmer //
+const tempatures = [3, -2, -4, -1, 'error', 9, 7, 10, 18, 20, 5]
 
-console.log(multiply(2, 6))
+// 1) Understanding the problem
+
+
+// 2) breaking it up
