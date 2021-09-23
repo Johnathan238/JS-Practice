@@ -638,9 +638,14 @@ marioJudah()
 // console.log(multiply(2, 6))
 
 //  NOTE Sloving problems like a programmer //
-const tempatures = [3, -2, -4, -1, 'error', 9, 7, 10, 18, 20, 5]
+const tempt = [3, -2, -4, -1, 'error', 9, 7, 10, 18, 20, 5]
 
 // 1) Understanding the problem
-
+// what is the temp amplitude? ANSWER : difference between highest & lowest temp
+// How to compute the max & min temps?
 
 // 2) breaking it up
+// How to ignore errors?
+// Find max value from array
+// Find min value from array
+// Subtract min from max (amplitude) & return it
