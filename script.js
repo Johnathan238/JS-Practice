@@ -657,14 +657,19 @@ const getTemp = function (temps) {
   for (let i = 0; i < temps.length; i++){
     const newTemp = temps[i]
 
+    if (typeof newTemp !== 'number') continue;
+
     if (newTemp > max) max = newTemp
     if (newTemp < min) min = newTemp
   }
   console.log('====================================');
   console.log(max, min);
   console.log('====================================');
+  return max - min;
 }
 
-getTemp(tempt)
-
+const amp = getTemp(tempt)
+console.log('====================================');
+console.log(amp);
+console.log('====================================');
 
