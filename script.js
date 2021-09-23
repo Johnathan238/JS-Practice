@@ -649,3 +649,22 @@ const tempt = [3, -2, -4, -1, 'error', 9, 7, 10, 18, 20, 5]
 // Find max value from array
 // Find min value from array
 // Subtract min from max (amplitude) & return it
+
+const getTemp = function (temps) {
+  let max = temps[0]
+  let min = temps[0]
+
+  for (let i = 0; i < temps.length; i++){
+    const newTemp = temps[i]
+
+    if (newTemp > max) max = newTemp
+    if (newTemp < min) min = newTemp
+  }
+  console.log('====================================');
+  console.log(max, min);
+  console.log('====================================');
+}
+
+getTemp(tempt)
+
+
