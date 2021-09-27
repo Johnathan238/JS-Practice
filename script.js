@@ -682,6 +682,9 @@ const getTemp1 = function (t1, t2) {
   // const arr3 = arr1.concat(t2)
 
   const temps = t1.concat(t2)
+    console.log('====================================');
+    console.log(temps);
+    console.log('====================================');
 
   let max = temps[0]
   let min = temps[0]
@@ -700,7 +703,7 @@ const getTemp1 = function (t1, t2) {
   return max - min;
 }
 
-const amp1 = getTemp1(tempt)
+const amp1 = getTemp1(['a', 'b', 'c'] , ['d', 'e', 'f'])
 console.log('====================================');
 console.log(amp1);
 console.log('====================================');
