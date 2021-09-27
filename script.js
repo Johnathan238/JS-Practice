@@ -703,7 +703,7 @@ const getTemp1 = function (t1, t2) {
   return max - min;
 }
 
-const amp1 = getTemp1(['a', 'b', 'c'] , ['d', 'e', 'f'])
+const amp1 = getTemp1([5, 8, 10] , [5, 3, 6])
 console.log('====================================');
 console.log(amp1);
 console.log('====================================');
