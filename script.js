@@ -650,26 +650,31 @@ const tempt = [3, -2, -4, -1, 'error', 9, 7, 10, 18, 20, 5]
 // Find min value from array
 // Subtract min from max (amplitude) & return it
 
-const getTemp = function (temps) {
-  let max = temps[0]
-  let min = temps[0]
+// const getTemp = function (temps) {
+//   let max = temps[0]
+//   let min = temps[0]
 
-  for (let i = 0; i < temps.length; i++){
-    const newTemp = temps[i]
+//   for (let i = 0; i < temps.length; i++){
+//     const newTemp = temps[i]
 
-    if (typeof newTemp !== 'number') continue;
+//     if (typeof newTemp !== 'number') continue;
 
-    if (newTemp > max) max = newTemp
-    if (newTemp < min) min = newTemp
-  }
-  console.log('====================================');
-  console.log(max, min);
-  console.log('====================================');
-  return max - min;
-}
+//     if (newTemp > max) max = newTemp
+//     if (newTemp < min) min = newTemp
+//   }
+//   console.log('====================================');
+//   console.log(max, min);
+//   console.log('====================================');
+//   return max - min;
+// }
 
-const amp = getTemp(tempt)
-console.log('====================================');
-console.log(amp);
-console.log('====================================');
+// const amp = getTemp(tempt)
+// console.log('====================================');
+// console.log(amp);
+// console.log('====================================');
+
+// problem 2
+// Function should now rececive 2 arrays of temps
+
+
 
