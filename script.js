@@ -713,12 +713,24 @@ const measK = function () {
   const meaS = {
     type: 'temp',
     unit: 'celsisu',
-    value: prompt('Degrees C:')
+
+    // NOTE  Fix bug
+
+    value: Number(prompt('Degrees C:'))
   }
+
+// NOTE Find bug
+  console.log('====================================');
+  console.table(meaS);
+  console.log('====================================');
+
   const kel = meaS.value + 273;
   return kel
 }
 
+// NOTE Identify problem
+
 console.log('====================================');
 console.log(measK());
 console.log('====================================');
+
