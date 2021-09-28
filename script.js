@@ -638,7 +638,7 @@ marioJudah()
 // console.log(multiply(2, 6))
 
 //  NOTE Sloving problems like a programmer //
-const tempt = [3, -2, -4, -1, 'error', 9, 7, 10, 18, 20, 5]
+// const tempt = [3, -2, -4, -1, 'error', 9, 7, 10, 18, 20, 5]
 
 // 1) Understanding the problem
 // what is the temp amplitude? ANSWER : difference between highest & lowest temp
@@ -676,35 +676,49 @@ const tempt = [3, -2, -4, -1, 'error', 9, 7, 10, 18, 20, 5]
 // problem 2
 // Function should now rececive 2 arrays of temps
 
-const getTemp1 = function (t1, t2) {
-  // const arr1 = ['a', 'b', 'c'] // NOTE -> MDN web doc "Array.concat"
-  // const arr2 = ['d', 'e', 'f']
-  // const arr3 = arr1.concat(t2)
+// const getTemp1 = function (t1, t2) {
+//   // const arr1 = ['a', 'b', 'c'] // NOTE -> MDN web doc "Array.concat"
+//   // const arr2 = ['d', 'e', 'f']
+//   // const arr3 = arr1.concat(t2)
 
-  const temps = t1.concat(t2)
-    console.log('====================================');
-    console.log(temps);
-    console.log('====================================');
+//   const temps = t1.concat(t2)
+//     console.log('====================================');
+//     console.log(temps);
+//     console.log('====================================');
 
-  let max = temps[0]
-  let min = temps[0]
+//   let max = temps[0]
+//   let min = temps[0]
 
-  for (let i = 0; i < temps.length; i++){
-    const newTemp = temps[i]
+//   for (let i = 0; i < temps.length; i++){
+//     const newTemp = temps[i]
 
-    if (typeof newTemp !== 'number') continue;
+//     if (typeof newTemp !== 'number') continue;
 
-    if (newTemp > max) max = newTemp
-    if (newTemp < min) min = newTemp
+//     if (newTemp > max) max = newTemp
+//     if (newTemp < min) min = newTemp
+//   }
+//   console.log('====================================');
+//   console.log(max, min);
+//   console.log('====================================');
+//   return max - min;
+// }
+
+// const amp1 = getTemp1([5, 8, 10] , [5, 3, 6]) 
+// console.log('====================================');
+// console.log(amp1);
+// console.log('====================================');
+
+// NOTE debugging //
+const measK = function () {
+  const meaS = {
+    type: 'temp',
+    unit: 'celsisu',
+    value: prompt('Degrees C:')
   }
-  console.log('====================================');
-  console.log(max, min);
-  console.log('====================================');
-  return max - min;
+  const kel = meaS.value + 273;
+  return kel
 }
 
-const amp1 = getTemp1([5, 8, 10] , [5, 3, 6])
 console.log('====================================');
-console.log(amp1);
+console.log(measK());
 console.log('====================================');
-
