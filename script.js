@@ -709,28 +709,53 @@ marioJudah()
 // console.log('====================================');
 
 // NOTE debugging //
-const measK = function () {
-  const meaS = {
-    type: 'temp',
-    unit: 'celsisu',
+// const measK = function () {
+//   const meaS = {
+//     type: 'temp',
+//     unit: 'celsisu',
 
-    // NOTE  Fix bug
+//     // NOTE  Fix bug
 
-    value: Number(prompt('Degrees C:'))
+//     value: Number(prompt('Degrees C:'))
+//   }
+
+// // NOTE Find bug
+//   console.log('====================================');
+//   console.table(meaS);
+//   console.log('====================================');
+
+//   const kel = meaS.value + 273;
+//   return kel
+// }
+
+// // NOTE Identify problem
+
+// console.log('====================================');
+// console.log(measK());
+// console.log('====================================');
+
+// ** NOTE Going to use the Debugger in chrome ** //
+const tempt = [3, -2, -4, -1, 'error', 9, 7, 10, 18, 20, 5]
+
+const getTemp = function (temps) {
+  let max = 0
+  let min = 0
+
+  for (let i = 0; i < temps.length; i++){
+    const newTemp = temps[i]
+
+    if (typeof newTemp !== 'number') continue;
+
+    if (newTemp > max) max = newTemp
+    if (newTemp < min) min = newTemp
   }
-
-// NOTE Find bug
   console.log('====================================');
-  console.table(meaS);
+  console.log(max, min);
   console.log('====================================');
-
-  const kel = meaS.value + 273;
-  return kel
+  return max - min;
 }
 
-// NOTE Identify problem
-
+const amp = getTemp(tempt)
 console.log('====================================');
-console.log(measK());
+console.log(amp);
 console.log('====================================');
-
