@@ -734,28 +734,31 @@ marioJudah()
 // console.log(measK());
 // console.log('====================================');
 
-// ** NOTE Going to use the Debugger in chrome ** //
-const tempt = [3, -2, -4, -1, 'error', 9, 7, 10, 18, 20, 5]
+// // ** NOTE Going to use the Debugger in chrome ** //
+// const tempt = [3, -2, -4, -1, 'error', 9, 7, 10, 18, 20, 5]
 
-const getTemp = function (temps) {
-  let max = 0
-  let min = 0
+// const getTemp = function (temps) {
+//   let max = 0
+//   let min = 0
 
-  for (let i = 0; i < temps.length; i++){
-    const newTemp = temps[i]
+//   for (let i = 0; i < temps.length; i++){
+//     const newTemp = temps[i]
 
-    if (typeof newTemp !== 'number') continue;
+//     if (typeof newTemp !== 'number') continue;
 
-    if (newTemp > max) max = newTemp
-    if (newTemp < min) min = newTemp
-  }
-  console.log('====================================');
-  console.log(max, min);
-  console.log('====================================');
-  return max - min;
-}
+//     if (newTemp > max) max = newTemp
+//     if (newTemp < min) min = newTemp
+//   }
+//   console.log('====================================');
+//   console.log(max, min);
+//   console.log('====================================');
+//   return max - min;
+// }
 
-const amp = getTemp(tempt)
-console.log('====================================');
-console.log(amp);
-console.log('====================================');
+// const amp = getTemp(tempt)
+// console.log('====================================');
+// console.log(amp);
+// console.log('====================================');
+
+// ** NOTE Challenge #1 Think like a programmer //
+
