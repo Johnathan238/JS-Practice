@@ -619,7 +619,7 @@ marioJudah()
 //     // types[i] = typeof mJudah[i]
 //     types.push(typeof mJudah[i])
 // }
-//  NOTE Loop over Loop //
+//  NOTE ** Loop over Loop ** //
 // for (let exercise = 1; exercise <= 3; exercise++ ){
 //   console.log(`---- Exercise ${exercise}`);
 
@@ -762,3 +762,50 @@ marioJudah()
 
 // ** NOTE Challenge #1 Think like a programmer //
 
+const arr1 = [17, 21, 23]
+// const arr2 = [12, 5, -5, 0, 4]
+
+const printForecast = function (arr) {
+  
+}
+
+// ** Loop over Loop **//
+// for (let exercise = 1; exercise <= 3; exercise++ ){
+//   console.log(`---- Exercise ${exercise}`);
+
+//   for (let rep = 1; rep < 6; rep++){
+//     console.log(`---- Exercise ${exercise} Reps are ${rep}`);
+//   }
+// }
+
+// ** While Loop ** //
+
+// for loop keeps running while condition is TRUE // just to compare
+// for(let rep = 10; rep <= 30; rep++){
+//   console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
+// }
+
+// let rep = 1;
+// while (rep <= 6) {
+//   console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
+
+//   rep++;
+// }
+
+// let dice = Math.trunc(Math.random() * 6) + 1
+
+
+// while (dice !== 6){
+//   console.log(`You rolled a ${dice}`);
+//   dice = Math.trunc(Math.random() * 6) + 1
+//   if (dice === 6) console.log(`Loop is about to end at ${dice}`);
+// } 
+
+//  NOTE ** Loop over Loop ** //
+// for (let exercise = 1; exercise <= 3; exercise++ ){
+//   console.log(`---- Exercise ${exercise}`);
+
+//   for (let rep = 1; rep < 6; rep++){
+//     console.log(`---- Exercise ${exercise} Reps are ${rep}`);
+//   }
+// }
