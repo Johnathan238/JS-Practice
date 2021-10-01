@@ -767,7 +767,26 @@ const arr1 = [17, 21, 23]
 
 const printForecast = function (arr) {
   
+  for (let i = 0; i < arr.length; i++){
+    console.log('====================================');
+    console.log(`${arr[i]} in ${arr.length} days...`);
+    console.log('====================================');
+  }
+console.log('====================================');
+console.log(arr);
+console.log('====================================');
 }
+
+console.log('====================================');
+console.log(printForecast([17, 21, 23]));
+console.log('====================================');
+
+// *Iteration: The For Loop* //
+
+// for loop keeps running while condition is TRUE
+// for(let rep = 10; rep <= 30; rep++){
+//   console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
+// }
 
 // ** Loop over Loop **//
 // for (let exercise = 1; exercise <= 3; exercise++ ){
