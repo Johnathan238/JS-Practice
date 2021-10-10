@@ -828,3 +828,5 @@ console.log('====================================');
 //     console.log(`---- Exercise ${exercise} Reps are ${rep}`);
 //   }
 // }
+
+// NOTE ** Working on CSS ** //
