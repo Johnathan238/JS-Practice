@@ -38,10 +38,18 @@ h1{
   height: 100%;
 } */
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
 body{
     background-color: #ff0000;
-    background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
+    background: linear-gradient(135deg, #ff2828 0%, #000000 100%);
     font-family: 'Qwigley', cursive;
+    text-align: center;
 }
 
 a{
@@ -49,11 +57,26 @@ a{
     color: #020101;
 }
 
+p{
+  margin-bottom: 20px;
+}
+
 .first{
     color: #000000;
+}
+
+#Kanye-Pic{
+  width: 400px;
 }
 
 #Box-Name{
     background-color: red;
     border: 5px solid #000000;
+    width: 400px;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+input, button{
+  
 }
