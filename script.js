@@ -829,4 +829,13 @@ console.log('====================================');
 //   }
 // }
 
-// NOTE ** Working on CSS ** //
+//* Scoping **//
+
+function calcAge(birthYear) {
+  const age = 2055 - birthYear
+  console.log(firstName);
+  return age
+}
+
+const firstName = 'Mario'
+calcAge(2020)
