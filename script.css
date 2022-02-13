@@ -55,6 +55,7 @@ body{
 a{
     text-decoration: none;
     color: #020101;
+    background-color: darksalmon;
 }
 
 p{
@@ -77,6 +78,10 @@ p{
     margin-top: 30px;
 }
 
+#Box-Name h2{
+  background-color: darksalmon;
+}
+
 input, button{
-  
+  padding: 10px;
 }
