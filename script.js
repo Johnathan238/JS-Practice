@@ -833,7 +833,13 @@ console.log('====================================');
 
 function calcAge(birthYear) {
   const age = 2055 - birthYear
-  console.log(firstName);
+  
+    function printAge(){
+      const output = `${firstName} ! You are ${age}, born in ${birthYear}`
+      console.log("🚀 ~ file: script.js ~ line 839 ~ printAge ~ output", output)
+    }
+    printAge()
+
   return age
 }
 
