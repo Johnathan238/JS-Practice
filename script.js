@@ -829,7 +829,7 @@ console.log('====================================');
 //   }
 // }
 
-//* Scoping **//
+// NOTE Scoping //
 
 function calcAge(birthYear) {
   const age = 2055 - birthYear
@@ -846,6 +846,11 @@ function calcAge(birthYear) {
         const iGen = `Oh, your a iGen ${firstName}`
         console.log("🚀 ~ file: script.js ~ line 847 ~ printAge ~ iGen -", iGen)
       }
+
+      function add(a, b) {
+        return a + b
+      }
+      console.log(add(1, 2))
     }
     printAge()
 
