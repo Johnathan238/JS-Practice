@@ -836,15 +836,15 @@ function calcAge(birthYear) {
   
     function printAge(){
       const output = `${firstName} ! You are ${age}, born in ${birthYear}`
-      console.log("🚀 ~ file: script.js ~ line 839 ~ printAge ~ output", output)
+      console.log("🚀 ~ file: script.js ~ line 839 ~ printAge ~ output -", output)
 
       if(birthYear >= 1981 && birthYear <= 1996) {
         const mill = `Oh, your a millenial ${firstName}`
-        console.log("🚀 ~ file: script.js ~ line 843 ~ printAge ~ mill", mill)
+        console.log("🚀 ~ file: script.js ~ line 843 ~ printAge ~ mill -", mill)
         
       } else {
         const iGen = `Oh, your a iGen ${firstName}`
-        console.log("🚀 ~ file: script.js ~ line 847 ~ printAge ~ iGen", iGen)
+        console.log("🚀 ~ file: script.js ~ line 847 ~ printAge ~ iGen -", iGen)
       }
     }
     printAge()
@@ -854,3 +854,8 @@ function calcAge(birthYear) {
 
 const firstName = 'Mario'
 calcAge(2020)
+
+/**
+ * @param  {My computer was not turning on, but I got it fixing!} 2022
+ */
+
