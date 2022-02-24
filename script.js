@@ -889,3 +889,11 @@ const addexp = function (a, b) {
 }
 
 const addArrow = (a , b) => a + b 
+
+// Example
+if(!numProducts) deleteShoppingCart()
+var numProducts = 10;
+
+function deleteShoppingCart() {
+  console.log("Products deleted!");
+}
