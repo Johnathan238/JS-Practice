@@ -876,6 +876,9 @@ let job = "Rapper"
 const year = 1998
 
 //Function \\
+console.log(addDecl(5, 7));
+console.log(addexp(3, 4));
+console.log(addArrow(4,6));
 
 function addDecl(a, b) {
   return a + b
