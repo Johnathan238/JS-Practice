@@ -831,36 +831,58 @@ console.log('====================================');
 
 // NOTE Scoping //
 
-function calcAge(birthYear) {
-  const age = 2055 - birthYear
+// function calcAge(birthYear) {
+//   const age = 2055 - birthYear
   
-    function printAge(){
-      const output = `${firstName} ! You are ${age}, born in ${birthYear}`
-      console.log("🚀 ~ file: script.js ~ line 839 ~ printAge ~ output -", output)
+//     function printAge(){
+//       const output = `${firstName} ! You are ${age}, born in ${birthYear}`
+//       console.log("🚀 ~ file: script.js ~ line 839 ~ printAge ~ output -", output)
 
-      if(birthYear >= 1981 && birthYear <= 1996) {
-        const mill = `Oh, your a millenial ${firstName}`
-        console.log("🚀 ~ file: script.js ~ line 843 ~ printAge ~ mill -", mill)
+//       if(birthYear >= 1981 && birthYear <= 1996) {
+//         const mill = `Oh, your a millenial ${firstName}`
+//         console.log("🚀 ~ file: script.js ~ line 843 ~ printAge ~ mill -", mill)
         
-      } else {
-        const iGen = `Oh, your a iGen ${firstName}`
-        console.log("🚀 ~ file: script.js ~ line 847 ~ printAge ~ iGen -", iGen)
-      }
+//       } else {
+//         const iGen = `Oh, your a iGen ${firstName}`
+//         console.log("🚀 ~ file: script.js ~ line 847 ~ printAge ~ iGen -", iGen)
+//       }
 
-      function add(a, b) {
-        return a + b
-      }
-      console.log(add(1, 2))
-    }
-    printAge()
+//       function add(a, b) {
+//         return a + b
+//       }
+//       console.log(add(1, 2))
+//     }
+//     printAge()
 
-  return age
+//   return age
+// }
+
+// const firstName = 'Mario'
+// calcAge(2020)
+
+// /**
+//  * @param  {My computer was not turning on, but I got it fixing!} 2022
+//  */
+
+// NOTE Hoisting & TDZ Practice \\
+
+// Variable \\
+console.log('====================================');
+console.log(name , job, year);
+console.log('====================================');
+
+var name = "Mario" 
+let job = "Rapper"
+const year = 1998
+
+//Function \\
+
+function addDecl(a, b) {
+  return a + b
 }
 
-const firstName = 'Mario'
-calcAge(2020)
+const addexp = function (a, b) {
+  return a + b
+}
 
-/**
- * @param  {My computer was not turning on, but I got it fixing!} 2022
- */
-
+const addArrow = (a , b) => a + b 
