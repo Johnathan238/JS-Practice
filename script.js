@@ -924,3 +924,9 @@ const baBoon = {
   }
 }
 baBoon.calcAge()
+
+const mario = {
+  year: 2001,
+}
+
+mario.calcAge = baBoon.calcAge
