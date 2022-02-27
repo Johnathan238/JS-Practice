@@ -867,33 +867,50 @@ console.log('====================================');
 // NOTE Hoisting & TDZ Practice \\
 
 // Variable \\
-console.log('====================================');
-console.log(name , job, year);
-console.log('====================================');
+// console.log('====================================');
+// console.log(name , job, year);
+// console.log('====================================');
 
-var name = "Mario" 
-let job = "Rapper"
-const year = 1998
+// var name = "Mario" 
+// let job = "Rapper"
+// const year = 1998
 
-//Function \\
-console.log(addDecl(5, 7));
-console.log(addexp(3, 4));
-console.log(addArrow(4,6));
+// //Function \\
+// console.log(addDecl(5, 7));
+// console.log(addexp(3, 4));
+// console.log(addArrow(4,6));
 
-function addDecl(a, b) {
-  return a + b
+// function addDecl(a, b) {
+//   return a + b
+// }
+
+// const addexp = function (a, b) {
+//   return a + b
+// }
+
+// const addArrow = (a , b) => a + b 
+
+// // Example
+// if(!numProducts) deleteShoppingCart()
+// var numProducts = 10;
+
+// function deleteShoppingCart() {
+//   console.log("Products deleted!");
+// }
+
+// var x = 1
+// let y = 2
+// const z = 3
+
+//  THIS keyword //
+const calcAge = function(birthYear) {
+  console.log(2055 - birthYear);
+  console.log(this);
 }
+calcAge(2020)
 
-const addexp = function (a, b) {
-  return a + b
+const calcAgeArr = birthYear => {
+  console.log(2060 - birthYear);
+  console.log(this);
 }
-
-const addArrow = (a , b) => a + b 
-
-// Example
-if(!numProducts) deleteShoppingCart()
-var numProducts = 10;
-
-function deleteShoppingCart() {
-  console.log("Products deleted!");
-}
+calcAgeArr(2020)
