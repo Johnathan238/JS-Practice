@@ -909,8 +909,18 @@ const calcAge = function(birthYear) {
 }
 calcAge(2020)
 
+// This keyword is calling parent 
 const calcAgeArr = birthYear => {
   console.log(2060 - birthYear);
   console.log(this);
 }
 calcAgeArr(2020)
+
+const baBoon = {
+  year: 2001,
+  calcAge: function (){
+    console.log(this);
+    console.log(2050 - this.year);
+  }
+}
+baBoon.calcAge()
