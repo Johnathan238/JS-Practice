@@ -926,7 +926,11 @@ const baBoon = {
 baBoon.calcAge()
 
 const mario = {
-  year: 2001,
+  year: 2000,
 }
 
 mario.calcAge = baBoon.calcAge
+mario.calcAge()
+
+const f = baBoon.calcAge
+f()
