@@ -934,3 +934,9 @@ console.log('====================================');
 
 // const f = baBoon.calcAge
 // f()
+
+const sTi = {
+  modal: "WRX STI", 
+  year: 2018,
+        
+}
