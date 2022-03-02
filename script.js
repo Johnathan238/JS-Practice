@@ -936,7 +936,16 @@ console.log('====================================');
 // f()
 
 const sTi = {
+  newOwner: "Freshyy",
   modal: "WRX STI", 
   year: 2018,
-        
+  price: 30000,
+    carPayment: function (loan, apr, term){
+      console.log(this);
+      console.log(Math.ceil( loan / apr / term));
+    },
+    
+    greet: () => console.log(`${sTi.newOwner}, this is your car msrp, its ${sTi.price}`),
 }
+sTi.greet()
+sTi.carPayment(30000, 4.00, 60)
