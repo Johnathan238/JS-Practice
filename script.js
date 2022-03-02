@@ -903,34 +903,34 @@ console.log('====================================');
 // const z = 3
 
 //  THIS keyword //
-const calcAge = function(birthYear) {
-  console.log(2055 - birthYear);
-  console.log(this);
-}
-calcAge(2020)
+// const calcAge = function(birthYear) {
+//   console.log(2055 - birthYear);
+//   console.log(this);
+// }
+// calcAge(2020)
 
-// This keyword is calling parent 
-const calcAgeArr = birthYear => {
-  console.log(2060 - birthYear);
-  console.log(this);
-}
-calcAgeArr(2020)
+// // This keyword is calling parent 
+// const calcAgeArr = birthYear => {
+//   console.log(2060 - birthYear);
+//   console.log(this);
+// }
+// calcAgeArr(2020)
 
-const baBoon = {
-  year: 2001,
-  calcAge: function (){
-    console.log(this);
-    console.log(2050 - this.year);
-  }
-}
-baBoon.calcAge()
+// const baBoon = {
+//   year: 2001,
+//   calcAge: function (){
+//     console.log(this);
+//     console.log(2050 - this.year);
+//   }
+// }
+// baBoon.calcAge()
 
-const mario = {
-  year: 2000,
-}
+// const mario = {
+//   year: 2000,
+// }
 
-mario.calcAge = baBoon.calcAge
-mario.calcAge()
+// mario.calcAge = baBoon.calcAge
+// mario.calcAge()
 
-const f = baBoon.calcAge
-f()
+// const f = baBoon.calcAge
+// f()
