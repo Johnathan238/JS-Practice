@@ -942,7 +942,16 @@ const sTi = {
   price: 30000,
     carPayment: function (loan, apr, term){
       console.log(this);
-      console.log(Math.ceil( loan / apr / term));
+      console.log(Math.ceil( loan / apr / term)); 
+
+      const affordCar = function (){
+        if (this.carPayment() >= 450 && this.carPayment() <= 500) {
+          console.log(`${this.newOwner}! You can afford the car payments`);
+        } else {
+          console.log(`${this.newOwner}! You can't afford this car yet`);
+        }
+        affordCar()
+      }
     },
     
     greet: () => console.log(`${sTi.newOwner}, this is your car msrp, its ${sTi.price}`),
