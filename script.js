@@ -935,26 +935,38 @@ console.log('====================================');
 // const f = baBoon.calcAge
 // f()
 
-const sTi = {
-  newOwner: "Freshyy",
-  modal: "WRX STI", 
-  year: 2018,
-  price: 30000,
-    carPayment: function (loan, apr, term){
-      console.log(this);
-      console.log(Math.ceil( loan / apr / term)); 
+// const sTi = {
+//   newOwner: "Freshyy",
+//   modal: "WRX STI", 
+//   year: 2018,
+//   price: 30000,
+//     carPayment: function (loan, apr, term){
+//       console.log(this);
+//       console.log(Math.ceil( loan / apr / term)); 
 
-      const affordCar = function (){
-        if (this.carPayment() >= 450 && this.carPayment() <= 500) {
-          console.log(`${this.newOwner}! You can afford the car payments`);
-        } else {
-          console.log(`${this.newOwner}! You can't afford this car yet`);
-        }
-        affordCar()
-      }
-    },
+//       // const self = this // self or that
+//       const affordCar = function (){
+//         if (this.carPayment() >= 450 && this.carPayment() <= 500) {
+//           console.log(`${this.newOwner}! You can afford the car payments`);
+//         } else {
+//           console.log(`${this.newOwner}! You can't afford this car yet`);
+//         }
+//       }
+//       affordCar()
+//       console.log(affordCar);
+//     },
     
-    greet: () => console.log(`${sTi.newOwner}, this is your car msrp, its ${sTi.price}`),
+//     greet: () => {console.log(`${sTi.newOwner}, this is your car msrp, its ${sTi.price}`)
+//   },
+// }
+// sTi.greet()
+// sTi.carPayment(30000, 4.00, 60)
+
+//** argument keyword **/
+const addExpr = function (a,b) {
+  console.log(arguments);
+  return a + b
 }
-sTi.greet()
-sTi.carPayment(30000, 4.00, 60)
+addExpr(2,5)
+addExpr(2,5,8,12)
+
