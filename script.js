@@ -962,11 +962,28 @@ console.log('====================================');
 // sTi.greet()
 // sTi.carPayment(30000, 4.00, 60)
 
-//** argument keyword **/
-const addExpr = function (a,b) {
-  console.log(arguments);
-  return a + b
-}
-addExpr(2,5)
-addExpr(2,5,8,12)
+// //** argument keyword **/
+// const addExpr = function (a,b) {
+//   console.log(arguments);
+//   return a + b
+// }
+// addExpr(2,5)
+// addExpr(2,5,8,12)
 
+//** Primitives **//
+let age = 21
+let oldAge = age
+age = 22
+console.log('====================================');
+console.log(age);
+console.log(oldAge);
+console.log('====================================');
+
+//**  Object **/
+const who = {
+  name: "sean",
+  age: 20,
+}
+
+const oldSean = who
+oldSean.age = 19;
