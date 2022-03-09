@@ -10,12 +10,12 @@
 
 /** Functions **/
 
-function marioJudah() {
-  console.log("MARIOOOOO JUDAHHHHH");
-}
+// function marioJudah() {
+//   console.log("MARIOOOOO JUDAHHHHH");
+// }
 
 // calling / running / invoking function
-marioJudah()
+// marioJudah()
 
 // function fruitProcessor (apples, oranges) {
 //     console.log(apples, oranges);
@@ -762,24 +762,24 @@ marioJudah()
 
 // ** NOTE Challenge #1 Think like a programmer //
 
-const arr1 = [17, 21, 23]
-// const arr2 = [12, 5, -5, 0, 4]
+// const arr1 = [17, 21, 23]
+// // const arr2 = [12, 5, -5, 0, 4]
 
-const printForecast = function (arr) {
+// const printForecast = function (arr) {
   
-  for (let i = 0; i < arr.length; i++){
-    console.log('====================================');
-    console.log(`${arr[i]} in ${i + 1} days...`);
-    console.log('====================================');
-  }
-console.log('====================================');
-console.log(arr);
-console.log('====================================');
-}
+//   for (let i = 0; i < arr.length; i++){
+//     console.log('====================================');
+//     console.log(`${arr[i]} in ${i + 1} days...`);
+//     console.log('====================================');
+//   }
+// console.log('====================================');
+// console.log(arr);
+// console.log('====================================');
+// }
 
-console.log('====================================');
-console.log(printForecast([17, 21, 23]));
-console.log('====================================');
+// console.log('====================================');
+// console.log(printForecast([17, 21, 23]));
+// console.log('====================================');
 
 // *Iteration: The For Loop* //
 
@@ -971,19 +971,35 @@ console.log('====================================');
 // addExpr(2,5,8,12)
 
 //** Primitives **//
-let age = 21
-let oldAge = age
-age = 22
-console.log('====================================');
-console.log(age);
-console.log(oldAge);
-console.log('====================================');
+// let age = 21
+// let oldAge = age
+// age = 22
+// console.log('====================================');
+// console.log(age);
+// console.log(oldAge);
+// console.log('====================================');
 
 //**  Object **/
-const who = {
-  name: "sean",
-  age: 20,
-}
+// const who = {
+//   name: "sean",
+//   age: 20,
+// }
 
-const oldSean = who
-oldSean.age = 19;
+// const oldSean = who
+// oldSean.age = 19;
+
+//** More Practice **/
+// let lastName = 'Judah'
+// let oldLastName = lastName
+// lastName = 'Judastar'
+
+// const marioJudah = {
+//   firstName: "Mario",
+//   lastName: "Judah",
+//   age: 21,
+// }
+// console.log(marioJudah.age);
+
+// const rockStar = marioJudah
+// marioJudah.age = 22
+// console.log(rockStar.age);
