@@ -11,7 +11,7 @@
 /** Functions **/
 
 // function marioJudah() {
-//   console.log("MARIOOOOO JUDAHHHHH");
+// console.log("MARIOOOOO JUDAHHHHH");
 // }
 
 // calling / running / invoking function
@@ -32,15 +32,15 @@
 
 
 // function yesSir() {
-//   const mJ = prompt("You Fuck With MARIOOOOO JUDAHHHHH 👹🎸☾?")
-//   const marioJudah = mJ === 'yes' || mJ === 'YES' || mJ === 'Yes' ? alert(`I FUCKED WITH YOU CUZ YOU SAID ${mJ}🎸`) : alert(`I DONT FUCK WITH YOU ☾`)
+// const mJ = prompt("You Fuck With MARIOOOOO JUDAHHHHH 👹🎸☾?")
+// const marioJudah = mJ === 'yes' || mJ === 'YES' || mJ === 'Yes' ? alert(`I FUCKED WITH YOU CUZ YOU SAID ${mJ}🎸`) : alert(`I DONT FUCK WITH YOU ☾`)
 
-//   return marioJudah
+// return marioJudah
 // }
 
 /* Function Declaration */
 // function idk(chickenWings, generalTossChicken){
-//     const orderPlease = `I would like ${chickenWings} orders of Chicken Wings & ${generalTossChicken} orders of General Toss Chicken. Thank You! ` 
+//     const orderPlease = `I would like ${chickenWings} orders of Chicken Wings & ${generalTossChicken} orders of General Toss Chicken. Thank You! `
 
 //     return orderPlease
 // }
@@ -80,10 +80,10 @@
 
 
 // function idk(chickenWings, generalTossChicken){
-//   const chickenWingsP = cutPieces(chickenWings)
-//   const generalTossChickenP = cutPieces(generalTossChicken)
+// const chickenWingsP = cutPieces(chickenWings)
+// const generalTossChickenP = cutPieces(generalTossChicken)
 
-//     const orderPlease = `I would like ${chickenWingsP} orders of Chicken Wings & ${generalTossChickenP} orders of General Toss Chicken. Thank You! ` 
+//     const orderPlease = `I would like ${chickenWingsP} orders of Chicken Wings & ${generalTossChickenP} orders of General Toss Chicken. Thank You! `
 
 //     return orderPlease
 // }
@@ -95,8 +95,8 @@
 // const hMFF = favoriteFood => favoriteFood + 1; // Arrow Function
 
 // const nFF = (favoriteFood) => {
-//   const hMFF =  ++favoriteFood;
-//   return hMFF
+// const hMFF =  ++favoriteFood;
+// return hMFF
 // }
 
 // console.log(nFF(5));
@@ -122,7 +122,7 @@
 // console.log(yearUR(2002, 'Sean'))
 // console.log(yearUR(1970, 'Mario'))
 
-//* Coding Challenge Function My version *//
+// * Coding Challenge Function My version *//
 
 // const calcAvg = (a, b, c) => (a + b + c ) / 3
 
@@ -142,7 +142,7 @@
 
 // console.log(checkWinner(avgScores1, avgScores2));
 
-//* Instructor solution *//
+// * Instructor solution *//
 
 // const calcAvg = (a, b, c) => (a + b + c ) / 3
 
@@ -160,9 +160,9 @@
 //     }
 // }
 
-// console.log(checkWinner(avgScores1, avgScores2)) 
+// console.log(checkWinner(avgScores1, avgScores2))
 
-//* Array intro *//
+// * Array intro *//
 
 // const whoTFISTHESEPPL = ['Mario Judah', 'Sean fatneek', 'Nick fatneek']
 // console.log('====================================');
@@ -214,7 +214,7 @@
 // console.log(ages);
 
 
-//* Basic Array Operations (Methods) *//
+// * Basic Array Operations (Methods) *//
 
 // ADD elements
 // const yEP = ['TRUST', 'ME']
@@ -236,21 +236,21 @@
 // console.log('====================================');
 
 // yEP.shift() // removes first element
-//   console.log('====================================');
-//   console.log(yEP);
-//   console.log('====================================');
+// console.log('====================================');
+// console.log(yEP);
+// console.log('====================================');
 
-//   console.log(yEP.indexOf('TRUST'));
+// console.log(yEP.indexOf('TRUST'));
 
-//   console.log(yEP.includes('TRUST'));
+// console.log(yEP.includes('TRUST'));
 
-//   if (yEP.includes('TRUST')){
+// if (yEP.includes('TRUST')){
 //     console.log('TRUST DADDY');
-//   } else {
+// } else {
 //     console.log('I DONT TRUST YOU');
-//   }
+// }
 
-//** Coding Challenge #2 Array **//
+// ** Coding Challenge #2 Array **//
 // const tip = (20/100)
 // const tip2 = (15/100)
 // console.log(tip, tip2)
@@ -296,7 +296,7 @@
 
 
 // const calcTip = function (bill) {
-//   return bill >= 50 && bill <= 300 ? bill * tip2 :  bill * tip;
+// return bill >= 50 && bill <= 300 ? bill * tip2 :  bill * tip;
 // }
 
 // const bills = [125, 555, 44]
@@ -309,23 +309,22 @@
 // * Intro to objects * //
 
 // const mJudah = {
-//   firstName: 'Mario',
-//   lastName: 'Judah',
-//   job: 'Rockstar',
-//   age: 22,
-//   friends: ['Fatneek Sean', 'Trippe Redd']
+// firstName: 'Mario',
+// lastName: 'Judah',
+// job: 'Rockstar',
+// age: 22,
+// friends: ['Fatneek Sean', 'Trippe Redd']
 // }
 
 // * Dot & Bracket Notation * //
 
 // const mJudah = {
-//   firstName: 'Mario',
-//   lastName: 'Judah',
-//   job: 'Rockstar',
-//   age: 22,
-//   friends: ['Fatneek Sean', 'Trippe Redd']
+// firstName: 'Mario',
+// lastName: 'Judah',
+// job: 'Rockstar',
+// age: 22,
+// friends: ['Fatneek Sean', 'Trippe Redd']
 // }
-
 
 
 // // console.log('====================================');
@@ -350,9 +349,9 @@
 // console.log('====================================');
 
 // if(mJudah[letKMJ]){
-//   alert(mJudah[letKMJ])
+// alert(mJudah[letKMJ])
 // } else {
-//   alert(`Wrong input sir! Choose Name, Job, age or friends`)
+// alert(`Wrong input sir! Choose Name, Job, age or friends`)
 // }
 
 // mJudah.location = 'London'
@@ -371,32 +370,32 @@
 // * Object Method * //
 
 // const mJudah = {
-//   firstName: 'Mario',
-//   lastName: 'Judah',
-//   job: 'Rockstar',
-//   birthYear: 1999,
-//   friends: ['Fatneek Sean', 'Trippe Redd'],
-//   hasDriversL: true,
+// firstName: 'Mario',
+// lastName: 'Judah',
+// job: 'Rockstar',
+// birthYear: 1999,
+// friends: ['Fatneek Sean', 'Trippe Redd'],
+// hasDriversL: true,
 
-//   // calcAge: function (birthYear) {
-//   //   return 2100 - birthYear
-//   // }
+// // calcAge: function (birthYear) {
+// //   return 2100 - birthYear
+// // }
 
-//   // calcAge: function () {
-//   //     console.log(this);
-//   //   return 2100 - this.birthYear
-//   // }
+// // calcAge: function () {
+// //     console.log(this);
+// //   return 2100 - this.birthYear
+// // }
 
-//   calcAge: function () {
+// calcAge: function () {
 //       this.age = 2100 - this.birthYear
 //     return this.age
-//   },
+// },
 
-//   //Challenge
-//   mInfo: function () {
+// //Challenge
+// mInfo: function () {
 //     this.name = console.log(`${mJudah.firstName} is a ${mJudah.calcAge()} old ${mJudah.job}, and he has a driver's license ${mJudah.hasDriversL}`);
 //     return this.name
-//   }
+// }
 // }
 
 // console.log('====================================');
@@ -412,15 +411,15 @@
 // challenge 3
 
 // const johnSmith = {
-//   firstName: 'John',
-//   lastName: 'Smith',
-//   pounds: 171,
-//   height: 5,
+// firstName: 'John',
+// lastName: 'Smith',
+// pounds: 171,
+// height: 5,
 
-//   calcJBMI: function () {
+// calcJBMI: function () {
 //     this.JBMI = johnSmith.pounds / johnSmith.height ** 2
 //     return this.JBMI
-//   }
+// }
 // }
 
 // console.log('====================================');
@@ -428,27 +427,27 @@
 // console.log('====================================');
 
 // const markMiller = {
-//   firstName: 'Mark',
-//   lastName: 'Miller',
-//   pounds: 202,
-//   height: 6,
+// firstName: 'Mark',
+// lastName: 'Miller',
+// pounds: 202,
+// height: 6,
 
-//   calcMBMI: function () {
+// calcMBMI: function () {
 //     this.MBMI = markMiller.pounds / markMiller.height ** 2
 //     return this.MBMI
-//   }
+// }
 // }
 
 // console.log(markMiller.calcMBMI());
 
 // const whoBmiIsG = function () {
-//   if (johnSmith.calcJBMI() > markMiller.calcMBMI()) {
+// if (johnSmith.calcJBMI() > markMiller.calcMBMI()) {
 //     console.log(`John BMI ${johnSmith.calcJBMI()} is greater then Mark BMI ${markMiller.calcMBMI()}`);
-//   } else if (markMiller.calcMBMI() > johnSmith.calcJBMI()) {
+// } else if (markMiller.calcMBMI() > johnSmith.calcJBMI()) {
 //     console.log(`Mark BMI ${markMiller.calcMBMI()} is greater then John BMI ${johnSmith.calcJBMI()}`);
-//   } else {
+// } else {
 //     console.log(`They both fam`);
-//   }
+// }
 // }
 
 // console.log('====================================');
@@ -459,19 +458,19 @@
 
 // for loop keeps running while condition is TRUE
 // for(let rep = 10; rep <= 30; rep++){
-//   console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
+// console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
 // }
 
 // *Looping arrays, breaking, & continuing* //
 
 // const mJudah = [
-//   'Mario',
-//   'Judah',
-//   'Rockstar',
-//   22,
-//   ['Fatneek Sean', 'Trippe Redd'],
-//   'TRUST ME DADDY',
-//   ['Are you SKUCKED']
+// 'Mario',
+// 'Judah',
+// 'Rockstar',
+// 22,
+// ['Fatneek Sean', 'Trippe Redd'],
+// 'TRUST ME DADDY',
+// ['Are you SKUCKED']
 // ]
 
 // const types = []
@@ -490,7 +489,7 @@
 // const ages = []
 
 // for (let i = 0; i < years.length; i++){
-//   ages.push(2045 - years[i])
+// ages.push(2045 - years[i])
 // }
 
 // console.log('====================================');
@@ -500,72 +499,71 @@
 // Continue & Break
 
 // for (let i = 0; i < mJudah.length; i++){  //continue
-//   if (typeof mJudah[i] !== 'string') continue;
-//   console.log(mJudah[i], typeof mJudah[i]);
+// if (typeof mJudah[i] !== 'string') continue;
+// console.log(mJudah[i], typeof mJudah[i]);
 // }
 
 // console.log('====================================');
 
 // for (let i = 0; i < mJudah.length; i++){  //break
-//   if (typeof mJudah[i] === 'number') break;
-//   console.log(mJudah[i], typeof mJudah[i]);
+// if (typeof mJudah[i] === 'number') break;
+// console.log(mJudah[i], typeof mJudah[i]);
 // }
 
-//** Looping Backwards * Loops in Loops**//
+// ** Looping Backwards * Loops in Loops**//
 
 // const mJudah = [
-//   'Mario',
-//   'Judah',
-//   'Rockstar',
-//   22,
-//   ['Fatneek Sean', 'Trippe Redd'],
-//   'TRUST ME DADDY',
-//   ['Are you SKUCKED']
+// 'Mario',
+// 'Judah',
+// 'Rockstar',
+// 22,
+// ['Fatneek Sean', 'Trippe Redd'],
+// 'TRUST ME DADDY',
+// ['Are you SKUCKED']
 // ]
 
 // for (let i = mJudah.length - 1; i >= 0; i--){
-//   console.log(i, mJudah[i]);
+// console.log(i, mJudah[i]);
 // }
 
 // ** Loop over Loop **//
 // for (let exercise = 1; exercise <= 3; exercise++ ){
-//   console.log(`---- Exercise ${exercise}`);
+// console.log(`---- Exercise ${exercise}`);
 
-//   for (let rep = 1; rep < 6; rep++){
+// for (let rep = 1; rep < 6; rep++){
 //     console.log(`---- Exercise ${exercise} Reps are ${rep}`);
-//   }
+// }
 // }
 
 // ** While Loop ** //
 
 // for loop keeps running while condition is TRUE // just to compare
 // for(let rep = 10; rep <= 30; rep++){
-//   console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
+// console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
 // }
 
 // let rep = 1;
 // while (rep <= 6) {
-//   console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
+// console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
 
-//   rep++;
+// rep++;
 // }
 
 // let dice = Math.trunc(Math.random() * 6) + 1
 
 
 // while (dice !== 6){
-//   console.log(`You rolled a ${dice}`);
-//   dice = Math.trunc(Math.random() * 6) + 1
-//   if (dice === 6) console.log(`Loop is about to end at ${dice}`);
-// } 
-
+// console.log(`You rolled a ${dice}`);
+// dice = Math.trunc(Math.random() * 6) + 1
+// if (dice === 6) console.log(`Loop is about to end at ${dice}`);
+// }
 
 
 // ** Instructor Solution ** //
 
 
 // const calcTip = function (bill) {
-//   return bill >= 50 && bill <= 300 ? bill * tip2 :  bill * tip;
+// return bill >= 50 && bill <= 300 ? bill * tip2 :  bill * tip;
 // }
 
 // const bills = [125, 555, 44]
@@ -580,12 +578,12 @@
 // const totals = []
 
 // const calcTip = function (bill) {
-//   return bill >= 50 && bill <= 300 ? bill * 0.15 :  bill * 0.2;
+// return bill >= 50 && bill <= 300 ? bill * 0.15 :  bill * 0.2;
 // }
 
 // for(let i = 0; i < bills.length; i++){
-//   tips.push(calcTip(bills[i]))
-//   totals.push(bills[i] + tips[i])
+// tips.push(calcTip(bills[i]))
+// totals.push(bills[i] + tips[i])
 // }
 
 // console.log('====================================');
@@ -597,13 +595,13 @@
 // let totals = []
 
 // const calcA = function (arr) {
-//   let sum = 0
-//   for (let i = 0; i < arr.length; i++){
+// let sum = 0
+// for (let i = 0; i < arr.length; i++){
 //     sum += arr[i]
-//   }
-//   // totals.push(arr[i] / sum)
-//   // console.log(sum);
-//   return sum / arr.length
+// }
+// // totals.push(arr[i] / sum)
+// // console.log(sum);
+// return sum / arr.length
 // }
 
 // console.log(calcA([1,2,3]));
@@ -619,25 +617,25 @@
 //     // types[i] = typeof mJudah[i]
 //     types.push(typeof mJudah[i])
 // }
-//  NOTE ** Loop over Loop ** //
+// NOTE ** Loop over Loop ** //
 // for (let exercise = 1; exercise <= 3; exercise++ ){
-//   console.log(`---- Exercise ${exercise}`);
+// console.log(`---- Exercise ${exercise}`);
 
-//   for (let rep = 1; rep < 6; rep++){
+// for (let rep = 1; rep < 6; rep++){
 //     console.log(`---- Exercise ${exercise} Reps are ${rep}`);
-//   }
+// }
 // }
 
-//  NOTE Random challenge  //
+// NOTE Random challenge  //
 // function multiply(a, b){
-//   const cal = a * b
-  
-//   return cal
+// const cal = a * b
+
+// return cal
 // }
 
 // console.log(multiply(2, 6))
 
-//  NOTE Sloving problems like a programmer //
+// NOTE Sloving problems like a programmer //
 // const tempt = [3, -2, -4, -1, 'error', 9, 7, 10, 18, 20, 5]
 
 // 1) Understanding the problem
@@ -651,21 +649,21 @@
 // Subtract min from max (amplitude) & return it
 
 // const getTemp = function (temps) {
-//   let max = temps[0]
-//   let min = temps[0]
+// let max = temps[0]
+// let min = temps[0]
 
-//   for (let i = 0; i < temps.length; i++){
+// for (let i = 0; i < temps.length; i++){
 //     const newTemp = temps[i]
 
 //     if (typeof newTemp !== 'number') continue;
 
 //     if (newTemp > max) max = newTemp
 //     if (newTemp < min) min = newTemp
-//   }
-//   console.log('====================================');
-//   console.log(max, min);
-//   console.log('====================================');
-//   return max - min;
+// }
+// console.log('====================================');
+// console.log(max, min);
+// console.log('====================================');
+// return max - min;
 // }
 
 // const amp = getTemp(tempt)
@@ -677,55 +675,55 @@
 // Function should now rececive 2 arrays of temps
 
 // const getTemp1 = function (t1, t2) {
-//   // const arr1 = ['a', 'b', 'c'] // NOTE -> MDN web doc "Array.concat"
-//   // const arr2 = ['d', 'e', 'f']
-//   // const arr3 = arr1.concat(t2)
+// // const arr1 = ['a', 'b', 'c'] // NOTE -> MDN web doc "Array.concat"
+// // const arr2 = ['d', 'e', 'f']
+// // const arr3 = arr1.concat(t2)
 
-//   const temps = t1.concat(t2)
+// const temps = t1.concat(t2)
 //     console.log('====================================');
 //     console.log(temps);
 //     console.log('====================================');
 
-//   let max = temps[0]
-//   let min = temps[0]
+// let max = temps[0]
+// let min = temps[0]
 
-//   for (let i = 0; i < temps.length; i++){
+// for (let i = 0; i < temps.length; i++){
 //     const newTemp = temps[i]
 
 //     if (typeof newTemp !== 'number') continue;
 
 //     if (newTemp > max) max = newTemp
 //     if (newTemp < min) min = newTemp
-//   }
-//   console.log('====================================');
-//   console.log(max, min);
-//   console.log('====================================');
-//   return max - min;
+// }
+// console.log('====================================');
+// console.log(max, min);
+// console.log('====================================');
+// return max - min;
 // }
 
-// const amp1 = getTemp1([5, 8, 10] , [5, 3, 6]) 
+// const amp1 = getTemp1([5, 8, 10] , [5, 3, 6])
 // console.log('====================================');
 // console.log(amp1);
 // console.log('====================================');
 
 // NOTE debugging //
 // const measK = function () {
-//   const meaS = {
+// const meaS = {
 //     type: 'temp',
 //     unit: 'celsisu',
 
 //     // NOTE  Fix bug
 
 //     value: Number(prompt('Degrees C:'))
-//   }
+// }
 
 // // NOTE Find bug
-//   console.log('====================================');
-//   console.table(meaS);
-//   console.log('====================================');
+// console.log('====================================');
+// console.table(meaS);
+// console.log('====================================');
 
-//   const kel = meaS.value + 273;
-//   return kel
+// const kel = meaS.value + 273;
+// return kel
 // }
 
 // // NOTE Identify problem
@@ -738,21 +736,21 @@
 // const tempt = [3, -2, -4, -1, 'error', 9, 7, 10, 18, 20, 5]
 
 // const getTemp = function (temps) {
-//   let max = 0
-//   let min = 0
+// let max = 0
+// let min = 0
 
-//   for (let i = 0; i < temps.length; i++){
+// for (let i = 0; i < temps.length; i++){
 //     const newTemp = temps[i]
 
 //     if (typeof newTemp !== 'number') continue;
 
 //     if (newTemp > max) max = newTemp
 //     if (newTemp < min) min = newTemp
-//   }
-//   console.log('====================================');
-//   console.log(max, min);
-//   console.log('====================================');
-//   return max - min;
+// }
+// console.log('====================================');
+// console.log(max, min);
+// console.log('====================================');
+// return max - min;
 // }
 
 // const amp = getTemp(tempt)
@@ -766,12 +764,12 @@
 // // const arr2 = [12, 5, -5, 0, 4]
 
 // const printForecast = function (arr) {
-  
-//   for (let i = 0; i < arr.length; i++){
+
+// for (let i = 0; i < arr.length; i++){
 //     console.log('====================================');
 //     console.log(`${arr[i]} in ${i + 1} days...`);
 //     console.log('====================================');
-//   }
+// }
 // console.log('====================================');
 // console.log(arr);
 // console.log('====================================');
@@ -785,55 +783,55 @@
 
 // for loop keeps running while condition is TRUE
 // for(let rep = 10; rep <= 30; rep++){
-//   console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
+// console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
 // }
 
 // ** Loop over Loop **//
 // for (let exercise = 1; exercise <= 3; exercise++ ){
-//   console.log(`---- Exercise ${exercise}`);
+// console.log(`---- Exercise ${exercise}`);
 
-//   for (let rep = 1; rep < 6; rep++){
+// for (let rep = 1; rep < 6; rep++){
 //     console.log(`---- Exercise ${exercise} Reps are ${rep}`);
-//   }
+// }
 // }
 
 // ** While Loop ** //
 
 // for loop keeps running while condition is TRUE // just to compare
 // for(let rep = 10; rep <= 30; rep++){
-//   console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
+// console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
 // }
 
 // let rep = 1;
 // while (rep <= 6) {
-//   console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
+// console.log(`Lifitng weight with my brudda sean ${rep} 🏋️`);
 
-//   rep++;
+// rep++;
 // }
 
 // let dice = Math.trunc(Math.random() * 6) + 1
 
 
 // while (dice !== 6){
-//   console.log(`You rolled a ${dice}`);
-//   dice = Math.trunc(Math.random() * 6) + 1
-//   if (dice === 6) console.log(`Loop is about to end at ${dice}`);
-// } 
+// console.log(`You rolled a ${dice}`);
+// dice = Math.trunc(Math.random() * 6) + 1
+// if (dice === 6) console.log(`Loop is about to end at ${dice}`);
+// }
 
-//  NOTE ** Loop over Loop ** //
+// NOTE ** Loop over Loop ** //
 // for (let exercise = 1; exercise <= 3; exercise++ ){
-//   console.log(`---- Exercise ${exercise}`);
+// console.log(`---- Exercise ${exercise}`);
 
-//   for (let rep = 1; rep < 6; rep++){
+// for (let rep = 1; rep < 6; rep++){
 //     console.log(`---- Exercise ${exercise} Reps are ${rep}`);
-//   }
+// }
 // }
 
 // NOTE Scoping //
 
 // function calcAge(birthYear) {
-//   const age = 2055 - birthYear
-  
+// const age = 2055 - birthYear
+
 //     function printAge(){
 //       const output = `${firstName} ! You are ${age}, born in ${birthYear}`
 //       console.log("🚀 ~ file: script.js ~ line 839 ~ printAge ~ output -", output)
@@ -841,7 +839,7 @@
 //       if(birthYear >= 1981 && birthYear <= 1996) {
 //         const mill = `Oh, your a millenial ${firstName}`
 //         console.log("🚀 ~ file: script.js ~ line 843 ~ printAge ~ mill -", mill)
-        
+
 //       } else {
 //         const iGen = `Oh, your a iGen ${firstName}`
 //         console.log("🚀 ~ file: script.js ~ line 847 ~ printAge ~ iGen -", iGen)
@@ -854,15 +852,15 @@
 //     }
 //     printAge()
 
-//   return age
+// return age
 // }
 
 // const firstName = 'Mario'
 // calcAge(2020)
 
 // /**
-//  * @param  {My computer was not turning on, but I got it fixing!} 2022
-//  */
+// * @param  {My computer was not turning on, but I got it fixing!} 2022
+// */
 
 // NOTE Hoisting & TDZ Practice \\
 
@@ -871,7 +869,7 @@
 // console.log(name , job, year);
 // console.log('====================================');
 
-// var name = "Mario" 
+// var name = "Mario"
 // let job = "Rapper"
 // const year = 1998
 
@@ -881,52 +879,52 @@
 // console.log(addArrow(4,6));
 
 // function addDecl(a, b) {
-//   return a + b
+// return a + b
 // }
 
 // const addexp = function (a, b) {
-//   return a + b
+// return a + b
 // }
 
-// const addArrow = (a , b) => a + b 
+// const addArrow = (a , b) => a + b
 
 // // Example
 // if(!numProducts) deleteShoppingCart()
 // var numProducts = 10;
 
 // function deleteShoppingCart() {
-//   console.log("Products deleted!");
+// console.log("Products deleted!");
 // }
 
 // var x = 1
 // let y = 2
 // const z = 3
 
-//  THIS keyword //
+// THIS keyword //
 // const calcAge = function(birthYear) {
-//   console.log(2055 - birthYear);
-//   console.log(this);
+// console.log(2055 - birthYear);
+// console.log(this);
 // }
 // calcAge(2020)
 
-// // This keyword is calling parent 
+// // This keyword is calling parent
 // const calcAgeArr = birthYear => {
-//   console.log(2060 - birthYear);
-//   console.log(this);
+// console.log(2060 - birthYear);
+// console.log(this);
 // }
 // calcAgeArr(2020)
 
 // const baBoon = {
-//   year: 2001,
-//   calcAge: function (){
+// year: 2001,
+// calcAge: function (){
 //     console.log(this);
 //     console.log(2050 - this.year);
-//   }
+// }
 // }
 // baBoon.calcAge()
 
 // const mario = {
-//   year: 2000,
+// year: 2000,
 // }
 
 // mario.calcAge = baBoon.calcAge
@@ -936,13 +934,13 @@
 // f()
 
 // const sTi = {
-//   newOwner: "Freshyy",
-//   modal: "WRX STI", 
-//   year: 2018,
-//   price: 30000,
+// newOwner: "Freshyy",
+// modal: "WRX STI",
+// year: 2018,
+// price: 30000,
 //     carPayment: function (loan, apr, term){
 //       console.log(this);
-//       console.log(Math.ceil( loan / apr / term)); 
+//       console.log(Math.ceil( loan / apr / term));
 
 //       // const self = this // self or that
 //       const affordCar = function (){
@@ -955,22 +953,22 @@
 //       affordCar()
 //       console.log(affordCar);
 //     },
-    
+
 //     greet: () => {console.log(`${sTi.newOwner}, this is your car msrp, its ${sTi.price}`)
-//   },
+// },
 // }
 // sTi.greet()
 // sTi.carPayment(30000, 4.00, 60)
 
 // //** argument keyword **/
 // const addExpr = function (a,b) {
-//   console.log(arguments);
-//   return a + b
+// console.log(arguments);
+// return a + b
 // }
 // addExpr(2,5)
 // addExpr(2,5,8,12)
 
-//** Primitives **//
+// ** Primitives **//
 // let age = 21
 // let oldAge = age
 // age = 22
@@ -979,27 +977,40 @@
 // console.log(oldAge);
 // console.log('====================================');
 
-//**  Object **/
+// **  Object **/
 // const who = {
-//   name: "sean",
-//   age: 20,
+// name: "sean",
+// age: 20,
 // }
 
 // const oldSean = who
 // oldSean.age = 19;
 
-//** More Practice **/
+// ** More Practice **/
 // let lastName = 'Judah'
 // let oldLastName = lastName
 // lastName = 'Judastar'
 
 // const marioJudah = {
-//   firstName: "Mario",
-//   lastName: "Judah",
-//   age: 21,
+// firstName: "Mario",
+// lastName: "Judah",
+// age: 21,
 // }
 // console.log(marioJudah.age);
 
 // const rockStar = marioJudah
 // marioJudah.age = 22
 // console.log(rockStar.age);
+
+// Copying objects
+const marioJudah2 = {
+    firstName: "Mario",
+    lastName: "Judah",
+    age: 21,
+    songsMde: [1,2,3,4]
+}
+const marioCopy = Object.assign({}, marioJudah2)
+marioCopy.lastName = 'WTFISMARIOJUDAH'
+marioCopy.songsMde.push(5,6,7,8,9,10)
+console.log(marioCopy);
+console.log(marioJudah2);
