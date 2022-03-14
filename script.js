@@ -1015,4 +1015,11 @@
 // console.log(marioCopy);
 // console.log(marioJudah2);
 
-// Data structure 
+// **Data structure **//
+
+// **NOTE Destructing Arrays** //
+const arr = [2,4,6]
+const a = arr[0]
+const b = arr[1]
+const c = arr[2]
+
