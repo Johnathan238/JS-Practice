@@ -1003,14 +1003,16 @@
 // console.log(rockStar.age);
 
 // Copying objects
-const marioJudah2 = {
-    firstName: "Mario",
-    lastName: "Judah",
-    age: 21,
-    songsMde: [1,2,3,4]
-}
-const marioCopy = Object.assign({}, marioJudah2)
-marioCopy.lastName = 'WTFISMARIOJUDAH'
-marioCopy.songsMde.push(5,6,7,8,9,10)
-console.log(marioCopy);
-console.log(marioJudah2);
+// const marioJudah2 = {
+//     firstName: "Mario",
+//     lastName: "Judah",
+//     age: 21,
+//     songsMde: [1,2,3,4]
+// }
+// const marioCopy = Object.assign({}, marioJudah2)
+// marioCopy.lastName = 'WTFISMARIOJUDAH'
+// marioCopy.songsMde.push(5,6,7,8,9,10)
+// console.log(marioCopy);
+// console.log(marioJudah2);
+
+// Data structure 
