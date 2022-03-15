@@ -1028,7 +1028,13 @@ const JDM = {
   modals: ['WRX', 'STI', 'OUTBACK FOR SHAPE UPS']
 }
 
-const [first, second] = JDM.modals
+let [main, ,second] = JDM.modals
 console.log('====================================');
-console.log(first, second);
+console.log(main, second);
+console.log('====================================');
+
+// ** Switching Variables **//
+[main, second] = [second, main]
+console.log('====================================');
+console.log(main , second);
 console.log('====================================');
