@@ -1025,8 +1025,33 @@
 
 const JDM = {
   Manufac: 'SUBARU',
-  modals: ['WRX', 'STI', 'OUTBACK FOR SHAPE UPS']
+
+  modals: [
+    'WRX',
+    'STI',
+    'OUTBACK FOR SHAPE UPS'
+  ],
+
+  colors: [
+    'World Rally Blue',
+    'Crystal White Pearl',
+    'Ice Silver Metallic',
+    'Pure Red',
+    'WR Blue Pearl',
+    'Lapis Blue Pearl',
+    'Dark Gray Metallic',
+    'Crystal Black Silica',
+  ],
+
+  order: function (wMODAL, wCOLOR) {
+    return [this.modals[wMODAL], this.colors[wCOLOR]]
+  }
 }
+// Recive 2  return values rom a function
+const [MODAL, COLOR] = JDM.order(1,  5)
+console.log('====================================');
+console.log(MODAL, COLOR);
+console.log('====================================');
 
 let [main, ,second] = JDM.modals
 console.log('====================================');
