@@ -1018,8 +1018,17 @@
 // **Data structure **//
 
 // **NOTE Destructing Arrays** //
-const arr = [2,4,6]
-const a = arr[0]
-const b = arr[1]
-const c = arr[2]
+// const arr = [2,4,6]
+// const a = arr[0]
+// const b = arr[1]
+// const c = arr[2]
 
+const JDM = {
+  Manufac: 'SUBARU',
+  modals: ['WRX', 'STI', 'OUTBACK FOR SHAPE UPS']
+}
+
+const [first, second] = JDM.modals
+console.log('====================================');
+console.log(first, second);
+console.log('====================================');
