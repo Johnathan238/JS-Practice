@@ -1023,43 +1023,49 @@
 // const b = arr[1]
 // const c = arr[2]
 
-const JDM = {
-  Manufac: 'SUBARU',
+// const JDM = {
+//   Manufac: 'SUBARU',
 
-  modals: [
-    'WRX',
-    'STI',
-    'OUTBACK FOR SHAPE UPS'
-  ],
+//   modals: [
+//     'WRX',
+//     'STI',
+//     'OUTBACK FOR SHAPE UPS'
+//   ],
 
-  colors: [
-    'World Rally Blue',
-    'Crystal White Pearl',
-    'Ice Silver Metallic',
-    'Pure Red',
-    'WR Blue Pearl',
-    'Lapis Blue Pearl',
-    'Dark Gray Metallic',
-    'Crystal Black Silica',
-  ],
+//   colors: [
+//     'World Rally Blue',
+//     'Crystal White Pearl',
+//     'Ice Silver Metallic',
+//     'Pure Red',
+//     'WR Blue Pearl',
+//     'Lapis Blue Pearl',
+//     'Dark Gray Metallic',
+//     'Crystal Black Silica',
+//   ],
 
-  order: function (wMODAL, wCOLOR) {
-    return [this.modals[wMODAL], this.colors[wCOLOR]]
-  }
-}
-// Recive 2  return values rom a function
-const [MODAL, COLOR] = JDM.order(1,  5)
-console.log('====================================');
-console.log(MODAL, COLOR);
-console.log('====================================');
+//   order: function (wMODAL, wCOLOR) {
+//     return [this.modals[wMODAL], this.colors[wCOLOR]]
+//   }
+// }
+// // Recive 2  return values rom a function
+// const [MODAL, COLOR] = JDM.order(1,  5)
+// console.log('====================================');
+// console.log(MODAL, COLOR);
+// console.log('====================================');
 
-let [main, ,second] = JDM.modals
-console.log('====================================');
-console.log(main, second);
-console.log('====================================');
+// let [main, ,second] = JDM.modals
+// console.log('====================================');
+// console.log(main, second);
+// console.log('====================================');
 
-// ** Switching Variables **//
-[main, second] = [second, main]
+// // ** Switching Variables **//
+// [main, second] = [second, main]
+// console.log('====================================');
+// console.log(main , second);
+// console.log('====================================');
+
+const nested = [2, 6,[0, 3, 8, 4]]
+const [i, , j] = nested
 console.log('====================================');
-console.log(main , second);
+console.log(i, j);
 console.log('====================================');
