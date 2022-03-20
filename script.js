@@ -1128,3 +1128,7 @@ console.log(Manufac, openingHours);
 
 const {openingHours: hours, colors: paint} = orderSTI
 console.log(hours, paint);
+
+//Useful for retriving data from API
+const {wheels = [], modals: trims = [] } = orderSTI
+console.log(wheels, trims);
