@@ -1132,3 +1132,20 @@ console.log(hours, paint);
 //Useful for retriving data from API
 const {wheels = [], modals: trims = [] } = orderSTI
 console.log(wheels, trims);
+
+//Mutating Variables
+// let a = 111
+// let b = 999
+// const obj1 = {a: 23, b:7, c: 14}
+// ({a, b} = obj1);
+// console.log(a, b);
+
+//Nested Objects 
+const { 
+    Fri: 
+    {
+        open: o, 
+        close: c,
+    } 
+} = openingHours;
+console.log(o, c);
