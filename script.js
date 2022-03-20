@@ -1125,3 +1125,6 @@ const orderSTI = {
 
 const {Manufac, openingHours} = orderSTI
 console.log(Manufac, openingHours);
+
+const {openingHours: hours, colors: paint} = orderSTI
+console.log(hours, paint);
