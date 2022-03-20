@@ -1120,18 +1120,29 @@ const orderSTI = {
         return [
             this.modals[wMODAL], this.colors[wCOLOR]
         ]
+    },
+
+    orderDelivery: function(starterIndex, mainIndex, address, time){
+        console.log(`Order received! ${this.modals[starterIndex]} in ${this.colors[mainIndex]} will be delivered to ${address} at ${time}`);
     }
 }
 
-const {Manufac, openingHours} = orderSTI
-console.log(Manufac, openingHours);
+orderSTI.orderDelivery({
+    time: '19:30',
+    address: 'Dover',
+    mainIndex: 1,
+    starterIndex: 1,
+})
 
-const {openingHours: hours, colors: paint} = orderSTI
-console.log(hours, paint);
+// const {Manufac, openingHours} = orderSTI
+// console.log(Manufac, openingHours);
 
-//Useful for retriving data from API
-const {wheels = [], modals: trims = [] } = orderSTI
-console.log(wheels, trims);
+// const {openingHours: hours, colors: paint} = orderSTI
+// console.log(hours, paint);
+
+// //Useful for retriving data from API
+// const {wheels = [], modals: trims = [] } = orderSTI
+// console.log(wheels, trims);
 
 //Mutating Variables
 // let a = 111
@@ -1141,11 +1152,11 @@ console.log(wheels, trims);
 // console.log(a, b);
 
 //Nested Objects 
-const { 
-    Fri: 
-    {
-        open: o, 
-        close: c,
-    } 
-} = openingHours;
-console.log(o, c);
+// const { 
+//     Fri: 
+//     {
+//         open: o, 
+//         close: c,
+//     } 
+// } = openingHours;
+// console.log(o, c);
