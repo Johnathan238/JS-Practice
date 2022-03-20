@@ -1024,15 +1024,15 @@
 // const c = arr[2]
 
 // const JDM = {
-//   Manufac: 'SUBARU',
+// Manufac: 'SUBARU',
 
-//   modals: [
+// modals: [
 //     'WRX',
 //     'STI',
 //     'OUTBACK FOR SHAPE UPS'
-//   ],
+// ],
 
-//   colors: [
+// colors: [
 //     'World Rally Blue',
 //     'Crystal White Pearl',
 //     'Ice Silver Metallic',
@@ -1041,11 +1041,11 @@
 //     'Lapis Blue Pearl',
 //     'Dark Gray Metallic',
 //     'Crystal Black Silica',
-//   ],
+// ],
 
-//   order: function (wMODAL, wCOLOR) {
+// order: function (wMODAL, wCOLOR) {
 //     return [this.modals[wMODAL], this.colors[wCOLOR]]
-//   }
+// }
 // }
 // // Recive 2  return values rom a function
 // const [MODAL, COLOR] = JDM.order(1,  5)
@@ -1064,8 +1064,64 @@
 // console.log(main , second);
 // console.log('====================================');
 
-const nested = [2, 6,[0, 3, 8, 4]]
-const [i, , [j, k]] = nested
-console.log('====================================');
-console.log(i, j, k);
-console.log('====================================');
+// Nested Destructing
+// const nested = [2, 6,[0, 3, 8, 4]]
+// const [i, , [j, k]] = nested
+// console.log('====================================');
+// console.log(i, j, k);
+// console.log('====================================');
+
+// // Default Values
+// const [ p=1,q=1,r=1 ] = [8,9]
+// console.log(p, q, r);
+
+// Destructing objects
+const orderSTI = {
+    Manufac: 'SUBARU',
+
+    modals: [
+        'WRX', 'STI', 'OUTBACK FOR SHAPE UPS'
+    ],
+
+    colors: [
+        'World Rally Blue',
+        'Crystal White Pearl',
+        'Ice Silver Metallic',
+        'Pure Red',
+        'WR Blue Pearl',
+        'Lapis Blue Pearl',
+        'Dark Gray Metallic',
+        'Crystal Black Silica',
+    ],
+
+    openingHours:{
+        Mon:{
+            open: 9,
+            close: 18
+        },
+
+        Wed:{
+            open: 9,
+            close: 18
+        },
+
+        Fri:{
+            open: 9,
+            close: 16
+        },
+
+        Sat:{
+            open: 10,
+            close: 14
+        },
+    },
+
+    order: function (wMODAL, wCOLOR) {
+        return [
+            this.modals[wMODAL], this.colors[wCOLOR]
+        ]
+    }
+}
+
+const {Manufac, openingHours} = orderSTI
+console.log(Manufac, openingHours);
