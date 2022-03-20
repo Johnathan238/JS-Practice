@@ -1065,7 +1065,7 @@
 // console.log('====================================');
 
 const nested = [2, 6,[0, 3, 8, 4]]
-const [i, , j] = nested
+const [i, , [j, k]] = nested
 console.log('====================================');
-console.log(i, j);
+console.log(i, j, k);
 console.log('====================================');
