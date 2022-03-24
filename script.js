@@ -1077,62 +1077,63 @@
 
 // Destructing objects
 const orderSTI = {
-    Manufac: 'SUBARU',
+  Manufac: 'SUBARU',
 
-    modals: [
-        'WRX', 'STI', 'OUTBACK FOR SHAPE UPS'
-    ],
+  modals: [
+    'WRX', 'STI', 'OUTBACK FOR SHAPE UPS'
+  ],
 
-    colors: [
-        'World Rally Blue',
-        'Crystal White Pearl',
-        'Ice Silver Metallic',
-        'Pure Red',
-        'WR Blue Pearl',
-        'Lapis Blue Pearl',
-        'Dark Gray Metallic',
-        'Crystal Black Silica',
-    ],
+  colors: [
+    'World Rally Blue',
+    'Crystal White Pearl',
+    'Ice Silver Metallic',
+    'Pure Red',
+    'WR Blue Pearl',
+    'Lapis Blue Pearl',
+    'Dark Gray Metallic',
+    'Crystal Black Silica',
+  ],
 
-    openingHours:{
-        Mon:{
-            open: 9,
-            close: 18
-        },
-
-        Wed:{
-            open: 9,
-            close: 18
-        },
-
-        Fri:{
-            open: 9,
-            close: 16
-        },
-
-        Sat:{
-            open: 10,
-            close: 14
-        },
+  openingHours: {
+    Mon: {
+      open: 9,
+      close: 18
     },
 
-    order: function (wMODAL, wCOLOR) {
-        return [
-            this.modals[wMODAL], this.colors[wCOLOR]
-        ]
+    Wed: {
+      open: 9,
+      close: 18
     },
 
-    orderDelivery: function(wMODAL = 1, mainIndex = 1, address = 'Dover', time = '19:30'){
-        console.log(`Order received! ${this.modals[wMODAL]} in ${this.colors[mainIndex]} will be delivered to ${address} at ${time}`);
-    }
+    Fri: {
+      open: 9,
+      close: 16
+    },
+
+    Sat: {
+      open: 10,
+      close: 14
+    },
+  },
 }
 
-orderSTI.orderDelivery({
-    time: '19:30',
-    address: 'Dover',
-    mainIndex: 1,
-    starterIndex: 1,
-})
+//     order: function (wMODAL, wCOLOR) {
+//         return [
+//             this.modals[wMODAL], this.colors[wCOLOR]
+//         ]
+//     },
+
+    // orderDelivery: function(wMODAL = 1, mainIndex = 1, address = 'Dover', time = '19:30'){
+    //     console.log(`Order received! ${this.modals[wMODAL]} in ${this.colors[mainIndex]} will be delivered to ${address} at ${time}`);
+    // }
+
+
+// orderSTI.orderDelivery({
+//     time: '19:30',
+//     address: 'Dover',
+//     mainIndex: 1,
+//     starterIndex: 1,
+// })
 
 // const {Manufac, openingHours} = orderSTI
 // console.log(Manufac, openingHours);
@@ -1160,3 +1161,19 @@ orderSTI.orderDelivery({
 //     } 
 // } = openingHours;
 // console.log(o, c);
+
+// ** Spread Operator ** //
+const arr = [8, 9, 10]
+const newArr = [6, 7, ...arr]
+console.log('====================================');
+console.log(newArr);
+console.log('====================================');
+console.log('====================================');
+console.log(...newArr);
+console.log('====================================');
+
+// OrderSTI
+const newWRX = [...orderSTI.modals, '2023-WRX']
+console.log('====================================');
+console.log(newWRX);
+console.log('====================================');
