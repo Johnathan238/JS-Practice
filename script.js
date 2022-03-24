@@ -1122,8 +1122,8 @@ const orderSTI = {
         ]
     },
 
-    orderDelivery: function(starterIndex, mainIndex, address, time){
-        console.log(`Order received! ${this.modals[starterIndex]} in ${this.colors[mainIndex]} will be delivered to ${address} at ${time}`);
+    orderDelivery: function(wMODAL = 1, mainIndex = 1, address = 'Dover', time = '19:30'){
+        console.log(`Order received! ${this.modals[wMODAL]} in ${this.colors[mainIndex]} will be delivered to ${address} at ${time}`);
     }
 }
 
