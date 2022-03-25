@@ -1187,3 +1187,5 @@ const twoArrs = [...modalsCopy, ...orderSTI.colors]
 console.log('====================================');
 console.log(twoArrs);
 console.log('====================================');
+
+//Iterables: Array, strings, maps, sets. Not Objects
