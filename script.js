@@ -1177,3 +1177,13 @@ const newWRX = [...orderSTI.modals, '2023-WRX']
 console.log('====================================');
 console.log(newWRX);
 console.log('====================================');
+
+
+//Copy array
+const modalsCopy = [...orderSTI.modals]
+
+//Join arrays 
+const twoArrs = [...modalsCopy, ...orderSTI.colors]
+console.log('====================================');
+console.log(twoArrs);
+console.log('====================================');
