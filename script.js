@@ -1208,10 +1208,12 @@ const orderSTI = {
 // orderSTI.orderDinner(...resturants)
 
 //Objects
-const newOrder = {...orderSTI, Born:'Japan'}
+// const newOrder = {...orderSTI, Born:'Japan'}
 
-console.log("🚀 ~ file: script.js ~ line 1213 ~ newOrder", newOrder)
+// console.log("🚀 ~ file: script.js ~ line 1213 ~ newOrder", newOrder)
 
-const stiCopy = {...orderSTI}
-stiCopy.Manufac = 'JDM'
-console.log("🚀 ~ file: script.js ~ line 1217 ~ stiCopy", stiCopy)
+// const stiCopy = {...orderSTI}
+// stiCopy.Manufac = 'JDM'
+// console.log("🚀 ~ file: script.js ~ line 1217 ~ stiCopy", stiCopy)
+
+//** REST Pattern & Parameters */
