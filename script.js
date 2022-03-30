@@ -1116,9 +1116,9 @@ const orderSTI = {
     },
   },
 
-  orderDinner: function (ing1, ing2, ing3) {
+  orderDinner: function (res1, res2, res3) {
     console.log('====================================');
-    console.log(`Here's our choices ${ing1}, ${ing2}, ${ing3}`);
+    console.log(`Here's our choices ${res1}, ${res2}, ${res3}`);
     console.log('====================================');
   }
 }
@@ -1200,3 +1200,9 @@ const letters = [...str, '', 'G.']
 console.log('====================================');
 console.log(letters);
 console.log('====================================');
+
+
+const resturants = [prompt(`Resturant-1`), prompt(`Resturant-2`), prompt(`Resturant-3`)]
+console.log("🚀 ~ file: script.js ~ line 1206 ~ resturants", resturants)
+
+orderSTI.orderDinner(...resturants)
