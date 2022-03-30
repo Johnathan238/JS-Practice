@@ -1195,14 +1195,23 @@ const orderSTI = {
 // console.log('====================================');
 
 //Iterables: Array, strings, maps, sets. Not Objects
-const str = "Yope"
-const letters = [...str, '', 'G.']
-console.log('====================================');
-console.log(letters);
-console.log('====================================');
+// const str = "Yope"
+// const letters = [...str, '', 'G.']
+// console.log('====================================');
+// console.log(letters);
+// console.log('====================================');
 
 
-const resturants = [prompt(`Resturant-1`), prompt(`Resturant-2`), prompt(`Resturant-3`)]
-console.log("🚀 ~ file: script.js ~ line 1206 ~ resturants", resturants)
+// const resturants = [prompt(`Resturant-1`), prompt(`Resturant-2`), prompt(`Resturant-3`)]
+// console.log("🚀 ~ file: script.js ~ line 1206 ~ resturants", resturants)
 
-orderSTI.orderDinner(...resturants)
+// orderSTI.orderDinner(...resturants)
+
+//Objects
+const newOrder = {...orderSTI, Born:'Japan'}
+
+console.log("🚀 ~ file: script.js ~ line 1213 ~ newOrder", newOrder)
+
+const stiCopy = {...orderSTI}
+stiCopy.Manufac = 'JDM'
+console.log("🚀 ~ file: script.js ~ line 1217 ~ stiCopy", stiCopy)
