@@ -1189,3 +1189,8 @@ const orderSTI = {
 // console.log('====================================');
 
 //Iterables: Array, strings, maps, sets. Not Objects
+const str = "Yope"
+const letters = [...str, '', 'G.']
+console.log('====================================');
+console.log(letters);
+console.log('====================================');
