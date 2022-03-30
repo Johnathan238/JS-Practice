@@ -1115,6 +1115,12 @@ const orderSTI = {
       close: 14
     },
   },
+
+  orderDinner: function (ing1, ing2, ing3) {
+    console.log('====================================');
+    console.log(`Here's our choices ${ing1}, ${ing2}, ${ing3}`);
+    console.log('====================================');
+  }
 }
 
 //     order: function (wMODAL, wCOLOR) {
