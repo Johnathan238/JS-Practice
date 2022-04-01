@@ -1242,3 +1242,21 @@ console.log('====================================');
 console.log(N,T,JDM);
 console.log('====================================');
 
+//Objects
+const {hy, ...Manufacturs} = jdmCars.Manufacturs 
+console.log(Manufacturs);
+
+// 2) Functions 
+const add = function (...numbers){
+  let sum = 0
+  for (let i = 0; i < numbers.length; i++) 
+  sum += numbers[i]
+  console.log("🚀 ~ file: script.js ~ line 1251 ~ add ~ sum", sum) 
+}
+
+add(4,6)
+add(5,5,6,6,4,3,.2)
+
+const x = [54,67,49]
+add(...x)
+
