@@ -1227,3 +1227,18 @@ console.log('====================================');
 console.log(a,b, others);
 console.log('====================================');
 
+const jdmCars = {
+  Manufacturs: [
+    'Nissan',
+    'Toyota',
+    'Mazada',
+    'Subaru',
+    'Mitsubishi'
+  ]
+}
+
+const [N, T, ...JDM] = [...jdmCars.Manufacturs]
+console.log('====================================');
+console.log(N,T,JDM);
+console.log('====================================');
+
