@@ -1076,52 +1076,52 @@
 // console.log(p, q, r);
 
 // Destructing objects
-const orderSTI = {
-  Manufac: 'SUBARU',
+// const orderSTI = {
+//   Manufac: 'SUBARU',
 
-  modals: [
-    'WRX', 'STI', 'OUTBACK FOR SHAPE UPS'
-  ],
+//   modals: [
+//     'WRX', 'STI', 'OUTBACK FOR SHAPE UPS'
+//   ],
 
-  colors: [
-    'World Rally Blue',
-    'Crystal White Pearl',
-    'Ice Silver Metallic',
-    'Pure Red',
-    'WR Blue Pearl',
-    'Lapis Blue Pearl',
-    'Dark Gray Metallic',
-    'Crystal Black Silica',
-  ],
+//   colors: [
+//     'World Rally Blue',
+//     'Crystal White Pearl',
+//     'Ice Silver Metallic',
+//     'Pure Red',
+//     'WR Blue Pearl',
+//     'Lapis Blue Pearl',
+//     'Dark Gray Metallic',
+//     'Crystal Black Silica',
+//   ],
 
-  openingHours: {
-    Mon: {
-      open: 9,
-      close: 18
-    },
+//   openingHours: {
+//     Mon: {
+//       open: 9,
+//       close: 18
+//     },
 
-    Wed: {
-      open: 9,
-      close: 18
-    },
+//     Wed: {
+//       open: 9,
+//       close: 18
+//     },
 
-    Fri: {
-      open: 9,
-      close: 16
-    },
+//     Fri: {
+//       open: 9,
+//       close: 16
+//     },
 
-    Sat: {
-      open: 10,
-      close: 14
-    },
-  },
+//     Sat: {
+//       open: 10,
+//       close: 14
+//     },
+//   },
 
-  orderDinner: function (res1, res2, res3) {
-    console.log('====================================');
-    console.log(`Here's our choices ${res1}, ${res2}, ${res3}`);
-    console.log('====================================');
-  }
-}
+//   orderDinner: function (res1, res2, res3) {
+//     console.log('====================================');
+//     console.log(`Here's our choices ${res1}, ${res2}, ${res3}`);
+//     console.log('====================================');
+//   }
+// }
 
 //     order: function (wMODAL, wCOLOR) {
 //         return [
@@ -1216,4 +1216,14 @@ const orderSTI = {
 // stiCopy.Manufac = 'JDM'
 // console.log("🚀 ~ file: script.js ~ line 1217 ~ stiCopy", stiCopy)
 
-//** REST Pattern & Parameters */
+//** REST Pattern & Parameters *// Pack things into Arr
+// SPRED, because RIGHT side of =
+const iDKArr = [1, 2, 3, ...[5, 5, 6]]
+console.log(iDKArr);
+
+//REST, because LEFT side of =
+const [a, b, ...others] = [4, 5, 6, 7, 8]
+console.log('====================================');
+console.log(a,b, others);
+console.log('====================================');
+
