@@ -1234,8 +1234,15 @@ const jdmCars = {
     'Mazada',
     'Subaru',
     'Mitsubishi'
-  ]
+  ],
+
+  orderVe: function(wModal, ...oModal){
+    console.log(wModal);
+    console.log(oModal);
+  }
 }
+
+jdmCars.orderVe('R34', 'Supra', 'RX7', 'STI', 'EVO')
 
 const [N, T, ...JDM] = [...jdmCars.Manufacturs]
 console.log('====================================');
