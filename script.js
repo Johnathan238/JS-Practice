@@ -1267,3 +1267,8 @@
 // const x = [54,67,49]
 // add(...x)
 
+//* Short Circuting (&& and ||) *//
+//Use ANY data type & return ANY data type & short-circuting
+console.log('====================================');
+console.log(3 || 'STI');
+console.log('====================================');
