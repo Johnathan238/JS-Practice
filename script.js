@@ -1218,52 +1218,52 @@
 
 //** REST Pattern & Parameters *// Pack things into Arr
 // SPRED, because RIGHT side of =
-const iDKArr = [1, 2, 3, ...[5, 5, 6]]
-console.log(iDKArr);
+// const iDKArr = [1, 2, 3, ...[5, 5, 6]]
+// console.log(iDKArr);
 
-//REST, because LEFT side of =
-const [a, b, ...others] = [4, 5, 6, 7, 8]
-console.log('====================================');
-console.log(a,b, others);
-console.log('====================================');
+// //REST, because LEFT side of =
+// const [a, b, ...others] = [4, 5, 6, 7, 8]
+// console.log('====================================');
+// console.log(a,b, others);
+// console.log('====================================');
 
-const jdmCars = {
-  Manufacturs: [
-    'Nissan',
-    'Toyota',
-    'Mazada',
-    'Subaru',
-    'Mitsubishi'
-  ],
+// const jdmCars = {
+//   Manufacturs: [
+//     'Nissan',
+//     'Toyota',
+//     'Mazada',
+//     'Subaru',
+//     'Mitsubishi'
+//   ],
 
-  orderVe: function(wModal, ...oModal){
-    console.log(wModal);
-    console.log(oModal);
-  }
-}
+//   orderVe: function(wModal, ...oModal){
+//     console.log(wModal);
+//     console.log(oModal);
+//   }
+// }
 
-jdmCars.orderVe('R34', 'Supra', 'RX7', 'STI', 'EVO')
+// jdmCars.orderVe('R34', 'Supra', 'RX7', 'STI', 'EVO')
 
-const [N, T, ...JDM] = [...jdmCars.Manufacturs]
-console.log('====================================');
-console.log(N,T,JDM);
-console.log('====================================');
+// const [N, T, ...JDM] = [...jdmCars.Manufacturs]
+// console.log('====================================');
+// console.log(N,T,JDM);
+// console.log('====================================');
 
-//Objects
-const {hy, ...Manufacturs} = jdmCars.Manufacturs 
-console.log(Manufacturs);
+// //Objects
+// const {hy, ...Manufacturs} = jdmCars.Manufacturs 
+// console.log(Manufacturs);
 
-// 2) Functions 
-const add = function (...numbers){
-  let sum = 0
-  for (let i = 0; i < numbers.length; i++) 
-  sum += numbers[i]
-  console.log("🚀 ~ file: script.js ~ line 1251 ~ add ~ sum", sum) 
-}
+// // 2) Functions 
+// const add = function (...numbers){
+//   let sum = 0
+//   for (let i = 0; i < numbers.length; i++) 
+//   sum += numbers[i]
+//   console.log("🚀 ~ file: script.js ~ line 1251 ~ add ~ sum", sum) 
+// }
 
-add(4,6)
-add(5,5,6,6,4,3,.2)
+// add(4,6)
+// add(5,5,6,6,4,3,.2)
 
-const x = [54,67,49]
-add(...x)
+// const x = [54,67,49]
+// add(...x)
 
