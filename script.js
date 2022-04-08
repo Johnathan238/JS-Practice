@@ -1269,22 +1269,30 @@ jdmCars.orderVe('R34', 'Supra', 'RX7', 'STI', 'EVO')
 
 //* Short Circuting (&& and ||) *//
 //Use ANY data type & return ANY data type & short-circuting
-console.log('====================================');
-console.log(3 || 'STI');
-console.log('====================================');
-console.log('====================================');
-console.log('' || 'STi');
-console.log(true || 0);
-console.log(undefined || null);
-console.log('====================================');
+// console.log('====================================');
+// console.log(3 || 'STI');
+// console.log('====================================');
+// console.log('====================================');
+// console.log('' || 'STi');
+// console.log(true || 0);
+// console.log(undefined || null);
+// console.log('====================================');
 
-jdmCars.numberMan = 5
-const hmJDM = jdmCars.numberMan ? jdmCars.Manufacturs : 1
-console.log('====================================');
-console.log(hmJDM);
-console.log('====================================');
+// jdmCars.numberMan = 5
+// const hmJDM = jdmCars.numberMan ? jdmCars.Manufacturs : 1
+// console.log('====================================');
+// console.log(hmJDM);
+// console.log('====================================');
 
-const hmJDMS = jdmCars.numberMan || 1
+// const hmJDMS = jdmCars.numberMan || 1
+// console.log('====================================');
+// console.log(hmJDMS);
+// console.log('====================================');
+
+//* (&&) *//
 console.log('====================================');
-console.log(hmJDMS);
+console.log(0 && 'STI');
+console.log('====================================');
+console.log('====================================');
+console.log('Hello' && 25 && null & 'STI');
 console.log('====================================');
