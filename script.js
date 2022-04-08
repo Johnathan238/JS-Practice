@@ -1269,11 +1269,11 @@
 
 //* Short Circuting (&& and ||) *//
 //Use ANY data type & return ANY data type & short-circuting
-console.log('====================================');
-console.log(3 || 'STI');
-console.log('====================================');
-console.log('====================================');
-console.log('' || 'STi');
-console.log(true || 0);
-console.log(undefined || null);
-console.log('====================================');
+// console.log('====================================');
+// console.log(3 || 'STI');
+// console.log('====================================');
+// console.log('====================================');
+// console.log('' || 'STi');
+// console.log(true || 0);
+// console.log(undefined || null);
+// console.log('====================================');
