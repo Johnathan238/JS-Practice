@@ -1227,22 +1227,22 @@
 // console.log(a,b, others);
 // console.log('====================================');
 
-// const jdmCars = {
-//   Manufacturs: [
-//     'Nissan',
-//     'Toyota',
-//     'Mazada',
-//     'Subaru',
-//     'Mitsubishi'
-//   ],
+const jdmCars = {
+  Manufacturs: [
+    'Nissan',
+    'Toyota',
+    'Mazada',
+    'Subaru',
+    'Mitsubishi'
+  ],
 
-//   orderVe: function(wModal, ...oModal){
-//     console.log(wModal);
-//     console.log(oModal);
-//   }
-// }
+  orderVe: function(wModal, ...oModal){
+    console.log(wModal);
+    console.log(oModal);
+  }
+}
 
-// jdmCars.orderVe('R34', 'Supra', 'RX7', 'STI', 'EVO')
+jdmCars.orderVe('R34', 'Supra', 'RX7', 'STI', 'EVO')
 
 // const [N, T, ...JDM] = [...jdmCars.Manufacturs]
 // console.log('====================================');
@@ -1269,11 +1269,22 @@
 
 //* Short Circuting (&& and ||) *//
 //Use ANY data type & return ANY data type & short-circuting
-// console.log('====================================');
-// console.log(3 || 'STI');
-// console.log('====================================');
-// console.log('====================================');
-// console.log('' || 'STi');
-// console.log(true || 0);
-// console.log(undefined || null);
-// console.log('====================================');
+console.log('====================================');
+console.log(3 || 'STI');
+console.log('====================================');
+console.log('====================================');
+console.log('' || 'STi');
+console.log(true || 0);
+console.log(undefined || null);
+console.log('====================================');
+
+jdmCars.numberMan = 5
+const hmJDM = jdmCars.numberMan ? jdmCars.Manufacturs : 1
+console.log('====================================');
+console.log(hmJDM);
+console.log('====================================');
+
+const hmJDMS = jdmCars.numberMan || 1
+console.log('====================================');
+console.log(hmJDMS);
+console.log('====================================');
