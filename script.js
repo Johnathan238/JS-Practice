@@ -1278,11 +1278,11 @@ jdmCars.orderVe('R34', 'Supra', 'RX7', 'STI', 'EVO')
 // console.log(undefined || null);
 // console.log('====================================');
 
-// jdmCars.numberMan = 5
-// const hmJDM = jdmCars.numberMan ? jdmCars.Manufacturs : 1
-// console.log('====================================');
-// console.log(hmJDM);
-// console.log('====================================');
+jdmCars.numberMan = 5
+const hmJDM = jdmCars.numberMan ? jdmCars.Manufacturs : 1
+console.log('====================================');
+console.log(hmJDM);
+console.log('====================================');
 
 // const hmJDMS = jdmCars.numberMan || 1
 // console.log('====================================');
@@ -1290,9 +1290,18 @@ jdmCars.orderVe('R34', 'Supra', 'RX7', 'STI', 'EVO')
 // console.log('====================================');
 
 //* (&&) *//
-console.log('====================================');
-console.log(0 && 'STI');
-console.log('====================================');
-console.log('====================================');
-console.log('Hello' && 25 && null & 'STI');
-console.log('====================================');
+// console.log('====================================');
+// // console.log(0 && 'STI');
+// console.log('====================================');
+// console.log('====================================');
+// console.log('Hello' && 25 && null & 'STI');
+// console.log('====================================');
+
+// if (jdmCars.numberMan) {
+//   jdmCars.numberMan('Hyandi', 'Lexus', 'Acura')
+// }
+
+// jdmCars.numberMan && jdmCars.numberMan('Hyandi', 'Lexus', 'Acura')
+// console.log('====================================');
+// console.log(jdmCars.numberMan);
+// console.log('====================================');
