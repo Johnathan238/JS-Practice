@@ -1227,22 +1227,22 @@
 // console.log(a,b, others);
 // console.log('====================================');
 
-const jdmCars = {
-  Manufacturs: [
-    'Nissan',
-    'Toyota',
-    'Mazada',
-    'Subaru',
-    'Mitsubishi'
-  ],
+// const jdmCars = {
+//   Manufacturs: [
+//     'Nissan',
+//     'Toyota',
+//     'Mazada',
+//     'Subaru',
+//     'Mitsubishi'
+//   ],
 
-  orderVe: function(wModal, ...oModal){
-    console.log(wModal);
-    console.log(oModal);
-  }
-}
+//   orderVe: function(wModal, ...oModal){
+//     console.log(wModal);
+//     console.log(oModal);
+//   }
+// }
 
-jdmCars.orderVe('R34', 'Supra', 'RX7', 'STI', 'EVO')
+// jdmCars.orderVe('R34', 'Supra', 'RX7', 'STI', 'EVO')
 
 // const [N, T, ...JDM] = [...jdmCars.Manufacturs]
 // console.log('====================================');
@@ -1279,18 +1279,18 @@ jdmCars.orderVe('R34', 'Supra', 'RX7', 'STI', 'EVO')
 // console.log('====================================');
 
 // jdmCars.numberMan = 5
-const hmJDM = jdmCars.numberMan ? jdmCars.Manufacturs : 1
-console.log('====================================');
-console.log(hmJDM);
-console.log('====================================');
+// const hmJDM = jdmCars.numberMan ? jdmCars.Manufacturs : 1
+// console.log('====================================');
+// console.log(hmJDM);
+// console.log('====================================');
 
-const jdmCorrect = jdmCars.numberMan ?? 10
-console.log(jdmCorrect);
+// const jdmCorrect = jdmCars.numberMan ?? 10
+// console.log(jdmCorrect);
 
-const hmJDMS = jdmCars.numberMan || 1
-console.log('====================================');
-console.log(hmJDMS);
-console.log('====================================');
+// const hmJDMS = jdmCars.numberMan || 1
+// console.log('====================================');
+// console.log(hmJDMS);
+// console.log('====================================');
 
 //* (&&) *//
 // console.log('====================================');
@@ -1308,3 +1308,15 @@ console.log('====================================');
 // console.log('====================================');
 // console.log(jdmCars.numberMan);
 // console.log('====================================');
+
+//** Logical Assigment Operator**/
+const idk1 = {
+  name: 'Podcast-Ayooo',
+  guest: 3
+}
+
+const idk2 = {
+  name: 'Podcast-Ayooo',
+  guest: 3
+}
+
