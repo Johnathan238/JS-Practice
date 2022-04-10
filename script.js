@@ -1278,16 +1278,19 @@ jdmCars.orderVe('R34', 'Supra', 'RX7', 'STI', 'EVO')
 // console.log(undefined || null);
 // console.log('====================================');
 
-jdmCars.numberMan = 5
+// jdmCars.numberMan = 5
 const hmJDM = jdmCars.numberMan ? jdmCars.Manufacturs : 1
 console.log('====================================');
 console.log(hmJDM);
 console.log('====================================');
 
-// const hmJDMS = jdmCars.numberMan || 1
-// console.log('====================================');
-// console.log(hmJDMS);
-// console.log('====================================');
+const jdmCorrect = jdmCars.numberMan ?? 10
+console.log(jdmCorrect);
+
+const hmJDMS = jdmCars.numberMan || 1
+console.log('====================================');
+console.log(hmJDMS);
+console.log('====================================');
 
 //* (&&) *//
 // console.log('====================================');
