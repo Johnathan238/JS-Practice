@@ -1321,8 +1321,8 @@ const idk2 = {
 }
 
 // OR assignment operator
-idk2.guest = idk1.guest || 4
-console.log("🚀 ~ file: script.js ~ line 1324 ~ idk2.guest", idk2.guest)
+// idk2.guest = idk1.guest || 4
+// console.log("🚀 ~ file: script.js ~ line 1324 ~ idk2.guest", idk2.guest)
 
 // idk1.guest ||= 4
 // console.log("🚀 ~ file: script.js ~ line 1328 ~ idk1.guest", idk1.guest)
@@ -1330,9 +1330,15 @@ console.log("🚀 ~ file: script.js ~ line 1324 ~ idk2.guest", idk2.guest)
 // console.log("🚀 ~ file: script.js ~ line 1330 ~ idk2.guest", idk2.guest)
 
 // nullish assignment operator (null or undefined)
-idk1.guest ??= 4
-console.log("🚀 ~ file: script.js ~ line 1328 ~ idk1.guest", idk1.guest)
-idk2.guest ??= 4
-console.log("🚀 ~ file: script.js ~ line 1330 ~ idk2.guest", idk2.guest)
+// idk1.guest ??= 4
+// console.log("🚀 ~ file: script.js ~ line 1328 ~ idk1.guest", idk1.guest)
+// idk2.guest ??= 4
+// console.log("🚀 ~ file: script.js ~ line 1330 ~ idk2.guest", idk2.guest)
 
+// && OPERATOR
+// idk2.Owner = idk2.Owner && '<<ANONYMOUS>>'
+idk1.Owner &&= '<<ANONYMOUS>>'
+console.log("🚀 ~ file: script.js ~ line 1341 ~ idk1.Owner", idk1.Owner)
+idk2.Owner &&= '<<ANONYMOUS>>'
+console.log("🚀 ~ file: script.js ~ line 1340 ~ idk2.Owner", idk2.Owner)
 
