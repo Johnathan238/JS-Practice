@@ -1316,7 +1316,11 @@ const idk1 = {
 }
 
 const idk2 = {
-  name: 'Podcast-Ayooo',
-  guest: 3
+  name: 'Podcast-WTF',
+  Owner: 'Freshyy'
 }
+
+idk2.guest = idk1.guest || 4
+console.log("🚀 ~ file: script.js ~ line 1324 ~ idk2.guest", idk2.guest)
+
 
