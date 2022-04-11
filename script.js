@@ -1312,7 +1312,7 @@
 //** Logical Assigment Operator**/
 const idk1 = {
   name: 'Podcast-Ayooo',
-  guest: 3
+  guest: 0
 }
 
 const idk2 = {
@@ -1320,7 +1320,13 @@ const idk2 = {
   Owner: 'Freshyy'
 }
 
+// OR assignment operator
 idk2.guest = idk1.guest || 4
 console.log("🚀 ~ file: script.js ~ line 1324 ~ idk2.guest", idk2.guest)
+
+idk1.guest ||= 4
+console.log("🚀 ~ file: script.js ~ line 1328 ~ idk1.guest", idk1.guest)
+idk2.guest ||= 4
+console.log("🚀 ~ file: script.js ~ line 1330 ~ idk2.guest", idk2.guest)
 
 
