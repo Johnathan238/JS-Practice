@@ -1324,9 +1324,15 @@ const idk2 = {
 idk2.guest = idk1.guest || 4
 console.log("🚀 ~ file: script.js ~ line 1324 ~ idk2.guest", idk2.guest)
 
-idk1.guest ||= 4
+// idk1.guest ||= 4
+// console.log("🚀 ~ file: script.js ~ line 1328 ~ idk1.guest", idk1.guest)
+// idk2.guest ||= 4
+// console.log("🚀 ~ file: script.js ~ line 1330 ~ idk2.guest", idk2.guest)
+
+// nullish assignment operator (null or undefined)
+idk1.guest ??= 4
 console.log("🚀 ~ file: script.js ~ line 1328 ~ idk1.guest", idk1.guest)
-idk2.guest ||= 4
+idk2.guest ??= 4
 console.log("🚀 ~ file: script.js ~ line 1330 ~ idk2.guest", idk2.guest)
 
 
