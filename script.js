@@ -1076,58 +1076,58 @@
 // console.log(p, q, r);
 
 // Destructing objects
-// const orderSTI = {
-//   Manufac: 'SUBARU',
+const orderSTI = {
+  Manufac: 'SUBARU',
 
-//   modals: [
-//     'WRX', 'STI', 'OUTBACK FOR SHAPE UPS'
-//   ],
+  modals: [
+    'WRX', 'STI', 'OUTBACK FOR SHAPE UPS'
+  ],
 
-//   colors: [
-//     'World Rally Blue',
-//     'Crystal White Pearl',
-//     'Ice Silver Metallic',
-//     'Pure Red',
-//     'WR Blue Pearl',
-//     'Lapis Blue Pearl',
-//     'Dark Gray Metallic',
-//     'Crystal Black Silica',
-//   ],
+  colors: [
+    'World Rally Blue',
+    'Crystal White Pearl',
+    'Ice Silver Metallic',
+    'Pure Red',
+    'WR Blue Pearl',
+    'Lapis Blue Pearl',
+    'Dark Gray Metallic',
+    'Crystal Black Silica',
+  ],
 
-//   openingHours: {
-//     Mon: {
-//       open: 9,
-//       close: 18
-//     },
+  openingHours: {
+    Mon: {
+      open: 9,
+      close: 18
+    },
 
-//     Wed: {
-//       open: 9,
-//       close: 18
-//     },
+    Wed: {
+      open: 9,
+      close: 18
+    },
 
-//     Fri: {
-//       open: 9,
-//       close: 16
-//     },
+    Fri: {
+      open: 9,
+      close: 16
+    },
 
-//     Sat: {
-//       open: 10,
-//       close: 14
-//     },
-//   },
+    Sat: {
+      open: 10,
+      close: 14
+    },
+  },
 
-//   orderDinner: function (res1, res2, res3) {
-//     console.log('====================================');
-//     console.log(`Here's our choices ${res1}, ${res2}, ${res3}`);
-//     console.log('====================================');
-//   }
-// }
+  orderDinner: function (res1, res2, res3) {
+    console.log('====================================');
+    console.log(`Here's our choices ${res1}, ${res2}, ${res3}`);
+    console.log('====================================');
+  }
+}
 
-//     order: function (wMODAL, wCOLOR) {
-//         return [
-//             this.modals[wMODAL], this.colors[wCOLOR]
-//         ]
-//     },
+    // order: function (wMODAL, wCOLOR) {
+    //     return [
+    //         this.modals[wMODAL], this.colors[wCOLOR]
+    //     ]
+    // },
 
     // orderDelivery: function(wMODAL = 1, mainIndex = 1, address = 'Dover', time = '19:30'){
     //     console.log(`Order received! ${this.modals[wMODAL]} in ${this.colors[mainIndex]} will be delivered to ${address} at ${time}`);
@@ -1178,11 +1178,8 @@
 // console.log(...newArr);
 // console.log('====================================');
 
-// // OrderSTI
-// const newWRX = [...orderSTI.modals, '2023-WRX']
-// console.log('====================================');
-// console.log(newWRX);
-// console.log('====================================');
+// OrderSTI
+// k ,m  
 
 
 // //Copy array
@@ -1249,8 +1246,8 @@
 // console.log(N,T,JDM);
 // console.log('====================================');
 
-// //Objects
-// const {hy, ...Manufacturs} = jdmCars.Manufacturs 
+//Objects
+// const {HY, ...Manufacturs} = jdmCars.Manufacturs 
 // console.log(Manufacturs);
 
 // // 2) Functions 
@@ -1357,7 +1354,7 @@ Suppose we get data from a web service about a certain game (below). In this cha
 7. The team with the lower odd is more likely to win. Print to the console which team is more likely to win, WITHOUT using an if/else statement or the ternary operator.
 TEST DATA FOR 6: Use players 'Davies', 'Muller', 'Lewandowski' and 'Kimmich'. Then, call the function again with players from game.scored */
 
-// 1. -> //
+
 
 const game = {
   team1: 'Bayern Munich',
@@ -1399,11 +1396,18 @@ const game = {
     team2: 6.5,
   },
 };
-
+// 1. -> //
 const [players1, players2] = game.players
 console.log("🚀 ~ file: script.js ~ line 1404 ~ players1, players2", players1, players2)
 
+// 2. -> //
+const gk1 = [game.players[0]]
+console.log("🚀 ~ file: script.js ~ line 1408 ~ gk1", gk1)
 
+const newWRX = [...orderSTI.modals, '2023-WRX']
+console.log('====================================');
+console.log(newWRX);
+console.log('====================================');
 
 //** Solution **//
 // 1.
