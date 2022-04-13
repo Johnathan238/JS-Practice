@@ -1425,7 +1425,7 @@ console.log("🚀 ~ file: script.js ~ line 1418 ~ players1Final", players1Final)
 const {x: draw} = game
 console.log("🚀 ~ file: script.js ~ line 1425 ~ game.odds", game)
 
-//6. -> //
+//6. -> // Not finished
 const printGoals = function(...goalsScored){
   let score = 0
   for(let i = 0; i < goalsScored.length; i++)
@@ -1434,7 +1434,8 @@ const printGoals = function(...goalsScored){
   
 }
 
-printGoals('Davies', 'Muller', 'Lewandowski', 'Kimmich')
+const golazo = ['Davies', 'Muller', 'Lewandowski' ,'Kimmich']
+printGoals(golazo)
 
 // // 2) Functions 
 // const add = function (...numbers){
@@ -1448,4 +1449,42 @@ printGoals('Davies', 'Muller', 'Lewandowski', 'Kimmich')
 // add(5,5,6,6,4,3,.2)
 
 // const x = [54,67,49]
-// add(...
+// add(...x)
+
+
+//7. -> //
+//** Logical Assigment Operator**/
+// const idk1 = {
+//   name: 'Podcast-Ayooo',
+//   guest: 0
+// }
+
+// const idk2 = {
+//   name: 'Podcast-WTF',
+//   Owner: 'Freshyy'
+// }
+
+// // OR assignment operator
+// // idk2.guest = idk1.guest || 4
+// // console.log("🚀 ~ file: script.js ~ line 1324 ~ idk2.guest", idk2.guest)
+
+// // idk1.guest ||= 4
+// // console.log("🚀 ~ file: script.js ~ line 1328 ~ idk1.guest", idk1.guest)
+// // idk2.guest ||= 4
+// // console.log("🚀 ~ file: script.js ~ line 1330 ~ idk2.guest", idk2.guest)
+
+// // nullish assignment operator (null or undefined)
+// // idk1.guest ??= 4
+// // console.log("🚀 ~ file: script.js ~ line 1328 ~ idk1.guest", idk1.guest)
+// // idk2.guest ??= 4
+// // console.log("🚀 ~ file: script.js ~ line 1330 ~ idk2.guest", idk2.guest)
+
+// // && OPERATOR
+// // idk2.Owner = idk2.Owner && '<<ANONYMOUS>>'
+// idk1.Owner &&= '<<ANONYMOUS>>'
+// console.log("🚀 ~ file: script.js ~ line 1341 ~ idk1.Owner", idk1.Owner)
+// idk2.Owner &&= '<<ANONYMOUS>>'
+// console.log("🚀 ~ file: script.js ~ line 1340 ~ idk2.Owner", idk2.Owner)
+
+game.odds.team1 = game.odds.team2 || game.odds.x
+console.log("🚀 ~ file: script.js ~ line 1490 ~ game.odds.team1 - WINNER ->", game.odds.team1 )
