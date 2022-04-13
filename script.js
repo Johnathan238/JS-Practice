@@ -1076,52 +1076,52 @@
 // console.log(p, q, r);
 
 // Destructing objects
-const orderSTI = {
-  Manufac: 'SUBARU',
+// const orderSTI = {
+//   Manufac: 'SUBARU',
 
-  modals: [
-    'WRX', 'STI', 'OUTBACK FOR SHAPE UPS'
-  ],
+//   modals: [
+//     'WRX', 'STI', 'OUTBACK FOR SHAPE UPS'
+//   ],
 
-  colors: [
-    'World Rally Blue',
-    'Crystal White Pearl',
-    'Ice Silver Metallic',
-    'Pure Red',
-    'WR Blue Pearl',
-    'Lapis Blue Pearl',
-    'Dark Gray Metallic',
-    'Crystal Black Silica',
-  ],
+//   colors: [
+//     'World Rally Blue',
+//     'Crystal White Pearl',
+//     'Ice Silver Metallic',
+//     'Pure Red',
+//     'WR Blue Pearl',
+//     'Lapis Blue Pearl',
+//     'Dark Gray Metallic',
+//     'Crystal Black Silica',
+//   ],
 
-  openingHours: {
-    Mon: {
-      open: 9,
-      close: 18
-    },
+//   openingHours: {
+//     Mon: {
+//       open: 9,
+//       close: 18
+//     },
 
-    Wed: {
-      open: 9,
-      close: 18
-    },
+//     Wed: {
+//       open: 9,
+//       close: 18
+//     },
 
-    Fri: {
-      open: 9,
-      close: 16
-    },
+//     Fri: {
+//       open: 9,
+//       close: 16
+//     },
 
-    Sat: {
-      open: 10,
-      close: 14
-    },
-  },
+//     Sat: {
+//       open: 10,
+//       close: 14
+//     },
+//   },
 
-  orderDinner: function (res1, res2, res3) {
-    console.log('====================================');
-    console.log(`Here's our choices ${res1}, ${res2}, ${res3}`);
-    console.log('====================================');
-  }
-}
+//   orderDinner: function (res1, res2, res3) {
+//     console.log('====================================');
+//     console.log(`Here's our choices ${res1}, ${res2}, ${res3}`);
+//     console.log('====================================');
+//   }
+// }
 
     // order: function (wMODAL, wCOLOR) {
     //     return [
@@ -1401,39 +1401,51 @@ const [players1, players2] = game.players
 console.log("🚀 ~ file: script.js ~ line 1404 ~ players1, players2", players1, players2)
 
 // 2. -> //
-const gk1 = [game.players[0]]
-console.log("🚀 ~ file: script.js ~ line 1408 ~ gk1", gk1)
+const [gk, ...fieldPlayers] = players1
+console.log("🚀 ~ file: script.js ~ line 1408 ~ gk1", gk, fieldPlayers)
 
-const newWRX = [...orderSTI.modals, '2023-WRX']
-console.log('====================================');
-console.log(newWRX);
-console.log('====================================');
+// const newWRX = [...orderSTI.modals, '2023-WRX']
+// console.log('====================================');
+// console.log(newWRX);
+// console.log('====================================');
 
-//** Solution **//
-// 1.
-// const [players1, players2] = game.players;
-// console.log(players1, players2);
-// // 2.
-// const [gk, ...fieldPlayers] = players1;
-// console.log(gk, fieldPlayers);
-// // 3.
-// const allPlayers = [...players1, ...players2];
-// console.log(allPlayers);
-// // 4.
-// const players1Final = [...players1, 'Thiago', 'Coutinho', 'Periscic'];
-// // 5.
-// const {
-//   odds: { team1, x: draw, team2 },
-// } = game;
-// console.log(team1, draw, team2);
-// // 6.
-// const printGoals = function (...players) {
-//   console.log(players);
-//   console.log(`${players.length} goals were scored`);
-// };
-// // printGoals('Davies', 'Muller', 'Lewandowski', 'Kimmich');
-// // printGoals('Davies', 'Muller');
-// printGoals(...game.scored);
-// // 7.
-// team1 < team2 && console.log('Team 1 is more likely to win');
-// team1 > team2 && console.log('Team 2 is more likely to win');
+// 3. -> //
+const allPlayers = [...players1, ...players2]
+console.log("🚀 ~ file: script.js ~ line 1414 ~ allPlayers", allPlayers)
+
+//4. -> //
+const players1Final = [...players1, 'Thiago', 'Coutinho' ,'Perisic']
+console.log("🚀 ~ file: script.js ~ line 1418 ~ players1Final", players1Final)
+
+//5. -> //
+// const {openingHours: hours, colors: paint} = orderSTI
+// console.log(hours, paint);
+// jdmCars.orderVe('R34', 'Supra', 'RX7', 'STI', 'EVO')
+
+const {x: draw} = game
+console.log("🚀 ~ file: script.js ~ line 1425 ~ game.odds", game)
+
+//6. -> //
+const printGoals = function(...goalsScored){
+  let score = 0
+  for(let i = 0; i < goalsScored.length; i++)
+  score += goalsScored[i]
+  console.log("🚀 ~ file: script.js ~ line 1433 ~ printGoals ~ score", score)
+  
+}
+
+printGoals('Davies', 'Muller', 'Lewandowski', 'Kimmich')
+
+// // 2) Functions 
+// const add = function (...numbers){
+//   let sum = 0
+//   for (let i = 0; i < numbers.length; i++) 
+//   sum += numbers[i]
+//   console.log("🚀 ~ file: script.js ~ line 1251 ~ add ~ sum", sum) 
+// }
+
+// add(4,6)
+// add(5,5,6,6,4,3,.2)
+
+// const x = [54,67,49]
+// add(...
