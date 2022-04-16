@@ -1401,8 +1401,8 @@ const [players1, players2] = game.players
 console.log("🚀 ~ file: script.js ~ line 1404 ~ players1, players2", players1, players2)
 
 // 2. -> //
-const [gk, ...fieldPlayers] = players1
-console.log("🚀 ~ file: script.js ~ line 1408 ~ gk1", gk, fieldPlayers)
+// const [gk, ...fieldPlayers] = players1
+// console.log("🚀 ~ file: script.js ~ line 1408 ~ gk1", gk, fieldPlayers)
 
 // const newWRX = [...orderSTI.modals, '2023-WRX']
 // console.log('====================================');
@@ -1410,32 +1410,32 @@ console.log("🚀 ~ file: script.js ~ line 1408 ~ gk1", gk, fieldPlayers)
 // console.log('====================================');
 
 // 3. -> //
-const allPlayers = [...players1, ...players2]
-console.log("🚀 ~ file: script.js ~ line 1414 ~ allPlayers", allPlayers)
+// const allPlayers = [...players1, ...players2]
+// console.log("🚀 ~ file: script.js ~ line 1414 ~ allPlayers", allPlayers)
 
 //4. -> //
-const players1Final = [...players1, 'Thiago', 'Coutinho' ,'Perisic']
-console.log("🚀 ~ file: script.js ~ line 1418 ~ players1Final", players1Final)
+// const players1Final = [...players1, 'Thiago', 'Coutinho' ,'Perisic']
+// console.log("🚀 ~ file: script.js ~ line 1418 ~ players1Final", players1Final)
 
 //5. -> //
 // const {openingHours: hours, colors: paint} = orderSTI
 // console.log(hours, paint);
 // jdmCars.orderVe('R34', 'Supra', 'RX7', 'STI', 'EVO')
 
-const {x: draw} = game
-console.log("🚀 ~ file: script.js ~ line 1425 ~ game.odds", game)
+// const {x: draw} = game
+// console.log("🚀 ~ file: script.js ~ line 1425 ~ game.odds", game)
 
 //6. -> // Not finished
-const printGoals = function(...goalsScored){
-  let score = 0
-  for(let i = 0; i < goalsScored.length; i++)
-  score += goalsScored[i]
-  console.log("🚀 ~ file: script.js ~ line 1433 ~ printGoals ~ score", score)
+// const printGoals = function(...goalsScored){
+//   let score = 0
+//   for(let i = 0; i < goalsScored.length; i++)
+//   score += goalsScored[i]
+//   console.log("🚀 ~ file: script.js ~ line 1433 ~ printGoals ~ score", score)
   
-}
+// }
 
-const golazo = ['Davies', 'Muller', 'Lewandowski' ,'Kimmich']
-printGoals(golazo)
+// const golazo = ['Davies', 'Muller', 'Lewandowski' ,'Kimmich']
+// printGoals(golazo)
 
 // // 2) Functions 
 // const add = function (...numbers){
@@ -1486,8 +1486,8 @@ printGoals(golazo)
 // idk2.Owner &&= '<<ANONYMOUS>>'
 // console.log("🚀 ~ file: script.js ~ line 1340 ~ idk2.Owner", idk2.Owner)
 
-game.odds.team1 = game.odds.team2 || game.odds.x
-console.log("🚀 ~ file: script.js ~ line 1490 ~ game.odds.team1 - WINNER ->", game.odds.team1 )
+// game.odds.team1 = game.odds.team2 || game.odds.x
+// console.log("🚀 ~ file: script.js ~ line 1490 ~ game.odds.team1 - WINNER ->", game.odds.team1 )
 
 /*
 // 1.
@@ -1518,3 +1518,9 @@ printGoals(...game.scored);
 team1 < team2 && console.log('Team 1 is more likely to win');
 team1 > team2 && console.log('Team 2 is more likely to win'); 
 */
+
+//Looping-Arrays: The for-loop
+
+const game2 = [...players1, ...players2]
+
+for ( const players of game2 ) console.log(players);
