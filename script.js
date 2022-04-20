@@ -1577,20 +1577,20 @@ const orderSTI = {
   openingHours,
 
 
-  orderDinner: function (res1, res2, res3) {
+  orderDinner (res1, res2, res3) {
     console.log('====================================');
     console.log(`Here's our choices ${res1}, ${res2}, ${res3}`);
     console.log('====================================');
   },
 
 
-    order: function (wMODAL, wCOLOR) {
+    order (wMODAL, wCOLOR) {
         return [
             this.modals[wMODAL], this.colors[wCOLOR]
         ]
     },
 
-    orderDelivery: function(wMODAL = 1, mainIndex = 1, address = 'Dover', time = '19:30'){
+    orderDelivery(wMODAL = 1, mainIndex = 1, address = 'Dover', time = '19:30'){
         console.log(`Order received! ${this.modals[wMODAL]} in ${this.colors[mainIndex]} will be delivered to ${address} at ${time}`);
     },
 
