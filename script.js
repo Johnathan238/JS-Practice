@@ -1356,49 +1356,49 @@ TEST DATA FOR 6: Use players 'Davies', 'Muller', 'Lewandowski' and 'Kimmich'. Th
 
 
 
-const game = {
-  team1: 'Bayern Munich',
-  team2: 'Borrussia Dortmund',
-  players: [
-    [
-      'Neuer',
-      'Pavard',
-      'Martinez',
-      'Alaba',
-      'Davies',
-      'Kimmich',
-      'Goretzka',
-      'Coman',
-      'Muller',
-      'Gnarby',
-      'Lewandowski',
-    ],
-    [
-      'Burki',
-      'Schulz',
-      'Hummels',
-      'Akanji',
-      'Hakimi',
-      'Weigl',
-      'Witsel',
-      'Hazard',
-      'Brandt',
-      'Sancho',
-      'Gotze',
-    ],
-  ],
-  score: '4:0',
-  scored: ['Lewandowski', 'Gnarby', 'Lewandowski', 'Hummels'],
-  date: 'Nov 9th, 2037',
-  odds: {
-    team1: 1.33,
-    x: 3.25,
-    team2: 6.5,
-  },
-};
-// 1. -> //
-const [players1, players2] = game.players
-console.log("🚀 ~ file: script.js ~ line 1404 ~ players1, players2", players1, players2)
+// const game = {
+//   team1: 'Bayern Munich',
+//   team2: 'Borrussia Dortmund',
+//   players: [
+//     [
+//       'Neuer',
+//       'Pavard',
+//       'Martinez',
+//       'Alaba',
+//       'Davies',
+//       'Kimmich',
+//       'Goretzka',
+//       'Coman',
+//       'Muller',
+//       'Gnarby',
+//       'Lewandowski',
+//     ],
+//     [
+//       'Burki',
+//       'Schulz',
+//       'Hummels',
+//       'Akanji',
+//       'Hakimi',
+//       'Weigl',
+//       'Witsel',
+//       'Hazard',
+//       'Brandt',
+//       'Sancho',
+//       'Gotze',
+//     ],
+//   ],
+//   score: '4:0',
+//   scored: ['Lewandowski', 'Gnarby', 'Lewandowski', 'Hummels'],
+//   date: 'Nov 9th, 2037',
+//   odds: {
+//     team1: 1.33,
+//     x: 3.25,
+//     team2: 6.5,
+//   },
+// };
+// // 1. -> //
+// const [players1, players2] = game.players
+// console.log("🚀 ~ file: script.js ~ line 1404 ~ players1, players2", players1, players2)
 
 // 2. -> //
 // const [gk, ...fieldPlayers] = players1
@@ -1532,3 +1532,68 @@ team1 > team2 && console.log('Team 2 is more likely to win');
 // console.log([...game2.players]);
 
 //Enchanced Object Literals
+
+const openingHours = {
+  Mon: {
+    open: 9,
+    close: 18
+  },
+
+  Wed: {
+    open: 9,
+    close: 18
+  },
+
+  Fri: {
+    open: 9,
+    close: 16
+  },
+
+  Sat: {
+    open: 10,
+    close: 14
+  },
+}
+
+const orderSTI = {
+  Manufac: 'SUBARU',
+
+  modals: [
+    'WRX', 'STI', 'OUTBACK FOR SHAPE UPS'
+  ],
+
+  colors: [
+    'World Rally Blue',
+    'Crystal White Pearl',
+    'Ice Silver Metallic',
+    'Pure Red',
+    'WR Blue Pearl',
+    'Lapis Blue Pearl',
+    'Dark Gray Metallic',
+    'Crystal Black Silica',
+  ],
+
+  // ES6 ENCHANCED OBJECT LITERALS
+  openingHours,
+
+
+  orderDinner: function (res1, res2, res3) {
+    console.log('====================================');
+    console.log(`Here's our choices ${res1}, ${res2}, ${res3}`);
+    console.log('====================================');
+  },
+
+
+    order: function (wMODAL, wCOLOR) {
+        return [
+            this.modals[wMODAL], this.colors[wCOLOR]
+        ]
+    },
+
+    orderDelivery: function(wMODAL = 1, mainIndex = 1, address = 'Dover', time = '19:30'){
+        console.log(`Order received! ${this.modals[wMODAL]} in ${this.colors[mainIndex]} will be delivered to ${address} at ${time}`);
+    },
+
+}
+  console.log("🚀 ~ file: script.js ~ line 1598 ~ openingHours", orderSTI.openingHours)
+
