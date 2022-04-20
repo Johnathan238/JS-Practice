@@ -1532,24 +1532,19 @@ team1 > team2 && console.log('Team 2 is more likely to win');
 // console.log([...game2.players]);
 
 //Enchanced Object Literals
-
+const weekdays = ['Mon' , 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 const openingHours = {
-  Mon: {
+  [weekdays[3]]: {
     open: 9,
     close: 18
   },
 
-  Wed: {
+  [weekdays[4]]: {
     open: 9,
     close: 18
   },
 
-  Fri: {
-    open: 9,
-    close: 16
-  },
-
-  Sat: {
+  [weekdays[6]]:{
     open: 10,
     close: 14
   },
@@ -1596,4 +1591,6 @@ const orderSTI = {
 
 }
   console.log("🚀 ~ file: script.js ~ line 1598 ~ openingHours", orderSTI.openingHours)
+
+  // Optional Chaining (?)
 
