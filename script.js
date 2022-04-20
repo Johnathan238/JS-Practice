@@ -1521,12 +1521,14 @@ team1 > team2 && console.log('Team 2 is more likely to win');
 
 //Looping-Arrays: The for-loop
 
-const game2 = [...players1, ...players2]
+// const game2 = [...players1, ...players2]
 
-for ( const players of game2 ) console.log(players);
+// for ( const players of game2 ) console.log(players);
 
-for ( const players of game2()){
-  console.log(players);
-}
+// for ( const players of game2.players()){
+//   console.log(players);
+// }
 
-console.log([...game2]);
+// console.log([...game2.players]);
+
+//Enchanced Object Literals
