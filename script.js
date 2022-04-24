@@ -1602,7 +1602,9 @@ const orderSTI = {
   
   for (const day of days){
     // console.log(day);
-    const open = orderSTI.openingHours[day]?.open
+    const open = orderSTI.openingHours[day]?.open ?? 'closed'
     console.log(`On ${day} we ${open}`);
   }
+
+  //Methods
 
