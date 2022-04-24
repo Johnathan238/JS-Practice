@@ -1533,6 +1533,7 @@ team1 > team2 && console.log('Team 2 is more likely to win');
 
 //Enchanced Object Literals
 const weekdays = ['Mon' , 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+// const days = ['Mon' , 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 const openingHours = {
   [weekdays[3]]: {
     open: 9,
@@ -1593,5 +1594,15 @@ const orderSTI = {
   console.log("🚀 ~ file: script.js ~ line 1598 ~ openingHours", orderSTI.openingHours)
 
   // Optional Chaining (?)
-  console.log(orderSTI.openingHours.mon?.open);
+  // console.log(orderSTI.openingHours.mon?.open);
+  // console.log(orderSTI.openingHours?.mon?.open);
+
+  //EXAMPLE
+  const days = ['Mon' , 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+  
+  for (const day of days){
+    // console.log(day);
+    const open = orderSTI.openingHours[day]?.open
+    console.log(`On ${day} we ${open}`);
+  }
 
