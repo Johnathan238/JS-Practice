@@ -1593,4 +1593,5 @@ const orderSTI = {
   console.log("🚀 ~ file: script.js ~ line 1598 ~ openingHours", orderSTI.openingHours)
 
   // Optional Chaining (?)
+  console.log(orderSTI.openingHours.mon?.open);
 
