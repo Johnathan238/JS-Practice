@@ -1533,7 +1533,7 @@ team1 > team2 && console.log('Team 2 is more likely to win');
 
 //Enchanced Object Literals
 // const weekdays = ['Mon' , 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-// // const days = ['Mon' , 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+// // // const days = ['Mon' , 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 // const openingHours = {
 //   [weekdays[3]]: {
 //     open: 9,
@@ -1612,11 +1612,63 @@ team1 > team2 && console.log('Team 2 is more likely to win');
 // console.log('====================================');
 
 //Arrays
-const user = [
-  {
-    name: 'Mario',
-    email: 'mariojudahhhhh20@gmail.com'
-  }
-]
+// const user = [
+//   {
+//     name: 'Mario',
+//     email: 'mariojudahhhhh20@gmail.com'
+//   }
+// ]
 
-console.log(user[0]?.name ?? "USer Not Found");
+// console.log(user[0]?.name ?? "USer Not Found");
+
+//** Looping Objects: Keys, Values, Entries **/
+
+const weekdays = ['Mon' , 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+// // const days = ['Mon' , 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+const openingHours = {
+  [weekdays[0]]: {
+    open: 9,
+    close: 18
+  },
+
+  [weekdays[2]]: {
+    open: 9,
+    close: 18
+  },
+
+  [weekdays[4]]:{
+    open: 10,
+    close: 14
+  },
+}
+
+//Property NAMES
+const proporties = Object.keys(openingHours)
+
+let openStr = `We are open on ${proporties.length} Days: `
+
+for (const day of proporties) {
+openStr += `${day}, `
+}
+
+console.log('====================================');
+console.log(openStr);
+console.log('====================================');
+
+//Property VALUES
+const values = Object.values(openingHours)
+console.log('====================================');
+console.log(values);
+console.log('====================================');
+
+//Entire object
+const enT = Object.entries(openingHours)
+// console.log('====================================');
+// console.log(enT);
+// console.log('====================================');
+
+for (const [key, {open , close}] of enT) {
+  console.log('====================================');
+  console.log(`On ${key} we open at ${open} and close at ${close}`);
+  console.log('====================================');
+}
