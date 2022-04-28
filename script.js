@@ -1532,82 +1532,91 @@ team1 > team2 && console.log('Team 2 is more likely to win');
 // console.log([...game2.players]);
 
 //Enchanced Object Literals
-const weekdays = ['Mon' , 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-// const days = ['Mon' , 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-const openingHours = {
-  [weekdays[3]]: {
-    open: 9,
-    close: 18
-  },
+// const weekdays = ['Mon' , 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+// // const days = ['Mon' , 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+// const openingHours = {
+//   [weekdays[3]]: {
+//     open: 9,
+//     close: 18
+//   },
 
-  [weekdays[4]]: {
-    open: 9,
-    close: 18
-  },
+//   [weekdays[4]]: {
+//     open: 9,
+//     close: 18
+//   },
 
-  [weekdays[6]]:{
-    open: 10,
-    close: 14
-  },
-}
+//   [weekdays[6]]:{
+//     open: 10,
+//     close: 14
+//   },
+// }
 
-const orderSTI = {
-  Manufac: 'SUBARU',
+// const orderSTI = {
+//   Manufac: 'SUBARU',
 
-  modals: [
-    'WRX', 'STI', 'OUTBACK FOR SHAPE UPS'
-  ],
+//   modals: [
+//     'WRX', 'STI', 'OUTBACK FOR SHAPE UPS'
+//   ],
 
-  colors: [
-    'World Rally Blue',
-    'Crystal White Pearl',
-    'Ice Silver Metallic',
-    'Pure Red',
-    'WR Blue Pearl',
-    'Lapis Blue Pearl',
-    'Dark Gray Metallic',
-    'Crystal Black Silica',
-  ],
+//   colors: [
+//     'World Rally Blue',
+//     'Crystal White Pearl',
+//     'Ice Silver Metallic',
+//     'Pure Red',
+//     'WR Blue Pearl',
+//     'Lapis Blue Pearl',
+//     'Dark Gray Metallic',
+//     'Crystal Black Silica',
+//   ],
 
-  // ES6 ENCHANCED OBJECT LITERALS
-  openingHours,
-
-
-  orderDinner (res1, res2, res3) {
-    console.log('====================================');
-    console.log(`Here's our choices ${res1}, ${res2}, ${res3}`);
-    console.log('====================================');
-  },
+//   // ES6 ENCHANCED OBJECT LITERALS
+//   openingHours,
 
 
-    order (wMODAL, wCOLOR) {
-        return [
-            this.modals[wMODAL], this.colors[wCOLOR]
-        ]
-    },
+//   orderDinner (res1, res2, res3) {
+//     console.log('====================================');
+//     console.log(`Here's our choices ${res1}, ${res2}, ${res3}`);
+//     console.log('====================================');
+//   },
 
-    orderDelivery(wMODAL = 1, mainIndex = 1, address = 'Dover', time = '19:30'){
-        console.log(`Order received! ${this.modals[wMODAL]} in ${this.colors[mainIndex]} will be delivered to ${address} at ${time}`);
-    },
 
-}
-  console.log("🚀 ~ file: script.js ~ line 1598 ~ openingHours", orderSTI.openingHours)
+//     order (wMODAL, wCOLOR) {
+//         return [
+//             this.modals[wMODAL], this.colors[wCOLOR]
+//         ]
+//     },
+
+//     orderDelivery(wMODAL = 1, mainIndex = 1, address = 'Dover', time = '19:30'){
+//         console.log(`Order received! ${this.modals[wMODAL]} in ${this.colors[mainIndex]} will be delivered to ${address} at ${time}`);
+//     },
+
+// }
+//   console.log("🚀 ~ file: script.js ~ line 1598 ~ openingHours", orderSTI.openingHours)
 
   // Optional Chaining (?)
   // console.log(orderSTI.openingHours.mon?.open);
   // console.log(orderSTI.openingHours?.mon?.open);
 
   //EXAMPLE
-  const days = ['Mon' , 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+//   const days = ['Mon' , 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
   
-  for (const day of days){
-    // console.log(day);
-    const open = orderSTI.openingHours[day]?.open ?? 'closed'
-    console.log(`On ${day} we ${open}`);
+//   for (const day of days){
+//     // console.log(day);
+//     const open = orderSTI.openingHours[day]?.open ?? 'closed'
+//     console.log(`On ${day} we ${open}`);
+//   }
+
+//   //Methods
+// console.log('====================================');
+// console.log(orderSTI.modals?.[1]?? "Method does not work!");
+// console.log('====================================');
+
+//Arrays
+const user = [
+  {
+    name: 'Mario',
+    email: 'mariojudahhhhh20@gmail.com'
   }
+]
 
-  //Methods
-console.log('====================================');
-console.log(orderSTI.modals?.[0,1]?? "Method does not work!");
-console.log('====================================');
-
+console.log(user[0]?.name ?? "USer Not Found");
