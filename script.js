@@ -1607,4 +1607,7 @@ const orderSTI = {
   }
 
   //Methods
+console.log('====================================');
+console.log(orderSTI.modals?.[0,1]?? "Method does not work!");
+console.log('====================================');
 
