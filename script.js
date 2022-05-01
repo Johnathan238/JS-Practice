@@ -1693,7 +1693,6 @@ BONUS: Create an object called 'scorers' which contains the names of the players
       }
 GOOD LUCK 😀
 */
-
 const game = {
   team1: 'Bayern Munich',
   team2: 'Borrussia Dortmund',
@@ -1734,3 +1733,18 @@ const game = {
     team2: 6.5,
   },
 };
+
+  //EXAMPLE
+//   const days = ['Mon' , 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+  
+//   for (const day of days){
+//     // console.log(day);
+//     const open = orderSTI.openingHours[day]?.open ?? 'closed'
+//     console.log(`On ${day} we ${open}`);
+//   }
+
+////////////////// 1
+for (let gS = 0; gS < game.scored.length; gS++){
+  console.log();
+}
+console.log("🚀 ~ file: script.js ~ line 1705 ~ games", game.scored)
