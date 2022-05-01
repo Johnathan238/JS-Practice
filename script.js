@@ -1745,6 +1745,6 @@ const game = {
 
 ////////////////// 1
 for (let gS = 0; gS < game.scored.length; gS++){
-  console.log();
+  console.log(`Goal ${gS}: ${game.scored}`);
 }
 console.log("🚀 ~ file: script.js ~ line 1705 ~ games", game.scored)
