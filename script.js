@@ -1750,6 +1750,26 @@ for (let gS = 0; gS < game.scored.length; gS++){
 console.log("🚀 ~ file: script.js ~ line 1705 ~ games", game.scored)
 
 ////////////////// 2
-function calcAverage() {
-  
-}
+// Example 
+//Looping-Arrays: The for-loop
+
+// const game2 = [...players1, ...players2]
+
+// for ( const players of game2 ) console.log(players);
+
+// for ( const players of game2.players()){
+//   console.log(players);
+// }
+
+// console.log([...game2.players]);
+
+// for ( const average of game.odds()){
+//   console.log(average);
+// }
+
+// let sum = 0
+// game.odds.forEach(function(calcAverage) {sum + calcAverage})
+
+// average = sum / game.odds.length
+// console.log("🚀 ~ file: script.js ~ line 1761 ~ average", average)
+
