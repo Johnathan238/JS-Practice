@@ -1772,4 +1772,8 @@ console.log("🚀 ~ file: script.js ~ line 1705 ~ games", game.scored)
 
 // average = sum / game.odds.length
 // console.log("🚀 ~ file: script.js ~ line 1761 ~ average", average)
-
+const keys = Object.keys(game.odds)
+console.log("🚀 ~ file: script.js ~ line 1776 ~ keys", keys)
+keys.forEach((key, index) => {
+  console.log(`${key}: ${game.odds[key]}`);
+})
