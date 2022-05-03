@@ -1772,14 +1772,14 @@ console.log("🚀 ~ file: script.js ~ line 1705 ~ games", game.scored)
 
 // average = sum / game.odds.length
 // console.log("🚀 ~ file: script.js ~ line 1761 ~ average", average)
-const keys = Object.keys(game.odds)
-console.log("🚀 ~ file: script.js ~ line 1776 ~ keys", keys)
+// const keys = Object.keys(game.odds)
+// console.log("🚀 ~ file: script.js ~ line 1776 ~ keys", keys)
 
-let sum = 0
-keys.forEach((key, index) => {
-  console.log("🚀 ~ file: script.js ~ line 1780 ~ keys.forEach ~ index", index)
-  console.log(`${key}: ${game.odds[key]} = average is ${ index / sum}`);
-})
+// let sum = 0
+// keys.forEach((key, index) => {
+//   // console.log("🚀 ~ file: script.js ~ line 1780 ~ keys.forEach ~ index", index)
+//   console.log(`${key}: ${game.odds[key]} = average is ${ game.odds[key] / sum}`);
+// })
 
 // let sum = 0
 // for ( let num of keys ){
@@ -1791,4 +1791,19 @@ keys.forEach((key, index) => {
 // console.log("🚀 ~ file: script.js ~ line 1787 ~ sum", sum)
 // console.log("🚀 ~ file: script.js ~ line 1787 ~ keys.length", keys.length)
 // console.log("🚀 ~ file: script.js ~ line 1787 ~ aVer", aVer)
+
+
+////////////////// 3. Print the 3 odds to the console, but in a nice formatted way, exaclty like this:
+      // Odd of victory Bayern Munich: 1.33
+      // Odd of draw: 3.25
+      // Odd of victory Borrussia Dortmund: 6.5
+
+
+const keys = Object.keys(game.odds)
+console.log("🚀 ~ file: script.js ~ line 1776 ~ keys", keys)
+
+keys.forEach((key, index) => {
+  // console.log("🚀 ~ file: script.js ~ line 1780 ~ keys.forEach ~ index", index)
+  console.log(`Odd of Victory ${game.team1} :${game.odds[key]}`);
+})
 
