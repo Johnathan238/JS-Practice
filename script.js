@@ -1748,3 +1748,8 @@ for (let gS = 0; gS < game.scored.length; gS++){
   console.log(`Goal ${gS}: ${game.scored[gS]}`);
 }
 console.log("🚀 ~ file: script.js ~ line 1705 ~ games", game.scored)
+
+////////////////// 2
+function calcAverage() {
+  
+}
