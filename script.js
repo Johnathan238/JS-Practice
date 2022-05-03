@@ -1777,3 +1777,13 @@ console.log("🚀 ~ file: script.js ~ line 1776 ~ keys", keys)
 keys.forEach((key, index) => {
   console.log(`${key}: ${game.odds[key]}`);
 })
+
+let sum = 0
+for ( let num of keys ){
+  sum += num
+}
+
+let aVer = sum / keys.length
+console.log("🚀 ~ file: script.js ~ line 1787 ~ keys.length", keys.length)
+console.log("🚀 ~ file: script.js ~ line 1787 ~ aVer", aVer)
+
