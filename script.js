@@ -1774,16 +1774,21 @@ console.log("🚀 ~ file: script.js ~ line 1705 ~ games", game.scored)
 // console.log("🚀 ~ file: script.js ~ line 1761 ~ average", average)
 const keys = Object.keys(game.odds)
 console.log("🚀 ~ file: script.js ~ line 1776 ~ keys", keys)
-keys.forEach((key, index) => {
-  console.log(`${key}: ${game.odds[key]}`);
-})
 
 let sum = 0
-for ( let num of keys ){
-  sum += num
-}
+keys.forEach((key, index) => {
+  console.log("🚀 ~ file: script.js ~ line 1780 ~ keys.forEach ~ index", index)
+  console.log(`${key}: ${game.odds[key]} = average is ${ index / sum}`);
+})
 
-let aVer = sum / keys.length
-console.log("🚀 ~ file: script.js ~ line 1787 ~ keys.length", keys.length)
-console.log("🚀 ~ file: script.js ~ line 1787 ~ aVer", aVer)
+// let sum = 0
+// for ( let num of keys ){
+//   console.log("🚀 ~ file: script.js ~ line 1783 ~ num", num)
+//   sum += game.odds[keys]
+// }
+
+// let aVer = sum / keys.length
+// console.log("🚀 ~ file: script.js ~ line 1787 ~ sum", sum)
+// console.log("🚀 ~ file: script.js ~ line 1787 ~ keys.length", keys.length)
+// console.log("🚀 ~ file: script.js ~ line 1787 ~ aVer", aVer)
 
