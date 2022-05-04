@@ -1750,6 +1750,17 @@ for (let gS = 0; gS < game.scored.length; gS++){
 console.log("🚀 ~ file: script.js ~ line 1705 ~ games", game.scored)
 
 ////////////////// 2
+
+//// professor solution
+let average = 0
+const oddsValue = Object.values(game.odds)
+for (const odd of oddsValue)
+  average += odd
+  average /= oddsValue.length
+  console.log("🚀 ~ file: script.js ~ line 1760 ~ average", average)
+  
+
+
 // Example 
 //Looping-Arrays: The for-loop
 
