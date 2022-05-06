@@ -1754,13 +1754,11 @@ console.log("🚀 ~ file: script.js ~ line 1705 ~ games", game.scored)
 //// professor solution
 let average = 0
 const oddsValue = Object.values(game.odds)
+console.log("🚀 ~ file: script.js ~ line 1757 ~ Object.values(game.odds)", Object.values(game.odds))
 for (const odd of oddsValue)
   average += odd
   average /= oddsValue.length
   console.log("🚀 ~ file: script.js ~ line 1760 ~ average", average)
-  
-
-
 // Example 
 //Looping-Arrays: The for-loop
 
@@ -1809,12 +1807,18 @@ for (const odd of oddsValue)
       // Odd of draw: 3.25
       // Odd of victory Borrussia Dortmund: 6.5
 
+  //// professor solution
+  for (const [team, odd] of Object.entries(game.odds)){
+    const teamStr = team === 'x' ? 'Draw ' : `Victory ${game[team]}`
+  console.log("🚀 ~ file: script.js ~ line 1812 ~ team, odd", `Odd of ${teamStr} ${odd}`)
+  }
 
-const keys = Object.keys(game.odds)
-console.log("🚀 ~ file: script.js ~ line 1776 ~ keys", keys)
 
-keys.forEach((key, index) => {
-  // console.log("🚀 ~ file: script.js ~ line 1780 ~ keys.forEach ~ index", index)
-  console.log(`Odd of Victory ${game.team1} :${game.odds[key]}`);
-})
+// const keys = Object.keys(game.odds)
+// console.log("🚀 ~ file: script.js ~ line 1776 ~ keys", keys)
+
+// keys.forEach((key, index) => {
+//   // console.log("🚀 ~ file: script.js ~ line 1780 ~ keys.forEach ~ index", index)
+//   console.log(`Odd of Victory ${game.team1} :${game.odds[key]}`);
+// })
 
