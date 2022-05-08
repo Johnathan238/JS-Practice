@@ -1825,5 +1825,7 @@ GOOD LUCK 😀
 //////////////////**SETS**/////////
 //UNIQUE SET OF VALUES//
 
-const orderSet = new setInterval(['PASTA', 'ALFREDO', 'PIZZA'])
+const orderSet = new Set(['PASTA', 'ALFREDO', 'PIZZA', 'PIZZA'])
+console.log("🚀 ~ file: script.js ~ line 1829 ~ orderSet", orderSet)
+
 
