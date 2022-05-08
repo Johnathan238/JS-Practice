@@ -1828,4 +1828,14 @@ GOOD LUCK 😀
 const orderSet = new Set(['PASTA', 'ALFREDO', 'PIZZA', 'PIZZA'])
 console.log("🚀 ~ file: script.js ~ line 1829 ~ orderSet", orderSet)
 
+console.log(new Set("SPEED"));
+console.log("🚀 ~ file: script.js ~ line 1832 ~ new Set", orderSet.has("PIZZA"))
+console.log("🚀 ~ file: script.js ~ line 1833 ~ orderSet.has", orderSet.has("Bread Sticks"))
+
+orderSet.add('Garlic Bread')
+orderSet.delete('PIZZA')
+
+
+
+
 
