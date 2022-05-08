@@ -1835,7 +1835,7 @@ console.log("🚀 ~ file: script.js ~ line 1833 ~ orderSet.has", orderSet.has("B
 orderSet.add('Garlic Bread')
 orderSet.delete('PIZZA')
 
-
+for ( const order of orderSet ) console.log(order);
 
 
 
