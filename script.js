@@ -1693,46 +1693,46 @@ BONUS: Create an object called 'scorers' which contains the names of the players
       }
 GOOD LUCK 😀
 */
-const game = {
-  team1: 'Bayern Munich',
-  team2: 'Borrussia Dortmund',
-  players: [
-    [
-      'Neuer',
-      'Pavard',
-      'Martinez',
-      'Alaba',
-      'Davies',
-      'Kimmich',
-      'Goretzka',
-      'Coman',
-      'Muller',
-      'Gnarby',
-      'Lewandowski',
-    ],
-    [
-      'Burki',
-      'Schulz',
-      'Hummels',
-      'Akanji',
-      'Hakimi',
-      'Weigl',
-      'Witsel',
-      'Hazard',
-      'Brandt',
-      'Sancho',
-      'Gotze',
-    ],
-  ],
-  score: '4:0',
-  scored: ['Lewandowski', 'Gnarby', 'Lewandowski', 'Hummels'],
-  date: 'Nov 9th, 2037',
-  odds: {
-    team1: 1.33,
-    x: 3.25,
-    team2: 6.5,
-  },
-};
+// const game = {
+//   team1: 'Bayern Munich',
+//   team2: 'Borrussia Dortmund',
+//   players: [
+//     [
+//       'Neuer',
+//       'Pavard',
+//       'Martinez',
+//       'Alaba',
+//       'Davies',
+//       'Kimmich',
+//       'Goretzka',
+//       'Coman',
+//       'Muller',
+//       'Gnarby',
+//       'Lewandowski',
+//     ],
+//     [
+//       'Burki',
+//       'Schulz',
+//       'Hummels',
+//       'Akanji',
+//       'Hakimi',
+//       'Weigl',
+//       'Witsel',
+//       'Hazard',
+//       'Brandt',
+//       'Sancho',
+//       'Gotze',
+//     ],
+//   ],
+//   score: '4:0',
+//   scored: ['Lewandowski', 'Gnarby', 'Lewandowski', 'Hummels'],
+//   date: 'Nov 9th, 2037',
+//   odds: {
+//     team1: 1.33,
+//     x: 3.25,
+//     team2: 6.5,
+//   },
+// };
 
   //EXAMPLE
 //   const days = ['Mon' , 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
@@ -1744,21 +1744,21 @@ const game = {
 //   }
 
 ////////////////// 1
-for (let gS = 0; gS < game.scored.length; gS++){
-  console.log(`Goal ${gS}: ${game.scored[gS]}`);
-}
-console.log("🚀 ~ file: script.js ~ line 1705 ~ games", game.scored)
+// for (let gS = 0; gS < game.scored.length; gS++){
+//   console.log(`Goal ${gS}: ${game.scored[gS]}`);
+// }
+// console.log("🚀 ~ file: script.js ~ line 1705 ~ games", game.scored)
 
 ////////////////// 2
 
 //// professor solution
-let average = 0
-const oddsValue = Object.values(game.odds)
-console.log("🚀 ~ file: script.js ~ line 1757 ~ Object.values(game.odds)", Object.values(game.odds))
-for (const odd of oddsValue)
-  average += odd
-  average /= oddsValue.length
-  console.log("🚀 ~ file: script.js ~ line 1760 ~ average", average)
+// let average = 0
+// const oddsValue = Object.values(game.odds)
+// console.log("🚀 ~ file: script.js ~ line 1757 ~ Object.values(game.odds)", Object.values(game.odds))
+// for (const odd of oddsValue)
+//   average += odd
+//   average /= oddsValue.length
+//   console.log("🚀 ~ file: script.js ~ line 1760 ~ average", average)
 // Example 
 //Looping-Arrays: The for-loop
 
@@ -1808,10 +1808,10 @@ for (const odd of oddsValue)
       // Odd of victory Borrussia Dortmund: 6.5
 
   //// professor solution
-  for (const [team, odd] of Object.entries(game.odds)){
-    const teamStr = team === 'x' ? 'Draw ' : `Victory ${game[team]}`
-  console.log("🚀 ~ file: script.js ~ line 1812 ~ team, odd", `Odd of ${teamStr} ${odd}`)
-  }
+  // for (const [team, odd] of Object.entries(game.odds)){
+  //   const teamStr = team === 'x' ? 'Draw ' : `Victory ${game[team]}`
+  // console.log("🚀 ~ file: script.js ~ line 1812 ~ team, odd", `Odd of ${teamStr} ${odd}`)
+  // }
 
 
 // const keys = Object.keys(game.odds)
@@ -1821,4 +1821,9 @@ for (const odd of oddsValue)
 //   // console.log("🚀 ~ file: script.js ~ line 1780 ~ keys.forEach ~ index", index)
 //   console.log(`Odd of Victory ${game.team1} :${game.odds[key]}`);
 // })
+
+//////////////////**SETS**/////////
+//UNIQUE SET OF VALUES//
+
+const orderSet = new setInterval(['PASTA', 'ALFREDO', 'PIZZA'])
 
