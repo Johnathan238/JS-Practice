@@ -1837,5 +1837,12 @@ orderSet.delete('PIZZA')
 
 for ( const order of orderSet ) console.log(order);
 
+//Example 
+
+const staff = ['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter']
+
+const staffUni = new Set(staff)
+console.log("🚀 ~ file: script.js ~ line 1845 ~ staff", staff)
+
 
 
