@@ -1825,24 +1825,36 @@ GOOD LUCK 😀
 //////////////////**SETS**/////////
 //UNIQUE SET OF VALUES//
 
-const orderSet = new Set(['PASTA', 'ALFREDO', 'PIZZA', 'PIZZA'])
-console.log("🚀 ~ file: script.js ~ line 1829 ~ orderSet", orderSet)
+// const orderSet = new Set(['PASTA', 'ALFREDO', 'PIZZA', 'PIZZA'])
+// console.log("🚀 ~ file: script.js ~ line 1829 ~ orderSet", orderSet)
 
-console.log(new Set("SPEED"));
-console.log("🚀 ~ file: script.js ~ line 1832 ~ new Set", orderSet.has("PIZZA"))
-console.log("🚀 ~ file: script.js ~ line 1833 ~ orderSet.has", orderSet.has("Bread Sticks"))
+// console.log(new Set("SPEED"));
+// console.log("🚀 ~ file: script.js ~ line 1832 ~ new Set", orderSet.has("PIZZA"))
+// console.log("🚀 ~ file: script.js ~ line 1833 ~ orderSet.has", orderSet.has("Bread Sticks"))
 
-orderSet.add('Garlic Bread')
-orderSet.delete('PIZZA')
+// orderSet.add('Garlic Bread')
+// orderSet.delete('PIZZA')
 
-for ( const order of orderSet ) console.log(order);
+// for ( const order of orderSet ) console.log(order);
 
-//Example 
+// //Example 
 
-const staff = ['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter']
+// const staff = ['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter']
 
-const staffUni = [...new Set(staff)]
-console.log("🚀 ~ file: script.js ~ line 1845 ~ staff", staffUni)
+// const staffUni = [...new Set(staff)]
+// console.log("🚀 ~ file: script.js ~ line 1845 ~ staff", staffUni)
+
+
+// MAPS *any type of key*
+const rest = new Map()
+rest.set('name', 'Pasta Rasta')
+rest.set(1, 'SOHO,NYC')
+rest.set(2, 'SHIBYUA,JAPAN')
+console.log("🚀 ~ file: script.js ~ line 1852 ~ rest.set(1, 'SOHO,NYC', 2, 'SHIBYUA,JAPAN')", rest.set(1, 'SOHO,NYC', 2, 'SHIBYUA,JAPAN'))
+
+// categories', ['Italian
+// an', 'Organic'])
+
 
 
 
