@@ -1869,7 +1869,10 @@ console.log(rest.get(time > rest.get('open') && time < rest.get('close')))
 // console.log("🚀 ~ file: script.js ~ line 1869 ~ rest.get(time > rest.get('open') && time < rest.get('close'))", 
 // rest.get(time > rest.get('open') && time < rest.get('close')))
 
-
-
+console.log(rest.has('categories'));
+rest.set(document.querySelector('h1'), 'Heading')
+rest.delete(2)
+console.log(rest);
+console.log(rest.size);
 
 
