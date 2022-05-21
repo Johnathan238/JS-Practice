@@ -1846,33 +1846,52 @@ GOOD LUCK 😀
 
 
 // MAPS *any type of key*
-const rest = new Map()
-rest.set('name', 'Pasta Rasta')
-rest.set(1, 'SOHO,NYC')
-rest.set(2, 'SHIBYUA,JAPAN')
-console.log("🚀 ~ file: script.js ~ line 1852 ~ rest.set(1, 'SOHO,NYC', 2, 'SHIBYUA,JAPAN')", rest.set(1, 'SOHO,NYC', 2, 'SHIBYUA,JAPAN'))
+// const rest = new Map()
+// rest.set('name', 'Pasta Rasta')
+// rest.set(1, 'SOHO,NYC')
+// rest.set(2, 'SHIBYUA,JAPAN')
+// console.log("🚀 ~ file: script.js ~ line 1852 ~ rest.set(1, 'SOHO,NYC', 2, 'SHIBYUA,JAPAN')", rest.set(1, 'SOHO,NYC', 2, 'SHIBYUA,JAPAN'))
 
-rest 
-.set('categories', ['Italian', 'Organic'])
-.set('open', 11)
-.set('close', 23)
-.set(true, 'We are open')
-.set(false,'We are close')
+// rest 
+// .set('categories', ['Italian', 'Organic'])
+// .set('open', 11)
+// .set('close', 23)
+// .set(true, 'We are open')
+// .set(false,'We are close')
 
-rest.get('name')
-console.log("🚀 ~ file: script.js ~ line 1863 ~ rest.get('name')", rest.get('name'))
-console.log("🚀 ~ file: script.js ~ line 1864 ~ rest.get('true')", rest.get(true))
-
-
-const time = 21
-console.log(rest.get(time > rest.get('open') && time < rest.get('close')))
-// console.log("🚀 ~ file: script.js ~ line 1869 ~ rest.get(time > rest.get('open') && time < rest.get('close'))", 
-// rest.get(time > rest.get('open') && time < rest.get('close')))
-
-console.log(rest.has('categories'));
-rest.set(document.querySelector('h1'), 'Heading')
-rest.delete(2)
-console.log(rest);
-console.log(rest.size);
+// rest.get('name')
+// console.log("🚀 ~ file: script.js ~ line 1863 ~ rest.get('name')", rest.get('name'))
+// console.log("🚀 ~ file: script.js ~ line 1864 ~ rest.get('true')", rest.get(true))
 
 
+// const time = 21
+// console.log(rest.get(time > rest.get('open') && time < rest.get('close')))
+// // console.log("🚀 ~ file: script.js ~ line 1869 ~ rest.get(time > rest.get('open') && time < rest.get('close'))", 
+// // rest.get(time > rest.get('open') && time < rest.get('close')))
+
+// console.log(rest.has('categories'));
+// rest.set(document.querySelector('h1'), 'Heading')
+// rest.delete(2)
+// console.log(rest);
+// console.log(rest.size);
+
+//Frecodecamp Algorithms - Nested loops
+// const arr = [
+//   [1, 2], [3, 4], [5, 6]
+// ];
+
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = 0; j < arr[i].length; j++) {
+//     console.log(arr[i][j]);
+//   }
+// }
+
+function multiplyAll(arr) {
+  let product = 1;
+  // Only change code below this line
+  
+  // Only change code above this line
+  return product;
+}
+
+multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
