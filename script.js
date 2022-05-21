@@ -1876,20 +1876,25 @@ GOOD LUCK 😀
 // console.log(rest.size);
 
 //Frecodecamp Algorithms - Nested loops
-// const arr = [
-//   [1, 2], [3, 4], [5, 6]
-// ];
+const arr = [
+  [1, 2], [3, 4], [5, 6]
+];
 
-// for (let i = 0; i < arr.length; i++) {
-//   for (let j = 0; j < arr[i].length; j++) {
-//     console.log(arr[i][j]);
-//   }
-// }
+for (let i = 0; i < arr.length; i++) {
+  for (let j = 0; j < arr[i].length; j++) {
+    console.log(arr[i][j]);
+  }
+}
 
 function multiplyAll(arr) {
   let product = 1;
   // Only change code below this line
-  
+  for (let i = 0; i < arr.lenght; i++) {
+    for(let j = 0; j < arr[i].length; j++){
+      product = product * arr[i][j]
+      console.log("🚀 ~ file: script.js ~ line 1895 ~ multiplyAll ~ arr[i][j]", arr[i][j])
+    }
+  }
   // Only change code above this line
   return product;
 }
