@@ -1922,3 +1922,18 @@ console.log(question.get('question'));
 for (const [key, value] of question){
   if(typeof key === 'number') console.log(`Answer ${key}: ${value}`);
 }
+
+const answer = Number(prompt("Your answer please!"))
+console.log(answer);
+
+//** ALmost correct solution for correct answer prompt**/
+// if( answer === 3 ){
+//   alert(question.true)
+// } else {
+//   alert(question.false)
+// }
+
+//Correct solution
+console.log(question.get(question.get('correct') === answer));
+
+//** Convert Map to Array **/
