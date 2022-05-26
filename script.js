@@ -1917,23 +1917,27 @@ console.log(question);
 // console.log(hoursMap);
 
 //Quiz App
-console.log(question.get('question'));
+// console.log(question.get('question'));
 
-for (const [key, value] of question){
-  if(typeof key === 'number') console.log(`Answer ${key}: ${value}`);
-}
-
-const answer = Number(prompt("Your answer please!"))
-console.log(answer);
-
-//** ALmost correct solution for correct answer prompt**/
-// if( answer === 3 ){
-//   alert(question.true)
-// } else {
-//   alert(question.false)
+// for (const [key, value] of question){
+//   if(typeof key === 'number') console.log(`Answer ${key}: ${value}`);
 // }
 
-//Correct solution
-console.log(question.get(question.get('correct') === answer));
+// const answer = Number(prompt("Your answer please!"))
+// console.log(answer);
+
+// //** ALmost correct solution for correct answer prompt**/
+// // if( answer === 3 ){
+// //   alert(question.true)
+// // } else {
+// //   alert(question.false)
+// // }
+
+// //Correct solution
+// console.log(question.get(question.get('correct') === answer));
 
 //** Convert Map to Array **/
+// console.log([...question]);
+// console.log([...question.entries()]);
+// console.log([...question.keys()]);
+// console.log([...question.values()]);
