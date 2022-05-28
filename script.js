@@ -1900,17 +1900,17 @@ GOOD LUCK 😀
 
 // multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);   
 
-//** Maps : Iteration **/
-const question = new Map([
-  ['question', 'what is the best food?'], 
-  [1, 'Chinese'],
-  [2, 'Mexican'],
-  [3, 'Italian'],
-  ['correct', 3],
-  [true, 'Correct!!'],
-  [false, 'Incorrect!!']
-])
-console.log(question);
+// //** Maps : Iteration **/
+// const question = new Map([
+//   ['question', 'what is the best food?'], 
+//   [1, 'Chinese'],
+//   [2, 'Mexican'],
+//   [3, 'Italian'],
+//   ['correct', 3],
+//   [true, 'Correct!!'],
+//   [false, 'Incorrect!!']
+// ])
+// console.log(question);
 
 //Covert objects to map
 // const hoursMap = new Map(Object.entries(openingHours))
@@ -1941,3 +1941,6 @@ console.log(question);
 // console.log([...question.entries()]);
 // console.log([...question.keys()]);
 // console.log([...question.values()]);
+
+
+//** Data Strcuturcs **/
