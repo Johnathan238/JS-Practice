@@ -1951,3 +1951,54 @@ GOOD LUCK 😀
 //   Application
 //   Programming
 //   Interface
+
+
+// ARRAYS
+// tasks=['Code','Eat','Code'];
+// //["Code","Eat","Code"]
+// Use when you need ordered
+// list of values(might contain
+// duplicates)
+// Use when you need to
+// manipulate data
+
+//   VS.SETS
+//   tasks=new Set(['Code','Eat','Code']);
+//                  //{"Code","Eat"}
+//   Use when you need to work
+//   with unique values
+//   Use when high-performance
+//   is really important
+//   Use to remove duplicates
+//   from arrays
+
+
+// OBJECTS
+// task={
+// task:'Code',
+// date:'today',
+// repeat:true
+// };
+// More"traditional"key/value
+// store("abused"objects)
+// Easier to write and access
+// values with.and[]
+// Use when you need to
+// include functions(methods)
+// Use when working with
+// JSON(can convert to map)
+             
+// VS.MAPS
+// task=new Map([
+// ['task','Code'],
+// ['date','today'],
+// [false,'Start coding!']
+// ]);
+// Better performance
+// Keys can have any data type
+//  Easy to iterate
+//  Easy to compute size
+//  Use when you simply need
+// to map key to values
+//  Use when you need keys
+//  that are not strings
