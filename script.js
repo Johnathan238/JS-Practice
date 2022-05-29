@@ -1944,3 +1944,10 @@ GOOD LUCK 😀
 
 
 //** Data Strcuturcs **/
+// SOURCES OF DATA
+//   1     From the program itself:Data written directly in source code(e.g. status messages)
+//   2   From the UI:Data input from the user or data written in DOM(e.g tasks in todo app)
+//   3   From external sources:Data fetched for example from web API(e.g. recipe objects)3
+//   Application
+//   Programming
+//   Interface
