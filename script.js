@@ -2018,16 +2018,35 @@ marking whether it's in the first half or second half
 GOOD LUCK
 */
 
-const gameEvents = new Map([
-[17, 'GOAL'],
-[36,'Substitution'],
-[47,'GOAL'],
-[61,'Substitution'],
-[64,'Yellow card'],
-[69,'Red card'],
-[70,'Substitution'],
-[72,'Substitution'],
-[76,'GOAL'],
-[80,'GOAL'],
-[92,'Yellow card'],
-]);
+// const gameEvents = new Map([
+// [17, 'GOAL'],
+// [36,'Substitution'],
+// [47,'GOAL'],
+// [61,'Substitution'],
+// [64,'Yellow card'],
+// [69,'Red card'],
+// [70,'Substitution'],
+// [72,'Substitution'],
+// [76,'GOAL'],
+// [80,'GOAL'],
+// [92,'Yellow card'],
+// ]);
+
+
+/** Antra training 06/01/22 **/
+/*
+   dns lookup, ip address
+   browswe devtool, network tab
+   html5 doctype
+   http & htpps, port 80, 443
+   cookie, session storage, localstorage, difference
+   html language, internationalization(i18n), localization(l10n)
+   head tag , Metadata(data for data)
+   Meta Tag; author,keyword, description, SEO(search engine optimization) purpose
+   link: style blocking, cssom(css object model)
+   CRP: CSSOMM, DOM(document object model), render tree, critical render path
+   ECMAScript, javascript=ECMAScript + WebAPI,Node.js = ECMAScript + nodeAPI: 
+   inline elemnt & block element
+   semantic tag:accessibility, screen reader, SEO, readability
+   aria:
+*/
