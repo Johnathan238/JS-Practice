@@ -2007,7 +2007,7 @@ GOOD LUCK 😀
 1. Create an array'events'of the different game
 events that happened(no duplicates)
 2. After the game has finished,is was found that the
-yellow card from minute 64 was fair.So remove this
+yellow card from minute 64 was unfair.So remove this
 event from the game events log.
 3. Print the following string to the console:"An
 event happened,on average,every9minutes"(keep in
@@ -2037,3 +2037,6 @@ const events = [... new Set(gameEvents)]
 console.log('====================================');
 console.log(events);
 console.log('====================================');
+
+gameEvents.delete(64)
+console.log(gameEvents);
