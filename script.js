@@ -2003,7 +2003,8 @@ GOOD LUCK 😀
 //  Use when you need keys
 //  that are not strings
 
-/*1. Create an array'events'of the different game
+/** 
+1. Create an array'events'of the different game
 events that happened(no duplicates)
 2. After the game has finished,is was found that the
 yellow card from minute 64 was fair.So remove this
@@ -2016,37 +2017,23 @@ marking whether it's in the first half or second half
 (after 45 min)of the game,like this:
        [FIRST HALF]17:GOAL
 GOOD LUCK
-*/
+**/
 
-// const gameEvents = new Map([
-// [17, 'GOAL'],
-// [36,'Substitution'],
-// [47,'GOAL'],
-// [61,'Substitution'],
-// [64,'Yellow card'],
-// [69,'Red card'],
-// [70,'Substitution'],
-// [72,'Substitution'],
-// [76,'GOAL'],
-// [80,'GOAL'],
-// [92,'Yellow card'],
-// ]);
+const gameEvents = new Map([
+[17, 'GOAL'],
+[36,'Substitution'],
+[47,'GOAL'],
+[61,'Substitution'],
+[64,'Yellow card'],
+[69,'Red card'],
+[70,'Substitution'],
+[72,'Substitution'],
+[76,'GOAL'],
+[80,'GOAL'],
+[92,'Yellow card'],
+]);
 
-
-/** Antra training 06/01/22 **/
-/*
-   dns lookup, ip address
-   browswe devtool, network tab
-   html5 doctype
-   http & htpps, port 80, 443
-   cookie, session storage, localstorage, difference
-   html language, internationalization(i18n), localization(l10n)
-   head tag , Metadata(data for data)
-   Meta Tag; author,keyword, description, SEO(search engine optimization) purpose
-   link: style blocking, cssom(css object model)
-   CRP: CSSOMM, DOM(document object model), render tree, critical render path
-   ECMAScript, javascript=ECMAScript + WebAPI,Node.js = ECMAScript + nodeAPI: 
-   inline elemnt & block element
-   semantic tag:accessibility, screen reader, SEO, readability
-   aria:
-*/
+const events = [... new Set(gameEvents)]
+console.log('====================================');
+console.log(events);
+console.log('====================================');
