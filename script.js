@@ -2033,10 +2033,20 @@ const gameEvents = new Map([
 [92,'Yellow card'],
 ]);
 
+
+// 1.
 const events = [... new Set(gameEvents)]
 console.log('====================================');
 console.log(events);
 console.log('====================================');
 
+// 2.
 gameEvents.delete(64)
 console.log(gameEvents);
+
+// 3.
+setInterval(function(){ 
+	console.log("An event happened on average every 9minutes");
+}, 5400);//run this thang every 2 seconds
+
+
